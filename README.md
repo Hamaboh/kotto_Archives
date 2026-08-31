@@ -1,0 +1,2 @@
+# kotto_Archives
+RAY琴山しずくさんの活動記録をすべてまとめたWebサイトの資産。
