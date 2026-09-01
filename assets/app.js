@@ -285,13 +285,17 @@
     });
     md.forEach(function (m) {
       if (!m.items || !m.items.length) return;
-      var withDate = m.items.filter(function (i) { return /^\d{4}年/.test(i.date || ''); });
-      if (!withDate.length) return;
-      items.push({ date: isoOf(withDate[0].date), kind: 'media', title: m.title + ' 開始',
-                   sub: withDate[0].title, tags: ['メディア'], href: 'media.html' });
-      var lastItem = withDate[withDate.length - 1];
-      items.push({ date: isoOf(lastItem.date), kind: 'media', title: m.title + ' 最終回',
-                   sub: lastItem.title, tags: ['メディア'], href: 'media.html' });
+      var dated = m.items.map(function (i) { return { iso: isoOf(i.date), title: i.title }; })
+        .filter(function (i) { return /^\d{4}-\d{2}-\d{2}$/.test(i.iso); })
+        .sort(function (a, b) { return a.iso < b.iso ? -1 : a.iso > b.iso ? 1 : 0; });
+      if (!dated.length) return;
+      var first = dated[0], last = dated[dated.length - 1];
+      items.push({ date: first.iso, kind: 'media', title: m.title + ' 開始',
+                   sub: first.title, tags: ['メディア'], href: 'media.html' });
+      if (last.iso !== first.iso) {
+        items.push({ date: last.iso, kind: 'media', title: m.title + ' 最終',
+                     sub: last.title, tags: ['メディア'], href: 'media.html' });
+      }
     });
     items = items.filter(function (i) { return /^\d{4}-\d{2}-\d{2}$/.test(i.date); });
     items.sort(function (a, b) { return a.date < b.date ? -1 : a.date > b.date ? 1 : 0; });
@@ -428,7 +432,8 @@
           items.map(function (it) {
             return '<tr><td class="song">' + esc(it.title) + '</td><td>' + esc(it.date || '—') + '</td>' +
               '<td>' + ((it.urls || []).map(function (u) {
-                var lbl = /note\.com/.test(u) ? 'note' : /x\.com|twitter\.com/.test(u) ? 'X' : /youtube|youtu\.be/.test(u) ? 'YouTube' : 'リンク';
+                var lbl = /note\.com/.test(u) ? 'note' : /tiktok\.com/.test(u) ? 'TikTok' :
+                          /x\.com|twitter\.com/.test(u) ? 'X' : /youtube|youtu\.be/.test(u) ? 'YouTube' : 'リンク';
                 return '<a class="badge red" href="' + esc(u) + '" target="_blank" rel="noopener noreferrer">' + lbl + ' \u2197</a>';
               }).join(' ') || '<span class="chk-off">—</span>') + '</td></tr>';
           }).join('') + '</tbody></table></div>'
