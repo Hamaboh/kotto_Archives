@@ -1,5 +1,13 @@
 /* songs — 琴山しずく アーカイブ データ（このファイルを編集すると各ページに反映されます） */
 window.KOTTO_SONGS = {
+ "formats": [
+  "歌唱",
+  "琴山しずく弾き語り",
+  "琴山しずく生誕バンド「コットリアン」",
+  "DJ琴山しずく",
+  "琴山しずく TECHNO SET",
+  "hypermoshkotto"
+ ],
  "originals": [
   {
    "title": "おまじない",
@@ -7,15 +15,19 @@ window.KOTTO_SONGS = {
    "music": "タバタヒナ（THE TOMBOYS）",
    "arrange": "THE TOMBOYS",
    "formats": [
-    "歌唱",
-    "弾き語り",
-    "コットリアン"
-   ],
-   "premiere": {
-    "date": "2022-08-28",
-    "event": "タワーレコードEggs×エクストロメ!! エッグストロメ!!",
-    "event_id": "e20220828-5033"
-   }
+    {
+     "name": "歌唱",
+     "count": 3
+    },
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 5
+    },
+    {
+     "name": "琴山しずく生誕バンド「コットリアン」",
+     "count": 2
+    }
+   ]
   },
   {
    "title": "おかえし",
@@ -23,16 +35,23 @@ window.KOTTO_SONGS = {
    "music": "琴山しずく",
    "arrange": "-",
    "formats": [
-    "弾き語り",
-    "コットリアン",
-    "TECHNO SET",
-    "hypermoshkotto"
-   ],
-   "premiere": {
-    "date": "2023-03-31",
-    "event": "コットのRAY曲フェスティバル",
-    "event_id": "e20230331-0c39"
-   }
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 20
+    },
+    {
+     "name": "琴山しずく生誕バンド「コットリアン」",
+     "count": 1
+    },
+    {
+     "name": "琴山しずく TECHNO SET",
+     "count": 2
+    },
+    {
+     "name": "hypermoshkotto",
+     "count": 3
+    }
+   ]
   },
   {
    "title": "ホットココアの憂鬱",
@@ -40,15 +59,19 @@ window.KOTTO_SONGS = {
    "music": "琴山しずく",
    "arrange": "-",
    "formats": [
-    "弾き語り",
-    "コットリアン",
-    "TECHNO SET"
-   ],
-   "premiere": {
-    "date": "2023-07-15",
-    "event": "新曲やります！コットアコギ配信",
-    "event_id": "e20230715-631c"
-   }
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 15
+    },
+    {
+     "name": "琴山しずく生誕バンド「コットリアン」",
+     "count": 1
+    },
+    {
+     "name": "琴山しずく TECHNO SET",
+     "count": 2
+    }
+   ]
   },
   {
    "title": "ミルフィーユ",
@@ -56,15 +79,19 @@ window.KOTTO_SONGS = {
    "music": "琴山しずく",
    "arrange": "-",
    "formats": [
-    "弾き語り",
-    "コットリアン",
-    "TECHNO SET"
-   ],
-   "premiere": {
-    "date": "2023-07-15",
-    "event": "新曲やります！コットアコギ配信",
-    "event_id": "e20230715-631c"
-   }
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 13
+    },
+    {
+     "name": "琴山しずく生誕バンド「コットリアン」",
+     "count": 1
+    },
+    {
+     "name": "琴山しずく TECHNO SET",
+     "count": 2
+    }
+   ]
   },
   {
    "title": "いいかげん",
@@ -72,15 +99,19 @@ window.KOTTO_SONGS = {
    "music": "琴山しずく",
    "arrange": "-",
    "formats": [
-    "弾き語り",
-    "コットリアン",
-    "TECHNO SET"
-   ],
-   "premiere": {
-    "date": "2023-09-09",
-    "event": "琴山しずく生誕「KOTTONE」",
-    "event_id": "e20230909-3363"
-   }
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 12
+    },
+    {
+     "name": "琴山しずく生誕バンド「コットリアン」",
+     "count": 1
+    },
+    {
+     "name": "琴山しずく TECHNO SET",
+     "count": 2
+    }
+   ]
   },
   {
    "title": "ピラピラ",
@@ -88,14 +119,15 @@ window.KOTTO_SONGS = {
    "music": "琴山しずく",
    "arrange": "-",
    "formats": [
-    "弾き語り",
-    "TECHNO SET"
-   ],
-   "premiere": {
-    "date": "2024-05-27",
-    "event": "脱却 弾き語り公演編",
-    "event_id": "e20240527-b38e"
-   }
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 8
+    },
+    {
+     "name": "琴山しずく TECHNO SET",
+     "count": 2
+    }
+   ]
   },
   {
    "title": "脱皮計画",
@@ -103,61 +135,18 @@ window.KOTTO_SONGS = {
    "music": "琴山しずく",
    "arrange": "-",
    "formats": [
-    "弾き語り"
-   ],
-   "premiere": {
-    "date": "2024-08-09",
-    "event": "RGB：Rock cafe Girl’s Band Vol.1",
-    "event_id": "e20240809-8a20"
-   }
-  },
-  {
-   "title": "いいかげん（Remix）",
-   "lyrics": "琴山しずく",
-   "music": "琴山しずく",
-   "arrange": "Yoshiki Niioka",
-   "formats": [],
-   "premiere": null
-  },
-  {
-   "title": "ホットココアの憂鬱（Remix）",
-   "lyrics": "琴山しずく",
-   "music": "琴山しずく",
-   "arrange": "Yoshiki Niioka",
-   "formats": [],
-   "premiere": null
-  },
-  {
-   "title": "ピラピラ（Remix）",
-   "lyrics": "琴山しずく",
-   "music": "琴山しずく",
-   "arrange": "Yoshiki Niioka",
-   "formats": [],
-   "premiere": null
-  },
-  {
-   "title": "おかえし（Remix）",
-   "lyrics": "琴山しずく",
-   "music": "琴山しずく",
-   "arrange": "Yoshiki Niioka",
-   "formats": [],
-   "premiere": null
-  },
-  {
-   "title": "ミルフィーユ（Remix）",
-   "lyrics": "琴山しずく",
-   "music": "琴山しずく",
-   "arrange": "Yoshiki Niioka",
-   "formats": [],
-   "premiere": null
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 9
+    }
+   ]
   },
   {
    "title": "冬の手紙、琴山しずくより",
    "lyrics": "みきれちゃん",
    "music": "みきれちゃん",
    "arrange": "みきれちゃん",
-   "formats": [],
-   "premiere": null
+   "formats": []
   },
   {
    "title": "パーティー",
@@ -165,14 +154,15 @@ window.KOTTO_SONGS = {
    "music": "琴山しずく",
    "arrange": "-",
    "formats": [
-    "弾き語り",
-    "hypermoshkotto"
-   ],
-   "premiere": {
-    "date": "2025-09-07",
-    "event": "くさのねアイドルフェスティバル2025",
-    "event_id": "e20250907-40f2"
-   }
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 5
+    },
+    {
+     "name": "hypermoshkotto",
+     "count": 4
+    }
+   ]
   },
   {
    "title": "dream",
@@ -180,9 +170,11 @@ window.KOTTO_SONGS = {
    "music": "琴山しずく",
    "arrange": "-",
    "formats": [
-    "hypermoshkotto"
-   ],
-   "premiere": null
+    {
+     "name": "hypermoshkotto",
+     "count": 4
+    }
+   ]
   },
   {
    "title": "TOMATO",
@@ -190,17 +182,11 @@ window.KOTTO_SONGS = {
    "music": "琴山しずく",
    "arrange": "-",
    "formats": [
-    "hypermoshkotto"
-   ],
-   "premiere": null
-  },
-  {
-   "title": "パーティー（hypermoshkotto ver.）",
-   "lyrics": "琴山しずく",
-   "music": "琴山しずく",
-   "arrange": "？？？",
-   "formats": [],
-   "premiere": null
+    {
+     "name": "hypermoshkotto",
+     "count": 4
+    }
+   ]
   },
   {
    "title": "Wall of Death",
@@ -208,13 +194,11 @@ window.KOTTO_SONGS = {
    "music": "琴山しずく",
    "arrange": "-",
    "formats": [
-    "hypermoshkotto"
-   ],
-   "premiere": {
-    "date": "2026-06-11",
-    "event": "“Berliner Schatten #1”",
-    "event_id": "e20260611-232b"
-   }
+    {
+     "name": "hypermoshkotto",
+     "count": 4
+    }
+   ]
   },
   {
    "title": "Frenzy",
@@ -222,29 +206,18 @@ window.KOTTO_SONGS = {
    "music": "琴山しずく",
    "arrange": "-",
    "formats": [
-    "hypermoshkotto"
-   ],
-   "premiere": {
-    "date": "2026-06-11",
-    "event": "“Berliner Schatten #1”",
-    "event_id": "e20260611-232b"
-   }
-  },
-  {
-   "title": "おかえし（hypermoshkotto ver.）",
-   "lyrics": "琴山しずく",
-   "music": "琴山しずく",
-   "arrange": "？？？",
-   "formats": [],
-   "premiere": null
+    {
+     "name": "hypermoshkotto",
+     "count": 3
+    }
+   ]
   },
   {
    "title": "Tomatoture",
    "lyrics": "-",
    "music": "琴山しずく",
    "arrange": "-",
-   "formats": [],
-   "premiere": null
+   "formats": []
   },
   {
    "title": "Wall of Death（Remix）",
@@ -252,409 +225,508 @@ window.KOTTO_SONGS = {
    "music": "琴山しずく",
    "arrange": "琴山しずく",
    "formats": [
-    "hypermoshkotto"
-   ],
-   "premiere": null
+    {
+     "name": "hypermoshkotto",
+     "count": 3
+    }
+   ]
   },
   {
    "title": "ムキムキ",
    "lyrics": "琴山しずく",
    "music": "琴山しずく",
    "arrange": "-",
-   "formats": [],
-   "premiere": {
-    "date": "2026-07-29",
-    "event": "RAY presents「Blue Vibes」",
-    "event_id": "e20260729-73f9"
-   }
-  }
- ],
- "covers": [
-  {
-   "title": "まちぶせ（三木聖子）",
    "formats": [
-    "歌唱"
-   ]
-  },
-  {
-   "title": "DRIVE（SUPERCAR）",
-   "formats": [
-    "弾き語り"
-   ]
-  },
-  {
-   "title": "Fading Lights",
-   "formats": [
-    "弾き語り"
-   ]
-  },
-  {
-   "title": "parade（平沢進）",
-   "formats": [
-    "DJ"
-   ]
-  },
-  {
-   "title": "オールニードイズラブ",
-   "formats": [
-    "歌唱"
-   ]
-  },
-  {
-   "title": "昇る太陽（宮本浩次）",
-   "formats": [
-    "DJ"
-   ]
-  },
-  {
-   "title": "Disco Jets（Todd Rundgren）",
-   "formats": [
-    "DJ"
+    {
+     "name": "hypermoshkotto",
+     "count": 1
+    }
    ]
   },
   {
    "title": "体操",
+   "lyrics": "-",
+   "music": "-",
+   "arrange": "-",
    "formats": [
-    "hypermoshkotto"
+    {
+     "name": "hypermoshkotto",
+     "count": 1
+    }
    ]
   },
   {
-   "title": "zimzalabim（Red Velvet）",
+   "title": "Wall of Death Beat Up",
+   "lyrics": "-",
+   "music": "-",
+   "arrange": "-",
    "formats": [
-    "DJ"
+    {
+     "name": "hypermoshkotto",
+     "count": 1
+    }
    ]
   },
   {
-   "title": "コハルヒ",
+   "title": "Wall of Death Beat Up & Up",
+   "lyrics": "-",
+   "music": "-",
+   "arrange": "-",
    "formats": [
-    "歌唱"
+    {
+     "name": "hypermoshkotto",
+     "count": 1
+    }
    ]
-  },
+  }
+ ],
+ "covers": [
   {
-   "title": "瞳はダイアモンド（松田聖子）",
+   "title": "17",
    "formats": [
-    "弾き語り"
-   ]
-  },
-  {
-   "title": "アーケード（カネコアヤノ）",
-   "formats": [
-    "弾き語り"
-   ]
-  },
-  {
-   "title": "彼女は買い物の帰り道（エレファントカシマシ）",
-   "formats": [
-    "弾き語り"
-   ]
-  },
-  {
-   "title": "スライド",
-   "formats": [
-    "弾き語り"
-   ]
-  },
-  {
-   "title": "世界の終わりは君とふたりで",
-   "formats": [
-    "歌唱",
-    "弾き語り"
-   ]
-  },
-  {
-   "title": "赤い薔薇（エレファントカシマシ）",
-   "formats": [
-    "歌唱"
-   ]
-  },
-  {
-   "title": "バタフライエフェクト",
-   "formats": [
-    "歌唱",
-    "弾き語り"
-   ]
-  },
-  {
-   "title": "あの娘にタッチ（THE BLUE HEARTS）",
-   "formats": [
-    "弾き語り"
-   ]
-  },
-  {
-   "title": "ガストロンジャー（エレファントカシマシ）",
-   "formats": [
-    "DJ"
-   ]
-  },
-  {
-   "title": "桜の花、舞い上がる道を（エレファントカシマシ）",
-   "formats": [
-    "弾き語り"
-   ]
-  },
-  {
-   "title": "roundabout（yes）",
-   "formats": [
-    "DJ"
-   ]
-  },
-  {
-   "title": "shout（Devo）",
-   "formats": [
-    "DJ"
-   ]
-  },
-  {
-   "title": "クリスマス（JUDY AND MARY）",
-   "formats": [
-    "歌唱"
+    {
+     "name": "歌唱",
+     "count": 1
+    }
    ]
   },
   {
    "title": "BLUE TEARS（JUDY AND MARY）",
    "formats": [
-    "弾き語り"
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 1
+    }
    ]
   },
   {
-   "title": "17",
+   "title": "DRIVE（SUPERCAR）",
    "formats": [
-    "歌唱"
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 1
+    }
    ]
   },
   {
-   "title": "星の砂（エレファントカシマシ）",
+   "title": "Disco Jets（Todd Rundgren）",
    "formats": [
-    "DJ"
+    {
+     "name": "DJ琴山しずく",
+     "count": 1
+    }
    ]
   },
   {
-   "title": "グミ超うめぇ（ピーナッツくん）",
+   "title": "Fading Lights",
    "formats": [
-    "DJ"
-   ]
-  },
-  {
-   "title": "発光体（ゆらゆら帝国）",
-   "formats": [
-    "DJ"
-   ]
-  },
-  {
-   "title": "翳りゆく部屋（松任谷由実）",
-   "formats": [
-    "弾き語り"
-   ]
-  },
-  {
-   "title": "ハナウタ ~遠い昔からの物語~（エレファントカシマシ）",
-   "formats": [
-    "弾き語り"
-   ]
-  },
-  {
-   "title": "あなたのやさしさをオレは何にたとえよう（エレファントカシマシ）",
-   "formats": [
-    "弾き語り"
-   ]
-  },
-  {
-   "title": "Wall of Death Beat Up & Up",
-   "formats": [
-    "hypermoshkotto"
-   ]
-  },
-  {
-   "title": "nuts（MO’SOME TONEBENDER）",
-   "formats": [
-    "DJ"
-   ]
-  },
-  {
-   "title": "愛はどこいったの？",
-   "formats": [
-    "弾き語り"
-   ]
-  },
-  {
-   "title": "風に吹かれて（エレファントカシマシ）",
-   "formats": [
-    "弾き語り"
-   ]
-  },
-  {
-   "title": "風と共に（エレファントカシマシ）",
-   "formats": [
-    "弾き語り"
-   ]
-  },
-  {
-   "title": "yamim meshunim（Terry Poison）",
-   "formats": [
-    "DJ"
-   ]
-  },
-  {
-   "title": "瑠璃色の地球（松田聖子）",
-   "formats": [
-    "歌唱"
-   ]
-  },
-  {
-   "title": "no title",
-   "formats": [
-    "弾き語り"
-   ]
-  },
-  {
-   "title": "わたし夜に泳ぐの",
-   "formats": [
-    "弾き語り"
-   ]
-  },
-  {
-   "title": "四月の風（エレファントカシマシ）",
-   "formats": [
-    "弾き語り"
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 1
+    }
    ]
   },
   {
    "title": "JAM（YMO）",
    "formats": [
-    "歌唱"
-   ]
-  },
-  {
-   "title": "Wall of Death Beat Up",
-   "formats": [
-    "hypermoshkotto"
-   ]
-  },
-  {
-   "title": "年をとろう（THE BLUE HEARTS）",
-   "formats": [
-    "歌唱"
-   ]
-  },
-  {
-   "title": "元少年の歌（フラワーカンパニーズ）",
-   "formats": [
-    "歌唱"
-   ]
-  },
-  {
-   "title": "ワインディングロード（エレファントカシマシ）",
-   "formats": [
-    "弾き語り"
+    {
+     "name": "歌唱",
+     "count": 1
+    }
    ]
   },
   {
    "title": "Rock’n Rouge（松田聖子）",
    "formats": [
-    "歌唱"
+    {
+     "name": "歌唱",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "no title",
+   "formats": [
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "nuts（MO’SOME TONEBENDER）",
+   "formats": [
+    {
+     "name": "DJ琴山しずく",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "parade（平沢進）",
+   "formats": [
+    {
+     "name": "DJ琴山しずく",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "roundabout（yes）",
+   "formats": [
+    {
+     "name": "DJ琴山しずく",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "shout（Devo）",
+   "formats": [
+    {
+     "name": "DJ琴山しずく",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "yamim meshunim（Terry Poison）",
+   "formats": [
+    {
+     "name": "DJ琴山しずく",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "zimzalabim（Red Velvet）",
+   "formats": [
+    {
+     "name": "DJ琴山しずく",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "あなたのやさしさをオレは何に例えよう（エレファントカシマシ）",
+   "formats": [
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "title": "あの娘にタッチ（THE BLUE HEARTS）",
+   "formats": [
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "title": "まちぶせ（三木聖子）",
+   "formats": [
+    {
+     "name": "歌唱",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "わたし夜に泳ぐの",
+   "formats": [
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "title": "アーケード（カネコアヤノ）",
+   "formats": [
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "オールニードイズラブ",
+   "formats": [
+    {
+     "name": "歌唱",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "ガストロンジャー（エレファントカシマシ）",
+   "formats": [
+    {
+     "name": "DJ琴山しずく",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "クリスマス（JUDY AND MARY）",
+   "formats": [
+    {
+     "name": "歌唱",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "グミ超うめぇ（ピーナッツくん）",
+   "formats": [
+    {
+     "name": "DJ琴山しずく",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "コハルヒ",
+   "formats": [
+    {
+     "name": "歌唱",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "サテライト",
+   "formats": [
+    {
+     "name": "歌唱",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "スライド",
+   "formats": [
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "title": "ハナウタ ~遠い昔からの物語~（エレファントカシマシ）",
+   "formats": [
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "バタフライエフェクト",
+   "formats": [
+    {
+     "name": "歌唱",
+     "count": 1
+    },
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "title": "ワインディングロード（エレファントカシマシ）",
+   "formats": [
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "世界の終わりは君とふたりで",
+   "formats": [
+    {
+     "name": "歌唱",
+     "count": 0
+    },
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "title": "元少年の歌（フラワーカンパニーズ）",
+   "formats": [
+    {
+     "name": "歌唱",
+     "count": 1
+    }
    ]
   },
   {
    "title": "告白ジャム（おとぎ話）",
    "formats": [
-    "弾き語り"
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "四月の風（エレファントカシマシ）",
+   "formats": [
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "title": "尊しあなたのすべてを",
+   "formats": [
+    {
+     "name": "歌唱",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "年をとろう（THE BLUE HEARTS）",
+   "formats": [
+    {
+     "name": "歌唱",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "彼女は買い物の帰り道（エレファントカシマシ）",
+   "formats": [
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "愛はどこいったの？",
+   "formats": [
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "title": "昇る太陽（宮本浩次）",
+   "formats": [
+    {
+     "name": "DJ琴山しずく",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "星の砂（エレファントカシマシ）",
+   "formats": [
+    {
+     "name": "DJ琴山しずく",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "桜の花、舞い上がる道を（エレファントカシマシ）",
+   "formats": [
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "瑠璃色の地球（松田聖子）",
+   "formats": [
+    {
+     "name": "歌唱",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "発光体（ゆらゆら帝国）",
+   "formats": [
+    {
+     "name": "DJ琴山しずく",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "瞳はダイアモンド（松田聖子）",
+   "formats": [
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "翳りゆく部屋（松任谷由実）",
+   "formats": [
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "誰だ！（電気グルーヴ）",
+   "formats": [
+    {
+     "name": "DJ琴山しずく",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "赤い薔薇（エレファントカシマシ）",
+   "formats": [
+    {
+     "name": "歌唱",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "風と共に（エレファントカシマシ）",
+   "formats": [
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title": "風に吹かれて（エレファントカシマシ）",
+   "formats": [
+    {
+     "name": "歌唱",
+     "count": 1
+    },
+    {
+     "name": "琴山しずく弾き語り",
+     "count": 1
+    }
    ]
   }
  ],
  "note": [
   "※RAYオリジナル楽曲「呼吸と面影」作詞"
- ],
- "premieres": [
-  {
-   "date": "2022-08-28",
-   "song": "おまじない",
-   "credit": "作曲：タバタヒナ / THE TOMBOYS",
-   "event_id": "e20220828-5033",
-   "event": "タワーレコードEggs×エクストロメ!! エッグストロメ!!"
-  },
-  {
-   "date": "2023-03-31",
-   "song": "おかえし",
-   "credit": "作曲：琴山しずく",
-   "event_id": "e20230331-0c39",
-   "event": "コットのRAY曲フェスティバル"
-  },
-  {
-   "date": "2023-07-15",
-   "song": "ホットココアの憂鬱",
-   "credit": "作曲：琴山しずく",
-   "event_id": "e20230715-631c",
-   "event": "新曲やります！コットアコギ配信"
-  },
-  {
-   "date": "2023-07-15",
-   "song": "ミルフィーユ",
-   "credit": "作曲：琴山しずく",
-   "event_id": "e20230715-631c",
-   "event": "新曲やります！コットアコギ配信"
-  },
-  {
-   "date": "2023-09-09",
-   "song": "いいかげん",
-   "credit": "作曲：琴山しずく",
-   "event_id": "e20230909-3363",
-   "event": "琴山しずく生誕「KOTTONE」"
-  },
-  {
-   "date": "2024-05-27",
-   "song": "ピラピラ",
-   "credit": "作曲：琴山しずく",
-   "event_id": "e20240527-b38e",
-   "event": "脱却 弾き語り公演編"
-  },
-  {
-   "date": "2024-08-09",
-   "song": "脱皮計画",
-   "credit": "作曲：琴山しずく",
-   "event_id": "e20240809-8a20",
-   "event": "RGB：Rock cafe Girl’s Band Vol.1"
-  },
-  {
-   "date": "2024-09-15",
-   "song": "テクノセット全披露曲",
-   "credit": "編曲：Yoshiki Niioka",
-   "event_id": "e20240915-017a",
-   "event": "琴山しずく生誕「テクノガールなコットちゃん」"
-  },
-  {
-   "date": "2025-09-07",
-   "song": "パーティー",
-   "credit": "作曲：琴山しずく",
-   "event_id": "e20250907-40f2",
-   "event": "くさのねアイドルフェスティバル2025"
-  },
-  {
-   "date": "2026-06-11",
-   "song": "Wall of Death",
-   "credit": "編曲：琴山しずく",
-   "event_id": "e20260611-232b",
-   "event": "“Berliner Schatten #1”"
-  },
-  {
-   "date": "2026-06-11",
-   "song": "Frenzy",
-   "credit": "作曲：琴山しずく",
-   "event_id": "e20260611-232b",
-   "event": "“Berliner Schatten #1”"
-  },
-  {
-   "date": "2026-06-11",
-   "song": "おかえし",
-   "credit": "hypermoshkotto ver.",
-   "event_id": "e20260611-232b",
-   "event": "“Berliner Schatten #1”"
-  },
-  {
-   "date": "2026-07-29",
-   "song": "ムキムキ",
-   "credit": "作曲：琴山しずく",
-   "event_id": "e20260729-73f9",
-   "event": "RAY presents「Blue Vibes」"
-  }
  ]
 };

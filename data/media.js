@@ -6,24 +6,29 @@ window.KOTTO_MEDIA = {
    "meta": [
     {
      "label": "期間",
-     "value": "",
+     "value": "2022年9月30日～2022年10月9日",
+     "links": [],
+     "children": []
+    },
+    {
+     "label": "会場",
+     "value": "渋谷 zakura",
+     "links": [],
      "children": []
     },
     {
      "label": "概要",
-     "value": "",
-     "children": []
-    },
-    {
-     "label": "作品群",
-     "value": "",
+     "value": "展示する13作品は全て琴山が大好きな「トマト」がテーマ。トマトワールド前回の作品たちをぜひ観に来てください！（公式Xの投稿より引用）",
+     "links": [],
      "children": []
     },
     {
      "label": "展開",
      "value": "",
+     "links": [],
      "children": [
-      "個展"
+      "個展",
+      "RAY公式通販（抽選販売）"
      ]
     }
    ],
@@ -47,16 +52,19 @@ window.KOTTO_MEDIA = {
     {
      "label": "期間",
      "value": "2021年12月15日〜2024年2月21日",
+     "links": [],
      "children": []
     },
     {
      "label": "概要",
-     "value": "",
+     "value": "コットが毎週発信する短編詩。",
+     "links": [],
      "children": []
     },
     {
      "label": "発信媒体",
      "value": "",
+     "links": [],
      "children": [
       "X",
       "note",
@@ -551,11 +559,13 @@ window.KOTTO_MEDIA = {
     {
      "label": "期間",
      "value": "",
+     "links": [],
      "children": []
     },
     {
      "label": "概要",
-     "value": "",
+     "value": "365日トマトを食べているコットによるトマト紹介",
+     "links": [],
      "children": []
     }
    ],
@@ -564,21 +574,23 @@ window.KOTTO_MEDIA = {
    "related": []
   },
   {
-   "title": "#ライブコット",
+   "title": "#ライヴコット",
    "meta": [
     {
      "label": "期間",
-     "value": "2023年9月30日～毎日",
+     "value": "2023年9月30日～",
+     "links": [],
      "children": []
     },
     {
      "label": "概要",
-     "value": "",
+     "value": "写真付き毎朝ポスト。琴山さんいわく「決して大喜利ではない」とのこと。",
+     "links": [],
      "children": []
     }
    ],
    "items": [],
-   "list_note": "多すぎるため省略",
+   "list_note": "",
    "related": []
   },
   {
@@ -586,25 +598,29 @@ window.KOTTO_MEDIA = {
    "meta": [
     {
      "label": "期間",
-     "value": "",
+     "value": "2024年11月13日～2024年11月20日",
+     "links": [],
+     "children": []
+    },
+    {
+     "label": "会場",
+     "value": "清澄白河 GALLERY KLYUCH",
+     "links": [],
      "children": []
     },
     {
      "label": "概要",
-     "value": "",
-     "children": []
-    },
-    {
-     "label": "作品群",
-     "value": "",
+     "value": "3Dモデリング作品を展示。11/19にはクローズイベント的な弾き語りイベントを開催。",
+     "links": [],
      "children": []
     },
     {
      "label": "展開",
      "value": "",
+     "links": [],
      "children": [
       "個展",
-      "通販にて抽選"
+      "RAY公式通販（抽選販売）"
      ]
     }
    ],
@@ -619,7 +635,19 @@ window.KOTTO_MEDIA = {
   },
   {
    "title": "SUZURI（琴山しずく個人グッズ販売）",
-   "meta": [],
+   "meta": [
+    {
+     "label": "URL",
+     "value": "https://suzuri.jp/kotoyamashizuku",
+     "links": [
+      {
+       "label": "https://suzuri.jp/kotoyamashizuku",
+       "url": "https://suzuri.jp/kotoyamashizuku"
+      }
+     ],
+     "children": []
+    }
+   ],
    "items": [],
    "related": []
   }
