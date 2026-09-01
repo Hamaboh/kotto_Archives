@@ -139,6 +139,56 @@
     '</article>';
   }
 
+  /* 表ヘッダーの画面固定（横スクロール対応）
+     .table-wrap.sticky-head の <thead> を複製した固定バーを作り、
+     表が画面内にある間だけ上端に表示する。表の上端／下端を抜けると自動的に解除。 */
+  var stickyUnits = [];
+  function initStickyHeads() {
+    Array.prototype.forEach.call(document.querySelectorAll('.sticky-clone'), function (n) { n.remove(); });
+    stickyUnits = [];
+    Array.prototype.forEach.call(document.querySelectorAll('.table-wrap.sticky-head'), function (wrap) {
+      var table = wrap.querySelector('table');
+      var thead = table && table.querySelector('thead');
+      if (!thead) return;
+      var clone = document.createElement('div');
+      clone.className = 'sticky-clone';
+      var ct = document.createElement('table');
+      ct.className = table.className;
+      ct.appendChild(thead.cloneNode(true));
+      clone.appendChild(ct);
+      document.body.appendChild(clone);
+      stickyUnits.push({ wrap: wrap, table: table, thead: thead, clone: clone, ct: ct });
+      wrap.addEventListener('scroll', schedule, { passive: true });
+    });
+    sync();
+  }
+  function sync() {
+    stickyUnits.forEach(function (u) {
+      var tr = u.table.getBoundingClientRect();
+      var hh = u.thead.getBoundingClientRect().height;
+      if (!(tr.top < 0 && tr.bottom > hh + 4)) { u.clone.style.display = 'none'; return; }
+      var wr = u.wrap.getBoundingClientRect();
+      u.clone.style.display = 'block';
+      u.clone.style.left = wr.left + 'px';
+      u.clone.style.width = wr.width + 'px';
+      u.ct.style.width = u.table.offsetWidth + 'px';
+      u.ct.style.tableLayout = getComputedStyle(u.table).tableLayout;
+      var oth = u.thead.querySelectorAll('th'), cth = u.ct.querySelectorAll('th');
+      for (var i = 0; i < oth.length && i < cth.length; i++) {
+        cth[i].style.width = oth[i].getBoundingClientRect().width + 'px';
+      }
+      u.ct.style.transform = 'translateX(' + (-u.wrap.scrollLeft) + 'px)';
+    });
+  }
+  var ticking = false;
+  function schedule() {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(function () { ticking = false; sync(); });
+  }
+  window.addEventListener('scroll', schedule, { passive: true });
+  window.addEventListener('resize', schedule);
+
   /* ---------- 各ページの描画 ---------- */
   var pages = {};
 
@@ -325,6 +375,8 @@
           '<td>' + fmtBadges(c.formats) + '</td>' +
           '<td>' + fmtCounts(c.formats) + '</td></tr>';
       }).join('') + '</tbody></table></div>');
+
+    initStickyHeads();
   };
 
   pages.discography = function () {
@@ -350,6 +402,8 @@
         photosHtml(a.images) +
       '</article>';
     }).join(''));
+
+    initStickyHeads();
   };
 
   pages.media = function () {

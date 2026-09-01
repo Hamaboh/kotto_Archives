@@ -183,16 +183,6 @@ table.covers-table{table-layout:fixed;min-width:760px}
 .songs-table .badge,.covers-table .badge{font-size:.68rem;padding:2px 7px}
 table.tracklist td:first-child{width:3.5em;color:var(--muted)}
 
-/* 表ヘッダーの画面固定：
-   横スクロール用の overflow を持つ要素の内側では position:sticky が効かないため、
-   表が横スクロールなしで収まる幅（1040px以上）でのみ固定を有効にする。 */
-@media (min-width:1040px){
-  .table-wrap.sticky-head{overflow-x:visible;overflow-y:visible}
-  .sticky-head thead th{position:sticky;top:0;z-index:6}
-  .sticky-head thead th::after{
-    content:"";position:absolute;left:0;right:0;bottom:-1px;height:1px;background:var(--gold-500);
-  }
-}
 thead th{
   background:var(--red-800);color:#fff;text-align:left;font-weight:700;padding:10px 14px;
   font-size:.82rem;letter-spacing:.06em;white-space:nowrap;border-right:1px solid rgba(255,255,255,.14);
@@ -202,10 +192,19 @@ tbody td{padding:10px 14px;border-top:1px solid var(--line-2);vertical-align:top
 tbody tr:nth-child(even){background:var(--paper-2)}
 tbody tr:hover{background:var(--red-050)}
 td.song{font-weight:700}
-.matrix td{text-align:center}
-.matrix td:first-child{text-align:left}
 .chk{color:var(--red-700);font-weight:700}
 .chk-off{color:var(--line)}
+
+/* 表ヘッダーの画面固定：
+   横スクロール用の overflow を持つ要素の内側では position:sticky が効かないため、
+   ヘッダー行を複製した固定バー（.sticky-clone）を JS で表示する。
+   表が画面内にある間だけ表示し、表の上端・下端を抜けると解除される。 */
+.sticky-clone{
+  position:fixed;top:0;z-index:30;overflow:hidden;display:none;
+  box-shadow:0 3px 8px rgba(34,31,30,.14);
+}
+.sticky-clone table{margin:0;border-collapse:collapse}
+.sticky-clone thead th{border-bottom:2px solid var(--gold-500)}
 
 /* 披露回数リスト */
 .count-list{list-style:none;margin:0;padding:0;font-size:.82rem}
