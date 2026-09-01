@@ -99,7 +99,7 @@
         if (!filler.children.length) filler.children.push({ text: '', links: [], children: [] });
         stack.push(filler.children[filler.children.length - 1]);
       }
-      var node = { text: d.text, links: d.links || [], children: [] };
+      var node = { text: d.text, links: d.links || [], ordered: !!d.ordered, children: [] };
       stack[stack.length - 1].children.push(node);
       stack.push(node);
     });
@@ -107,14 +107,17 @@
   }
   function renderNodes(nodes, top) {
     if (!nodes.length) return '';
-    return '<ul' + (top ? ' class="detail"' : '') + '>' + nodes.map(function (n) {
+    var ordered = nodes.length && nodes[0].ordered;
+    var tag = ordered ? 'ol' : 'ul';
+    var cls = top ? ' class="detail"' : (ordered ? ' class="setlist"' : '');
+    return '<' + tag + cls + '>' + nodes.map(function (n) {
       var text = esc(n.text);
       (n.links || []).forEach(function (l) {
         var lab = esc(l.label);
         text = text.split(lab).join('<a href="' + esc(l.url) + '" target="_blank" rel="noopener noreferrer">' + lab + '</a>');
       });
       return '<li>' + text + renderNodes(n.children, false) + '</li>';
-    }).join('') + '</ul>';
+    }).join('') + '</' + tag + '>';
   }
   function detailsBlock(details) {
     if (!details || !details.length) return '';
@@ -145,15 +148,17 @@
     var dc = (window.KOTTO_DISCOGRAPHY || {}).albums || [];
     var md = (window.KOTTO_MEDIA || {}).media || [];
     var mediaCount = md.reduce(function (a, m) { return a + (m.items ? m.items.length : 0); }, 0);
-    var first = ev.length ? ev[0].date.slice(0, 4) : '';
-    var last = ev.length ? ev[ev.length - 1].date.slice(0, 4) : '';
+    var period = (window.KOTTO_EVENTS || {}).period || {};
+    var slash = function (iso) { return (iso || '').replace(/-/g, '/'); };
+    var first = slash(period.from || (ev.length ? ev[0].date : ''));
+    var last = slash(period.to || (ev.length ? ev[ev.length - 1].date : ''));
     setHtml('stats',
       stat(ev.length, '件', 'イベント / 配信 記録') +
       stat((sg.originals || []).length, '曲', 'オリジナル楽曲') +
-      stat((sg.covers || []).length, '曲', '披露カバー曲') +
+      stat((sg.covers || []).length, '曲', 'カバー・披露楽曲') +
       stat(dc.length, '作品', '音源リリース') +
       stat(mediaCount, '本', 'メディア発信記録'));
-    setHtml('period-label', first && last ? first + ' — ' + last : '');
+    setHtml('period-label', first && last ? first + ' - ' + last : '');
   };
   function stat(num, unit, label) {
     return '<div class="stat"><div class="num">' + num + '<small>' + esc(unit) + '</small></div><div class="lbl">' + esc(label) + '</div></div>';
@@ -202,7 +207,6 @@
 
   pages.history = function () {
     var ev = ((window.KOTTO_EVENTS || {}).events || []).slice();
-    var sg = window.KOTTO_SONGS || {};
     var dc = (window.KOTTO_DISCOGRAPHY || {}).albums || [];
     var md = (window.KOTTO_MEDIA || {}).media || [];
 
@@ -211,16 +215,23 @@
       items.push({ date: e.date, kind: 'event', title: e.title, sub: e.venue,
                    tags: ['イベント'], href: 'events.html#' + e.id, note: e.note });
     });
-    (sg.premieres || []).forEach(function (p) {
-      items.push({ date: p.date, kind: 'song', title: '「' + p.song + '」初披露',
-                   sub: p.credit ? p.credit + '／' + p.event : p.event,
-                   tags: ['楽曲'], href: 'songs.html' });
+    ev.forEach(function (e) {
+      (e.details || []).forEach(function (d) {
+        var m = /^(.+?)(?:（(.+?)）)?\s*初披露$/.exec(d.text || '');
+        if (!m) return;
+        if (/[：:]/.test(m[1])) return;   // 「RAY：新曲「◯◯」初披露」など、琴山しずく以外の初披露は除外
+        items.push({ date: e.date, kind: 'song', title: '「' + m[1].trim() + '」初披露',
+                     sub: (m[2] ? m[2] + '／' : '') + e.title, tags: ['楽曲'],
+                     href: 'events.html#' + e.id });
+      });
     });
     dc.forEach(function (a) {
-      (a.related || []).forEach(function (r) {
-        items.push({ date: r.date, kind: 'release', title: '『' + a.title + '』' + (/発売|販売|リリース/.test(r.context) ? '発売' : '関連'),
-                     sub: r.event, tags: ['ディスコグラフィー'], href: 'discography.html' });
-      });
+      if (a.release) {
+        var relEv = (a.relation_label === '発売開始イベント' && a.related && a.related.length) ? a.related[0].event : '';
+        items.push({ date: a.release, kind: 'release', title: '『' + a.title + '』リリース',
+                     sub: relEv,
+                     tags: ['ディスコグラフィー'], href: 'discography.html' });
+      }
     });
     md.forEach(function (m) {
       if (!m.items || !m.items.length) return;
@@ -273,42 +284,46 @@
     return m[1] + '-' + ('0' + m[2]).slice(-2) + '-' + ('0' + m[3]).slice(-2);
   }
 
+  function fmtBadges(formats) {
+    if (!formats || !formats.length) return '<span class="chk-off">—</span>';
+    return formats.map(function (f) { return '<span class="badge red">' + esc(f.name) + '</span>'; }).join('');
+  }
+  function fmtCounts(formats) {
+    if (!formats || !formats.length) return '<span class="chk-off">—</span>';
+    return '<ul class="count-list">' + formats.map(function (f) {
+      return '<li><span class="cf">' + esc(f.name) + '</span><span class="cn">' +
+        (f.count > 0 ? f.count + '回' : '記録なし') + '</span></li>';
+    }).join('') + '</ul>';
+  }
+
   pages.songs = function () {
     var sg = window.KOTTO_SONGS || {};
     var orig = sg.originals || [], cov = sg.covers || [];
-    var FORMATS = ['歌唱', '弾き語り', 'コットリアン', 'TECHNO SET', 'hypermoshkotto', 'DJ'];
 
     setHtml('originals-count', '全 ' + orig.length + ' 曲');
     setHtml('originals',
-      '<div class="table-wrap"><table><thead><tr>' +
-      '<th>楽曲名</th><th>作詞</th><th>作曲</th><th>編曲</th><th>初披露</th><th>披露形態</th>' +
+      '<div class="table-wrap sticky-head"><table class="songs-table"><thead><tr>' +
+      '<th>楽曲名</th><th>作詞</th><th>作曲</th><th>編曲</th><th>披露形態</th><th>披露回数</th>' +
       '</tr></thead><tbody>' +
       orig.map(function (s) {
         return '<tr>' +
           '<td class="song">' + esc(s.title) + '</td>' +
           '<td>' + esc(s.lyrics) + '</td><td>' + esc(s.music) + '</td><td>' + esc(s.arrange) + '</td>' +
-          '<td>' + (s.premiere ? '<a href="events.html#' + esc(s.premiere.event_id) + '">' + esc(jpDate(s.premiere.date)) + '</a><br><span class="tl-sub">' + esc(s.premiere.event) + '</span>' : '<span class="chk-off">—</span>') + '</td>' +
-          '<td>' + ((s.formats && s.formats.length) ? s.formats.map(function (f) { return '<span class="badge red">' + esc(f) + '</span>'; }).join('') : '<span class="chk-off">—</span>') + '</td>' +
+          '<td>' + fmtBadges(s.formats) + '</td>' +
+          '<td>' + fmtCounts(s.formats) + '</td>' +
         '</tr>';
       }).join('') + '</tbody></table></div>' +
       (sg.note && sg.note.length ? '<p class="desc">' + sg.note.map(esc).join('<br>') + '</p>' : ''));
 
     setHtml('covers-count', '全 ' + cov.length + ' 曲');
     setHtml('covers',
-      '<div class="table-wrap"><table class="matrix"><thead><tr><th>楽曲名</th>' +
-      FORMATS.map(function (f) { return '<th>' + esc(f) + '</th>'; }).join('') + '</tr></thead><tbody>' +
+      '<div class="table-wrap sticky-head"><table class="covers-table"><thead><tr>' +
+      '<th>楽曲名</th><th>披露形態</th><th>披露回数</th>' +
+      '</tr></thead><tbody>' +
       cov.map(function (c) {
         return '<tr><td class="song">' + esc(c.title) + '</td>' +
-          FORMATS.map(function (f) {
-            return '<td>' + (c.formats.indexOf(f) >= 0 ? '<span class="chk">●</span>' : '<span class="chk-off">−</span>') + '</td>';
-          }).join('') + '</tr>';
-      }).join('') + '</tbody></table></div>');
-
-    setHtml('premieres',
-      '<div class="table-wrap"><table><thead><tr><th>日付</th><th>楽曲</th><th>クレジット</th><th>披露イベント</th></tr></thead><tbody>' +
-      (sg.premieres || []).map(function (p) {
-        return '<tr><td>' + esc(jpDate(p.date)) + '</td><td class="song">' + esc(p.song) + '</td><td>' + esc(p.credit) + '</td>' +
-          '<td><a href="events.html#' + esc(p.event_id) + '">' + esc(p.event) + '</a></td></tr>';
+          '<td>' + fmtBadges(c.formats) + '</td>' +
+          '<td>' + fmtCounts(c.formats) + '</td></tr>';
       }).join('') + '</tbody></table></div>');
   };
 
@@ -319,15 +334,18 @@
       var rel = (a.related || []);
       return '<article class="entry anchor-offset" id="' + esc('d' + (i + 1)) + '">' +
         '<div class="entry-head">' +
-          '<span class="entry-date">' + String(i + 1).padStart(2, '0') + '</span>' +
+          '<span class="entry-date">' + ('0' + (i + 1)).slice(-2) + '</span>' +
           '<h3 class="entry-title">' + esc(a.title) + '</h3>' +
+          (a.release ? '<span class="entry-venue">リリース：' + esc(jpDate(a.release)) + '</span>' : '') +
         '</div>' +
-        '<h4 class="tl-sub" style="margin:10px 0 4px">収録楽曲</h4>' +
-        '<ol style="margin:0;padding-left:1.4em">' + a.tracks_detail.map(function (t) { return '<li>' + esc(t) + '</li>'; }).join('') + '</ol>' +
-        (rel.length ? '<h4 class="tl-sub" style="margin:14px 0 4px">関連する記録</h4><ul class="detail">' +
+        '<div class="table-wrap sticky-head"><table class="tracklist"><thead><tr>' +
+          '<th>No.</th><th>収録楽曲</th></tr></thead><tbody>' +
+          a.tracks.map(function (t, n) {
+            return '<tr><td>' + (n + 1) + '</td><td class="song">' + esc(t) + '</td></tr>';
+          }).join('') + '</tbody></table></div>' +
+        (rel.length ? '<h4 class="sub-head">' + esc(a.relation_label || '関連する記録') + '</h4><ul class="detail">' +
           rel.map(function (r) {
-            return '<li><a href="events.html#' + esc(r.event_id) + '">' + esc(jpDate(r.date)) + '｜' + esc(r.event) + '</a>' +
-              '<ul><li>' + esc(r.context) + '</li></ul></li>';
+            return '<li><a href="events.html#' + esc(r.event_id) + '">' + esc(jpDate(r.date)) + '｜' + esc(r.event) + '</a></li>';
           }).join('') + '</ul>' : '') +
         photosHtml(a.images) +
       '</article>';

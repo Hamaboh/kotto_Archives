@@ -168,6 +168,31 @@ main{padding:32px 0 64px}
 .table-wrap{overflow-x:auto;background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
 table{border-collapse:collapse;width:100%;min-width:720px;font-size:.9rem}
 table.matrix{min-width:640px}
+table.tracklist{min-width:0}
+table.songs-table{table-layout:fixed;min-width:920px}
+.songs-table th:nth-child(1),.songs-table td:nth-child(1){width:18%}
+.songs-table th:nth-child(2),.songs-table td:nth-child(2){width:13%}
+.songs-table th:nth-child(3),.songs-table td:nth-child(3){width:13%}
+.songs-table th:nth-child(4),.songs-table td:nth-child(4){width:10%}
+.songs-table th:nth-child(5),.songs-table td:nth-child(5){width:22%}
+.songs-table th:nth-child(6),.songs-table td:nth-child(6){width:24%}
+table.covers-table{table-layout:fixed;min-width:760px}
+.covers-table th:nth-child(1),.covers-table td:nth-child(1){width:36%}
+.covers-table th:nth-child(2),.covers-table td:nth-child(2){width:32%}
+.covers-table th:nth-child(3),.covers-table td:nth-child(3){width:32%}
+.songs-table .badge,.covers-table .badge{font-size:.68rem;padding:2px 7px}
+table.tracklist td:first-child{width:3.5em;color:var(--muted)}
+
+/* 表ヘッダーの画面固定：
+   横スクロール用の overflow を持つ要素の内側では position:sticky が効かないため、
+   表が横スクロールなしで収まる幅（1040px以上）でのみ固定を有効にする。 */
+@media (min-width:1040px){
+  .table-wrap.sticky-head{overflow-x:visible;overflow-y:visible}
+  .sticky-head thead th{position:sticky;top:0;z-index:6}
+  .sticky-head thead th::after{
+    content:"";position:absolute;left:0;right:0;bottom:-1px;height:1px;background:var(--gold-500);
+  }
+}
 thead th{
   background:var(--red-800);color:#fff;text-align:left;font-weight:700;padding:10px 14px;
   font-size:.82rem;letter-spacing:.06em;white-space:nowrap;border-right:1px solid rgba(255,255,255,.14);
@@ -181,6 +206,21 @@ td.song{font-weight:700}
 .matrix td:first-child{text-align:left}
 .chk{color:var(--red-700);font-weight:700}
 .chk-off{color:var(--line)}
+
+/* 披露回数リスト */
+.count-list{list-style:none;margin:0;padding:0;font-size:.82rem}
+.count-list li{display:flex;justify-content:space-between;align-items:baseline;gap:8px;padding:1px 0}
+.count-list .cf{color:var(--muted);flex:1 1 auto;min-width:0;line-height:1.5}
+.count-list .cn{font-weight:700;color:var(--red-700);flex:0 0 auto;white-space:nowrap}
+
+/* セットリスト（番号付き） */
+ol.setlist{margin:2px 0 6px;padding:0 0 0 1.9em;border-left:1px solid var(--line-2)}
+ol.setlist li{margin:1px 0;color:var(--ink-2)}
+.detail ol{margin:2px 0 6px;padding:0 0 0 1.9em;border-left:1px solid var(--line-2)}
+.detail ol li{margin:1px 0;color:var(--ink-2)}
+.detail ol li::before{display:none}
+
+.sub-head{font-size:.8rem;color:var(--muted);font-weight:700;margin:14px 0 6px;letter-spacing:.04em}
 
 /* ---------- badges / tags ---------- */
 .badge{
