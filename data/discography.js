@@ -6,7 +6,9 @@ window.KOTTO_DISCOGRAPHY = {
    "tracks": [
     "ホットココアの憂鬱",
     "ミルフィーユ",
-    "いいかげん"
+    "いいかげん",
+    "AppleMusic：",
+    "Spotify："
    ],
    "release": "2023-09-09",
    "relation_label": "発売開始イベント",
@@ -21,7 +23,9 @@ window.KOTTO_DISCOGRAPHY = {
   {
    "title": "ホットココアの憂鬱（Remix）",
    "tracks": [
-    "ホットココアの憂鬱（Remix）"
+    "ホットココアの憂鬱（Remix）",
+    "AppleMusic：",
+    "Spotify："
    ],
    "release": "2024-07-31",
    "relation_label": "パフォーマンスしたイベント",
@@ -41,7 +45,9 @@ window.KOTTO_DISCOGRAPHY = {
   {
    "title": "ミルフィーユ（Remix）",
    "tracks": [
-    "ミルフィーユ（Remix）"
+    "ミルフィーユ（Remix）",
+    "AppleMusic：",
+    "Spotify："
    ],
    "release": "2024-08-22",
    "relation_label": "パフォーマンスしたイベント",
@@ -61,7 +67,9 @@ window.KOTTO_DISCOGRAPHY = {
   {
    "title": "いいかげん（Remix）",
    "tracks": [
-    "いいかげん（Remix）"
+    "いいかげん（Remix）",
+    "AppleMusic：",
+    "Spotify："
    ],
    "release": "2024-09-12",
    "relation_label": "パフォーマンスしたイベント",
@@ -81,7 +89,9 @@ window.KOTTO_DISCOGRAPHY = {
   {
    "title": "おかえし（Remix）",
    "tracks": [
-    "おかえし（Remix）"
+    "おかえし（Remix）",
+    "AppleMusic：",
+    "Spotify："
    ],
    "release": "2024-09-15",
    "relation_label": "パフォーマンスしたイベント",
@@ -103,7 +113,9 @@ window.KOTTO_DISCOGRAPHY = {
    "tracks": [
     "おかえし",
     "ピラピラ",
-    "脱皮計画"
+    "脱皮計画",
+    "AppleMusic：",
+    "Spotify："
    ],
    "release": "2024-11-13",
    "relation_label": "発売開始イベント",
@@ -121,7 +133,9 @@ window.KOTTO_DISCOGRAPHY = {
     "Wall of Death",
     "dream",
     "TOMATO",
-    "パーティー（hypermoshkotto ver.）"
+    "パーティー（hypermoshkotto ver.）",
+    "AppleMusic：",
+    "Spotify："
    ],
    "release": "2025-11-22",
    "relation_label": "発売開始イベント",

@@ -175,7 +175,25 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 2,
-     "text": "RAY各メンバーのソロパートで琴山しずく「くじら12号」歌唱披露",
+     "text": "RAY各メンバーのソロパートあり",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト（琴山しずくソロ）：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "歌唱",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "くじら12号（JUDY AND MARY）",
      "ordered": false,
      "links": []
     }
@@ -441,7 +459,25 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 2,
-     "text": "各メンバーソロパートで琴山しずく「Rusty Days」披露",
+     "text": "各メンバーソロパートあり",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト（琴山しずく）：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "歌唱",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Rusty Days",
      "ordered": false,
      "links": []
     }
@@ -505,8 +541,14 @@ window.KOTTO_EVENTS = {
      "links": []
     },
     {
+     "level": 1,
+     "text": "セットリスト（生誕パート）",
+     "ordered": false,
+     "links": []
+    },
+    {
      "level": 2,
-     "text": "生誕パート（カバー曲歌唱披露）",
+     "text": "歌唱：",
      "ordered": false,
      "links": []
     },
@@ -553,7 +595,13 @@ window.KOTTO_EVENTS = {
    "details": [
     {
      "level": 1,
-     "text": "トピック：",
+     "text": "各メンバーソロパートあり",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト（琴山しずく）：",
      "ordered": false,
      "links": []
     },
@@ -601,6 +649,24 @@ window.KOTTO_EVENTS = {
     {
      "level": 2,
      "text": "コラボ：琴山しずく× 柚月りん(tipToe.) × 小泉日菜莉(airattic)",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "共演：tipToe., airattic",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト（コラボ）：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "歌唱",
      "ordered": false,
      "links": []
     },
@@ -768,6 +834,18 @@ window.KOTTO_EVENTS = {
     {
      "level": 2,
      "text": "おまじない（作曲：タバタヒナ / THE TOMBOYS）初披露",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "共演：com, situasion, ピューパ!!, 代代代, NELN, SPECIAL CHEESE MENU, IDOLATER, yumegiwa last girl, yosugala, 衛星とカラテア, 美味しい曖昧, かすみ草とステラ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト",
      "ordered": false,
      "links": []
     },
@@ -1069,49 +1147,49 @@ window.KOTTO_EVENTS = {
      "links": []
     },
     {
-     "level": 2,
-     "text": "生誕パート",
+     "level": 1,
+     "text": "セットリスト",
      "ordered": false,
      "links": []
     },
     {
-     "level": 3,
+     "level": 2,
      "text": "歌唱",
      "ordered": false,
      "links": []
     },
     {
-     "level": 4,
+     "level": 3,
      "text": "おまじない",
      "ordered": true,
      "links": []
     },
     {
-     "level": 4,
+     "level": 3,
      "text": "風に吹かれて（エレファントカシマシ）",
      "ordered": true,
      "links": []
     },
     {
-     "level": 3,
+     "level": 2,
      "text": "琴山しずく弾き語り",
      "ordered": false,
      "links": []
     },
     {
-     "level": 4,
+     "level": 3,
      "text": "あの娘にタッチ（THE BLUE HEARTS）",
      "ordered": true,
      "links": []
     },
     {
-     "level": 4,
+     "level": 3,
      "text": "四月の風（エレファントカシマシ）",
      "ordered": true,
      "links": []
     },
     {
-     "level": 4,
+     "level": 3,
      "text": "おまじない",
      "ordered": true,
      "links": []
@@ -1205,13 +1283,13 @@ window.KOTTO_EVENTS = {
    "details": [
     {
      "level": 1,
-     "text": "トピック：",
+     "text": "セットリスト：",
      "ordered": false,
      "links": []
     },
     {
      "level": 2,
-     "text": "歌唱",
+     "text": "歌唱：",
      "ordered": false,
      "links": []
     },
@@ -1318,13 +1396,13 @@ window.KOTTO_EVENTS = {
    "details": [
     {
      "level": 1,
-     "text": "トーク：岡田典之(空想委員会) × JUN YOKOE(PLASTICZOOMS) × みきれちゃん × 内山結愛 × 琴山しずく",
+     "text": "トピック：",
      "ordered": false,
      "links": []
     },
     {
-     "level": 1,
-     "text": "トピック：",
+     "level": 2,
+     "text": "共演：岡田典之(空想委員会) × JUN YOKOE(PLASTICZOOMS) × みきれちゃん × 内山結愛 × 琴山しずく",
      "ordered": false,
      "links": []
     },
@@ -1359,7 +1437,7 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 2,
-     "text": "トーク：オガワコウイチ(おやすみホログラム) × みきれちゃん × 愛海 × 琴山しずく",
+     "text": "共演：オガワコウイチ(おやすみホログラム) × みきれちゃん × 愛海 × 琴山しずく",
      "ordered": false,
      "links": []
     }
@@ -1426,6 +1504,12 @@ window.KOTTO_EVENTS = {
     {
      "level": 2,
      "text": "おかえし（作曲：琴山しずく）初披露",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト：",
      "ordered": false,
      "links": []
     },
@@ -1582,7 +1666,13 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 2,
-     "text": "トーク＆デモ制作：オガワコウイチ(おやすみホログラム) × 琴山しずく",
+     "text": "トーク＆デモ制作",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "共演：オガワコウイチ(おやすみホログラム)",
      "ordered": false,
      "links": []
     }
@@ -1648,7 +1738,7 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 2,
-     "text": "トーク：内山結愛 × 琴山しずく",
+     "text": "共演：内山結愛 × 琴山しずく",
      "ordered": false,
      "links": []
     }
@@ -1677,7 +1767,7 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 2,
-     "text": "トーク：山田秀樹(musicite) × 中村ソゼ(めろん畑a go go) × 内山結愛 × 琴山しずく",
+     "text": "共演：山田秀樹(musicite) × 中村ソゼ(めろん畑a go go) × 内山結愛 × 琴山しずく",
      "ordered": false,
      "links": []
     }
@@ -1739,7 +1829,7 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 2,
-     "text": "トーク：山田秀樹(musicite) × 中村ソゼ(めろん畑a go go) × 内山結愛 × 琴山しずく",
+     "text": "共演：山田秀樹(musicite) × 中村ソゼ(めろん畑a go go) × 内山結愛 × 琴山しずく",
      "ordered": false,
      "links": []
     }
@@ -1779,6 +1869,12 @@ window.KOTTO_EVENTS = {
     {
      "level": 2,
      "text": "ミルフィーユ（作曲：琴山しずく）初披露",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト",
      "ordered": false,
      "links": []
     },
@@ -1870,13 +1966,13 @@ window.KOTTO_EVENTS = {
    "details": [
     {
      "level": 1,
-     "text": "トピック：",
+     "text": "セットリスト：",
      "ordered": false,
      "links": []
     },
     {
      "level": 2,
-     "text": "琴山しずく弾き語り",
+     "text": "琴山しずく弾き語り：",
      "ordered": false,
      "links": []
     },
@@ -1995,6 +2091,12 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 2,
+     "text": "いいかげん（作曲：琴山しずく）初披露",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
      "text": "琴山しずく生誕バンド「コットリアン」結成",
      "ordered": false,
      "links": []
@@ -2060,8 +2162,8 @@ window.KOTTO_EVENTS = {
      "links": []
     },
     {
-     "level": 2,
-     "text": "いいかげん（作曲：琴山しずく）初披露",
+     "level": 1,
+     "text": "セットリスト：",
      "ordered": false,
      "links": []
     },
@@ -2568,7 +2670,13 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 2,
-     "text": "石原克 × 琴山しずく",
+     "text": "共演：石原克",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト：",
      "ordered": false,
      "links": []
     },
@@ -2678,7 +2786,7 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 2,
-     "text": "トーク：ハタユウスケ(cruyff in the bedroom) × 琴山しずく",
+     "text": "共演：ハタユウスケ(cruyff in the bedroom)",
      "ordered": false,
      "links": []
     }
@@ -2740,7 +2848,7 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 2,
-     "text": "トーク：ハタユウスケ(cruyff in the bedroom) × 琴山しずく",
+     "text": "共演：ハタユウスケ(cruyff in the bedroom)",
      "ordered": false,
      "links": []
     }
@@ -2803,6 +2911,18 @@ window.KOTTO_EVENTS = {
     {
      "level": 2,
      "text": "ピラピラ（作曲：琴山しずく）初披露",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "共演：八月ちゃん（TOROi）, 明瀬美砂（ponderosa may bloom）, 朝倉みずほ（Finger Runs）, 木内小百合（パピプペポは難しい）, 兎月こむぎ（Finger Runs）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト：",
      "ordered": false,
      "links": []
     },
@@ -2871,7 +2991,7 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 2,
-     "text": "トーク：愛海 × 琴山しずく × 紬実詩",
+     "text": "出演：愛海 × 琴山しずく × 紬実詩",
      "ordered": false,
      "links": []
     },
@@ -2963,7 +3083,7 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 2,
-     "text": "トーク：ハタユウスケ(cruyff in the bedroom) × 琴山しずく",
+     "text": "共演：ハタユウスケ(cruyff in the bedroom)",
      "ordered": false,
      "links": []
     }
@@ -2986,7 +3106,7 @@ window.KOTTO_EVENTS = {
    "details": [
     {
      "level": 1,
-     "text": "トピック：",
+     "text": "セットリスト：",
      "ordered": false,
      "links": []
     },
@@ -3101,6 +3221,12 @@ window.KOTTO_EVENTS = {
      "links": []
     },
     {
+     "level": 1,
+     "text": "セットリスト：",
+     "ordered": false,
+     "links": []
+    },
+    {
      "level": 2,
      "text": "琴山しずく弾き語り",
      "ordered": false,
@@ -3194,7 +3320,7 @@ window.KOTTO_EVENTS = {
    "details": [
     {
      "level": 1,
-     "text": "トピック：",
+     "text": "セットリスト：",
      "ordered": false,
      "links": []
     },
@@ -3282,6 +3408,12 @@ window.KOTTO_EVENTS = {
      "links": []
     },
     {
+     "level": 1,
+     "text": "セットリスト：",
+     "ordered": false,
+     "links": []
+    },
+    {
      "level": 2,
      "text": "琴山しずく TECHNO SET：",
      "ordered": false,
@@ -3336,7 +3468,7 @@ window.KOTTO_EVENTS = {
    "details": [
     {
      "level": 1,
-     "text": "トピック：",
+     "text": "セットリスト：",
      "ordered": false,
      "links": []
     },
@@ -3408,7 +3540,7 @@ window.KOTTO_EVENTS = {
    "details": [
     {
      "level": 1,
-     "text": "トピック：",
+     "text": "セットリスト：",
      "ordered": false,
      "links": []
     },
@@ -3532,7 +3664,7 @@ window.KOTTO_EVENTS = {
    "details": [
     {
      "level": 1,
-     "text": "トピック：",
+     "text": "セットリスト：",
      "ordered": false,
      "links": []
     },
@@ -3591,7 +3723,7 @@ window.KOTTO_EVENTS = {
    "details": [
     {
      "level": 1,
-     "text": "トピック：",
+     "text": "セットリスト：",
      "ordered": false,
      "links": []
     },
@@ -3650,7 +3782,7 @@ window.KOTTO_EVENTS = {
    "details": [
     {
      "level": 1,
-     "text": "トピック：",
+     "text": "セットリスト：",
      "ordered": false,
      "links": []
     },
@@ -3709,7 +3841,7 @@ window.KOTTO_EVENTS = {
    "details": [
     {
      "level": 1,
-     "text": "トピック：",
+     "text": "セットリスト：",
      "ordered": false,
      "links": []
     },
@@ -3774,7 +3906,19 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 2,
-     "text": "出演予定だった月海まおの台だとして出演。",
+     "text": "出演予定だった月海まおの代打として出演。",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "共演：天音たると（ピューパ!!）, 寿々木ここね（SAKA-SAMA）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト：",
      "ordered": false,
      "links": []
     },
@@ -3839,7 +3983,13 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 2,
-     "text": "出演：琴山しずく、月海まお",
+     "text": "共演：今宵めみ, 明瀬美砂（ponderosa may bloom）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト：",
      "ordered": false,
      "links": []
     },
@@ -3898,7 +4048,7 @@ window.KOTTO_EVENTS = {
    "details": [
     {
      "level": 1,
-     "text": "トピック：",
+     "text": "セットリスト：",
      "ordered": false,
      "links": []
     },
@@ -3968,6 +4118,12 @@ window.KOTTO_EVENTS = {
      "links": []
     },
     {
+     "level": 1,
+     "text": "セットリスト：",
+     "ordered": false,
+     "links": []
+    },
+    {
      "level": 2,
      "text": "琴山しずく弾き語り",
      "ordered": false,
@@ -4029,12 +4185,6 @@ window.KOTTO_EVENTS = {
      "text": "トピック：",
      "ordered": false,
      "links": []
-    },
-    {
-     "level": 2,
-     "text": "トーク：琴山しずくソロ",
-     "ordered": false,
-     "links": []
     }
    ],
    "id": "e20250918-2a35",
@@ -4068,6 +4218,12 @@ window.KOTTO_EVENTS = {
     {
      "level": 2,
      "text": "hypermoshkotto初実装（全曲初披露）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト：",
      "ordered": false,
      "links": []
     },
@@ -4155,6 +4311,12 @@ window.KOTTO_EVENTS = {
      "links": []
     },
     {
+     "level": 1,
+     "text": "セットリスト：",
+     "ordered": false,
+     "links": []
+    },
+    {
      "level": 2,
      "text": "琴山しずく弾き語り",
      "ordered": false,
@@ -4238,6 +4400,12 @@ window.KOTTO_EVENTS = {
      "links": []
     },
     {
+     "level": 1,
+     "text": "セットリスト：",
+     "ordered": false,
+     "links": []
+    },
+    {
      "level": 2,
      "text": "琴山しずく弾き語り",
      "ordered": false,
@@ -4310,7 +4478,13 @@ window.KOTTO_EVENTS = {
    "details": [
     {
      "level": 1,
-     "text": "トピック：",
+     "text": "共演：多数のため省略",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト：",
      "ordered": false,
      "links": []
     },
@@ -4370,6 +4544,12 @@ window.KOTTO_EVENTS = {
     {
      "level": 2,
      "text": "テーマ：琴山が大好きなあのアーティストのカバーと自作曲の弾き語り",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト：",
      "ordered": false,
      "links": []
     },
@@ -4447,12 +4627,6 @@ window.KOTTO_EVENTS = {
      "text": "トピック：",
      "ordered": false,
      "links": []
-    },
-    {
-     "level": 2,
-     "text": "トーク：琴山しずく",
-     "ordered": false,
-     "links": []
     }
    ],
    "id": "e20260429-8f4e",
@@ -4480,6 +4654,12 @@ window.KOTTO_EVENTS = {
     {
      "level": 2,
      "text": "テーマ：RAY楽曲と自作曲の弾き語り",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト：",
      "ordered": false,
      "links": []
     },
@@ -4579,6 +4759,12 @@ window.KOTTO_EVENTS = {
      "links": []
     },
     {
+     "level": 1,
+     "text": "セットリスト：",
+     "ordered": false,
+     "links": []
+    },
+    {
      "level": 2,
      "text": "hypermoshkotto",
      "ordered": false,
@@ -4651,6 +4837,18 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 2,
+     "text": "共演：石田想太郎超現実館, 井上滉太郎（Pastel Tang Club）, 小林凜電話相談室",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
      "text": "hypermoshkotto",
      "ordered": false,
      "links": []
@@ -4717,6 +4915,18 @@ window.KOTTO_EVENTS = {
     {
      "level": 1,
      "text": "トピック：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "共演：百瀬円香（airattic）, 花丘くれは（ponderosa may bloom）, 小泉日菜莉（airattic）, 今宵めみ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト：",
      "ordered": false,
      "links": []
     },
@@ -4822,6 +5032,18 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 2,
+     "text": "共演：T.M.P",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
      "text": "hypermoshkotto",
      "ordered": false,
      "links": []
@@ -4900,6 +5122,12 @@ window.KOTTO_EVENTS = {
     {
      "level": 2,
      "text": "テーマ：弾き語り",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト：",
      "ordered": false,
      "links": []
     },
@@ -4989,6 +5217,12 @@ window.KOTTO_EVENTS = {
     {
      "level": 2,
      "text": "テーマ：誕生日パーティー",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト：",
      "ordered": false,
      "links": []
     },

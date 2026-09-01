@@ -345,6 +345,15 @@ window.KOTTO_SONGS = {
    ]
   },
   {
+   "title": "Rusty Days",
+   "formats": [
+    {
+     "name": "歌唱",
+     "count": 1
+    }
+   ]
+  },
+  {
    "title": "no title",
    "formats": [
     {
@@ -422,6 +431,15 @@ window.KOTTO_SONGS = {
     {
      "name": "琴山しずく弾き語り",
      "count": 3
+    }
+   ]
+  },
+  {
+   "title": "くじら12号（JUDY AND MARY）",
+   "formats": [
+    {
+     "name": "歌唱",
+     "count": 1
     }
    ]
   },
@@ -551,7 +569,7 @@ window.KOTTO_SONGS = {
    "formats": [
     {
      "name": "歌唱",
-     "count": 0
+     "count": 1
     },
     {
      "name": "琴山しずく弾き語り",
