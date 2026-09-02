@@ -230,6 +230,7 @@ ol.setlist li{margin:1px 0;color:var(--ink-2)}
 }
 .badge.red{border-color:#dcc3c4;background:var(--red-050);color:var(--red-700)}
 .badge.gold{border-color:#ddcda4;background:#fbf7ee;color:var(--gold-600)}
+.badge.status{border-color:#c8bfbc;background:#f3efee;color:var(--ink-2)}
 a.badge{text-decoration:none}
 a.badge:hover{border-color:var(--red-600);background:#fff}
 
@@ -274,6 +275,7 @@ dl.meta dd{margin:0;color:var(--ink-2)}
   background:#fff;border:2px solid var(--gold-500);
 }
 .tl-item.is-event::before{border-color:var(--red-600)}
+.tl-item.is-status::before{background:var(--ink-2);border-color:var(--ink-2)}
 .tl-body{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:12px 16px}
 .tl-meta{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:baseline}
 .tl-date{font-family:var(--serif);font-size:.85rem;color:var(--red-700);font-weight:700;white-space:nowrap}

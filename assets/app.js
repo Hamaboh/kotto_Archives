@@ -204,7 +204,7 @@
   var pages = {};
 
   pages.home = function () {
-    var ev = (window.KOTTO_EVENTS || {}).events || [];
+    var ev = ((window.KOTTO_EVENTS || {}).events || []).filter(function (e) { return e.kind !== 'status'; });
     var sg = window.KOTTO_SONGS || {};
     var dc = (window.KOTTO_DISCOGRAPHY || {}).albums || [];
     var md = (window.KOTTO_MEDIA || {}).media || [];
@@ -248,7 +248,8 @@
           (l.formation ? '<div class="lineup-form">' + esc(l.formation) + '</div>' : '') +
           (l.members && l.members.length ?
             '<div class="lineup-members">' + l.members.map(function (m) {
-              return '<span class="member' + (m === pf.name ? ' is-self' : '') + '">' + esc(m) + '</span>';
+              var flat = function (x) { return String(x || '').replace(/[\s\u3000]/g, ''); };
+              return '<span class="member' + (flat(m) === flat(pf.name) ? ' is-self' : '') + '">' + esc(m) + '</span>';
             }).join('') + '</div>' : '') +
         '</li>';
       }).join(''));
@@ -282,7 +283,8 @@
   }
 
   pages.events = function () {
-    var all = ((window.KOTTO_EVENTS || {}).events || []).slice();
+    /* kind: 'status'（活動休止・活動復帰など）はイベントページには掲載しない */
+    var all = ((window.KOTTO_EVENTS || {}).events || []).filter(function (e) { return e.kind !== 'status'; });
     var years = [];
     all.forEach(function (e) { if (years.indexOf(e.year) < 0) years.push(e.year); });
     years.sort();
@@ -329,10 +331,18 @@
 
     var items = [];
     ev.forEach(function (e) {
+      if (e.kind === 'status') {
+        var detail = (e.details || []).filter(function (d) { return d.level > 1; })
+          .map(function (d) { return d.text; }).join(' / ');
+        items.push({ date: e.date, kind: 'status', title: e.title,
+                     sub: (detail === e.title ? '' : detail), tags: ['活動状況'] });
+        return;
+      }
       items.push({ date: e.date, kind: 'event', title: e.title, sub: e.venue,
                    tags: ['イベント'], href: 'events.html#' + e.id, note: e.note });
     });
     ev.forEach(function (e) {
+      if (e.kind === 'status') return;
       (e.details || []).forEach(function (d) {
         var m = /^(.+?)(?:（(.+?)）)?\s*初披露$/.exec(d.text || '');
         if (!m) return;
@@ -375,15 +385,18 @@
       list.forEach(function (i) {
         var y = i.date.slice(0, 4);
         if (y !== cy) { cy = y; html += '<li><h2 class="tl-year anchor-offset" id="y' + y + '">' + y + '年</h2></li>'; }
-        html += '<li class="tl-item ' + (i.kind === 'event' ? 'is-event' : '') + '">' +
+        html += '<li class="tl-item ' + (i.kind === 'event' ? 'is-event' : i.kind === 'status' ? 'is-status' : '') + '">' +
           '<div class="tl-body">' +
             '<div class="tl-meta">' +
               '<span class="tl-date">' + esc(jpDate(i.date)) + '</span>' +
-              '<span class="tl-title"><a href="' + esc(i.href) + '">' + esc(i.title) + '</a></span>' +
+              '<span class="tl-title">' + (i.href ? '<a href="' + esc(i.href) + '">' + esc(i.title) + '</a>' : esc(i.title)) + '</span>' +
             '</div>' +
             (i.sub ? '<div class="tl-sub">' + esc(i.sub) + '</div>' : '') +
             (i.note ? '<p class="entry-note">' + esc(i.note) + '</p>' : '') +
-            '<div class="tl-tags">' + i.tags.map(function (t) { return '<span class="badge ' + (t === 'イベント' ? 'red' : 'gold') + '">' + esc(t) + '</span>'; }).join('') + '</div>' +
+            '<div class="tl-tags">' + i.tags.map(function (t) {
+              var cls = t === 'イベント' ? 'red' : t === '活動状況' ? 'status' : 'gold';
+              return '<span class="badge ' + cls + '">' + esc(t) + '</span>';
+            }).join('') + '</div>' +
           '</div></li>';
       });
       html += '</ul>';
