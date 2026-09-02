@@ -106,7 +106,7 @@
         if (!filler.children.length) filler.children.push({ text: '', links: [], children: [] });
         stack.push(filler.children[filler.children.length - 1]);
       }
-      var node = { text: d.text, links: d.links || [], ordered: !!d.ordered, children: [] };
+      var node = { text: d.text, links: d.links || [], ordered: !!d.ordered, menu: d.menu || null, children: [] };
       stack[stack.length - 1].children.push(node);
       stack.push(node);
     });
@@ -118,11 +118,25 @@
     var tag = ordered ? 'ol' : 'ul';
     var cls = top ? ' class="detail"' : (ordered ? ' class="setlist"' : '');
     return '<' + tag + cls + '>' + nodes.map(function (n) {
-      var text = esc(n.text);
-      (n.links || []).forEach(function (l) {
-        var lab = esc(l.label);
-        text = text.split(lab).join('<a href="' + esc(l.url) + '" target="_blank" rel="noopener noreferrer">' + lab + '</a>');
-      });
+      var text;
+      if (n.menu && n.menu.length) {
+        /* リンクが複数ある項目は、ホバー（またはクリック）で選ばせるメニューにする */
+        text = '<span class="linkmenu">' +
+          '<button type="button" class="linkmenu-trigger" aria-haspopup="true" aria-expanded="false">' +
+            esc(n.text) + '</button>' +
+          '<span class="linkmenu-pop" role="menu">' +
+            n.menu.map(function (mi) {
+              return '<a role="menuitem" href="' + esc(mi.url) + '" target="_blank" rel="noopener noreferrer">' +
+                     esc(mi.label) + '</a>';
+            }).join('') +
+          '</span></span>';
+      } else {
+        text = esc(n.text);
+        (n.links || []).forEach(function (l) {
+          var lab = esc(l.label);
+          text = text.split(lab).join('<a href="' + esc(l.url) + '" target="_blank" rel="noopener noreferrer">' + lab + '</a>');
+        });
+      }
       return '<li>' + text + renderNodes(n.children, false) + '</li>';
     }).join('') + '</' + tag + '>';
   }
@@ -560,9 +574,19 @@
     setHtml('count', '全 ' + md.length + ' 企画');
     setHtml('list', md.map(function (m, i) {
       var items = m.items || [];
+      var goName = m.title.replace(/（.*$/, '').replace(/^#/, '').trim();
       var meta = (m.meta || []).map(function (x) {
         var val = x.value || (x.children && x.children.length ? x.children.join('／') : '');
-        return '<div class="meta-row"><dt>' + esc(x.label) + '</dt><dd>' + (val ? esc(val) : '<span class="chk-off">未整理</span>') + '</dd></div>';
+        var body;
+        if (x.links && x.links.length) {
+          body = x.links.map(function (l) {
+            return '<a href="' + esc(l.url) + '" target="_blank" rel="noopener noreferrer">' +
+                   esc(goName + 'へ移動') + '</a>';
+          }).join(' ');
+        } else {
+          body = val ? esc(val) : '<span class="chk-off">未整理</span>';
+        }
+        return '<div class="meta-row"><dt>' + esc(x.label) + '</dt><dd>' + body + '</dd></div>';
       }).join('');
       var rel = (m.related || []);
       return '<section class="section anchor-offset" id="' + esc('m' + (i + 1)) + '">' +
@@ -588,6 +612,18 @@
   };
 
   /* ---------- 起動 ---------- */
+  /* リンクメニュー：ホバーで開く。タッチ端末向けにクリックでも開閉する */
+  document.addEventListener('click', function (e) {
+    var t = e.target.closest ? e.target.closest('.linkmenu-trigger') : null;
+    Array.prototype.forEach.call(document.querySelectorAll('.linkmenu.is-open'), function (m) {
+      if (!t || m !== t.parentNode) { m.classList.remove('is-open'); }
+    });
+    if (!t) return;
+    e.preventDefault();
+    var open = t.parentNode.classList.toggle('is-open');
+    t.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+
   document.addEventListener('DOMContentLoaded', function () {
     chrome();
     var p = document.body.getAttribute('data-page');
