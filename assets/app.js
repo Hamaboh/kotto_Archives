@@ -59,7 +59,7 @@
         '<ul class="fnav">' + nav + '</ul>' +
         '<p>' + esc(SITE.footerNote) + '</p>' +
         '<p>&copy; ' + new Date().getFullYear() + ' ' + esc(SITE.title) + '</p>' +
-        '<a class="to-top" href="#top">▲ ページ上部へ</a>' +
+        '<a class="to-top" href="#top">ページ上部へ</a>' +
       '</div>';
 
     var mount = q('site-header-mount');
@@ -72,7 +72,7 @@
   function linksHtml(links) {
     if (!links || !links.length) return '';
     return '<ul class="entry-links">' + links.map(function (l) {
-      return '<li><a href="' + esc(l.url) + '" target="_blank" rel="noopener noreferrer">' + esc(l.label || 'リンク') + ' ↗</a></li>';
+      return '<li><a href="' + esc(l.url) + '" target="_blank" rel="noopener noreferrer">' + esc(l.label || 'リンク') + '</a></li>';
     }).join('') + '</ul>';
   }
 
@@ -133,7 +133,7 @@
     }
     if (!primary) return esc(e.title);   /* 告知URLが未登録のイベントはテキスト表示 */
     return '<a class="title-link" href="' + esc(primary.url) + '" target="_blank" rel="noopener noreferrer">' +
-           esc(e.title) + '<span class="ext">\u2197</span></a>';
+           esc(e.title) + '</a>';
   }
   function eventHtml(e, opts) {
     opts = opts || {};
@@ -267,7 +267,7 @@
         return (g ? '<li class="account-group">' + esc(g) + '</li>' : '') +
           byGroup[g].map(function (a) {
             var body = a.url
-              ? '<a href="' + esc(a.url) + '" target="_blank" rel="noopener noreferrer">' + esc(a.text || a.label) + ' \u2197</a>'
+              ? '<a href="' + esc(a.url) + '" target="_blank" rel="noopener noreferrer">' + esc(a.text || a.label) + '</a>'
               : esc(a.text || '—');
             return '<li class="account"><span class="account-label">' + esc(a.label) + '</span>' +
                    '<span class="account-text">' + body + '</span></li>';
@@ -501,7 +501,7 @@
               '<td>' + ((it.urls || []).map(function (u) {
                 var lbl = /note\.com/.test(u) ? 'note' : /tiktok\.com/.test(u) ? 'TikTok' :
                           /x\.com|twitter\.com/.test(u) ? 'X' : /youtube|youtu\.be/.test(u) ? 'YouTube' : 'リンク';
-                return '<a class="badge red" href="' + esc(u) + '" target="_blank" rel="noopener noreferrer">' + lbl + ' \u2197</a>';
+                return '<a class="badge red" href="' + esc(u) + '" target="_blank" rel="noopener noreferrer">' + lbl + '</a>';
               }).join(' ') || '<span class="chk-off">—</span>') + '</td></tr>';
           }).join('') + '</tbody></table></div>'
           : '<p class="empty">個別の記録は未整理です。</p>') +

@@ -139,8 +139,6 @@ main{padding:32px 0 64px}
 .entry-title{font-size:1.05rem;font-weight:700;margin:0;line-height:1.6}
 .entry-title a.title-link{color:var(--ink);text-decoration:none}
 .entry-title a.title-link:hover{color:var(--red-700);text-decoration:underline}
-.entry-title .ext{font-size:.72em;color:var(--gold-600);margin-left:.35em;vertical-align:.1em}
-.entry-title a.title-link:hover .ext{color:var(--red-600)}
 .entry-venue{font-size:.82rem;color:var(--muted)}
 .entry-venue::before{content:"／ ";color:var(--line)}
 .entry-note{
