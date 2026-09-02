@@ -124,12 +124,23 @@
     return renderNodes(nestDetails(details), true);
   }
 
+  /* イベント名に告知投稿へのリンクを張る。URL 未登録のイベントはテキストのまま。 */
+  function titleHtml(e) {
+    var links = e.links || [];
+    var primary = null;
+    for (var i = 0; i < links.length; i++) {
+      if (links[i].label === 'Xのイベント告知投稿') { primary = links[i]; break; }
+    }
+    if (!primary) return esc(e.title);   /* 告知URLが未登録のイベントはテキスト表示 */
+    return '<a class="title-link" href="' + esc(primary.url) + '" target="_blank" rel="noopener noreferrer">' +
+           esc(e.title) + '<span class="ext">\u2197</span></a>';
+  }
   function eventHtml(e, opts) {
     opts = opts || {};
     return '<article class="entry anchor-offset" id="' + esc(e.id) + '">' +
       '<div class="entry-head">' +
         '<span class="entry-date">' + esc(jpDate(e.date)) + '</span>' +
-        '<h3 class="entry-title">' + esc(e.title) + '</h3>' +
+        '<h3 class="entry-title">' + titleHtml(e) + '</h3>' +
         (e.venue ? '<span class="entry-venue">' + esc(e.venue) + '</span>' : '') +
       '</div>' +
       (e.note ? '<p class="entry-note">' + esc(e.note) + '</p>' : '') +
@@ -192,19 +203,6 @@
   /* ---------- 各ページの描画 ---------- */
   var pages = {};
 
-  /* 「2021年7月3日～2026年9月23日」→「2021/07/03 - 2026/09/23」
-     トップ画面の活動期間はこの表記で統一する */
-  function slashRange(text) {
-    if (!text) return '';
-    var d = String(text).match(/(\d{4})年(\d{1,2})月(\d{1,2})日/g);
-    if (!d || d.length < 2) return text;
-    var f = function (x) {
-      var m = /(\d{4})年(\d{1,2})月(\d{1,2})日/.exec(x);
-      return m[1] + '/' + ('0' + m[2]).slice(-2) + '/' + ('0' + m[3]).slice(-2);
-    };
-    return f(d[0]) + ' - ' + f(d[d.length - 1]);
-  }
-
   pages.home = function () {
     var ev = (window.KOTTO_EVENTS || {}).events || [];
     var sg = window.KOTTO_SONGS || {};
@@ -222,16 +220,15 @@
 
     /* 活動期間はプロフィールの記載を優先し、無ければイベント記録の最初と最後から算出 */
     var period = (window.KOTTO_EVENTS || {}).period || {};
-    var slash = function (iso) { return (iso || '').replace(/-/g, '/'); };
-    var label = pf.active ? slashRange(pf.active)
-              : ((period.from && period.to) ? slash(period.from) + ' - ' + slash(period.to) : '');
+    var label = pf.active
+              || ((period.from && period.to) ? jpDate(period.from) + '～' + jpDate(period.to) : '');
     setHtml('period-label', label);
 
     /* プロフィール */
     var rows = [];
     if (pf.name) rows.push(['名前', esc(pf.name) + (pf.reading ? ' <span class="reading">（' + esc(pf.reading) + '）</span>' : '')]);
     if (pf.birthday) rows.push(['生年月日', esc(pf.birthday)]);
-    if (pf.active) rows.push(['活動期間', esc(slashRange(pf.active))]);
+    if (pf.active) rows.push(['活動期間', esc(pf.active)]);
     if (rows.length) {
       setHtml('profile', rows.map(function (r) {
         return '<div class="meta-row"><dt>' + r[0] + '</dt><dd>' + r[1] + '</dd></div>';
