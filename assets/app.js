@@ -142,6 +142,7 @@
         '<span class="entry-date">' + esc(jpDate(e.date)) + '</span>' +
         '<h3 class="entry-title">' + titleHtml(e) + '</h3>' +
         (e.venue ? '<span class="entry-venue">' + esc(e.venue) + '</span>' : '') +
+        (e.oneman ? '<span class="badge gold">ワンマンライブ</span>' : '') +
       '</div>' +
       (e.note ? '<p class="entry-note">' + esc(e.note) + '</p>' : '') +
       (opts.hideDetails ? '' : detailsBlock(e.details)) +
@@ -288,7 +289,7 @@
     var years = [];
     all.forEach(function (e) { if (years.indexOf(e.year) < 0) years.push(e.year); });
     years.sort();
-    var state = { year: 'all', kw: '' };
+    var state = { year: 'all', kw: '', oneman: false };
 
     setHtml('year-chips',
       '<button class="chip" type="button" data-year="all" aria-pressed="true">すべて</button>' +
@@ -300,6 +301,7 @@
     function draw() {
       var list = all.filter(function (e) {
         if (state.year !== 'all' && String(e.year) !== String(state.year)) return false;
+        if (state.oneman && !e.oneman) return false;
         if (state.kw && flat(e).indexOf(state.kw) < 0) return false;
         return true;
       });
@@ -321,6 +323,12 @@
       draw();
     });
     q('kw').addEventListener('input', function () { state.kw = this.value.trim().toLowerCase(); draw(); });
+    var om = q('oneman-chip');
+    if (om) om.addEventListener('click', function () {
+      state.oneman = !state.oneman;
+      this.setAttribute('aria-pressed', state.oneman ? 'true' : 'false');
+      draw();
+    });
     draw();
   };
 
@@ -471,12 +479,17 @@
     setHtml('covers-count', '全 ' + cov.length + ' 曲');
     setHtml('covers',
       '<div class="table-wrap sticky-head"><table class="covers-table"><thead><tr>' +
-      '<th>楽曲名</th><th>披露形態</th><th>披露回数</th>' +
+      '<th>楽曲名</th><th>原曲アーティスト</th><th>披露形態</th><th>披露回数</th><th>初披露イベント</th>' +
       '</tr></thead><tbody>' +
       cov.map(function (c) {
+        var ev = c.first
+          ? '<a href="events.html#' + esc(c.first.event_id) + '">' + esc(c.first.event) + '</a>'
+          : '<span class="chk-off">—</span>';
         return '<tr><td class="song">' + esc(c.title) + '</td>' +
+          '<td>' + (c.artist ? esc(c.artist) : '<span class="chk-off">—</span>') + '</td>' +
           '<td>' + fmtBadges(c.formats) + '</td>' +
-          '<td>' + fmtCounts(c.formats) + '</td></tr>';
+          '<td>' + fmtCounts(c.formats) + '</td>' +
+          '<td class="ev-cell">' + ev + '</td></tr>';
       }).join('') + '</tbody></table></div>');
 
     initStickyHeads();
@@ -498,6 +511,12 @@
           a.tracks.map(function (t, n) {
             return '<tr><td>' + (n + 1) + '</td><td class="song">' + esc(t) + '</td></tr>';
           }).join('') + '</tbody></table></div>' +
+        ((a.subs || []).length ? '<h4 class="sub-head">サブスクリプション</h4><ul class="entry-links">' +
+          a.subs.map(function (x) {
+            return x.url
+              ? '<li><a href="' + esc(x.url) + '" target="_blank" rel="noopener noreferrer">' + esc(x.label) + '</a></li>'
+              : '<li><span class="badge">' + esc(x.label) + '（未登録）</span></li>';
+          }).join('') + '</ul>' : '') +
         (rel.length ? '<h4 class="sub-head">' + esc(a.relation_label || '関連する記録') + '</h4><ul class="detail">' +
           rel.map(function (r) {
             return '<li><a href="events.html#' + esc(r.event_id) + '">' + esc(jpDate(r.date)) + '｜' + esc(r.event) + '</a></li>';

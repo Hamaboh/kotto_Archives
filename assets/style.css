@@ -141,6 +141,7 @@ main{padding:32px 0 64px}
 .entry-title a.title-link:hover{color:var(--red-700);text-decoration:underline}
 .entry-venue{font-size:.82rem;color:var(--muted)}
 .entry-venue::before{content:"／ ";color:var(--line)}
+.entry-head .badge{margin:0}
 .entry-note{
   margin:8px 0 0;padding:8px 12px;font-size:.8rem;color:var(--ink-2);
   background:var(--gold-100);border-left:3px solid var(--gold-500);border-radius:4px;
@@ -178,10 +179,15 @@ table.songs-table{table-layout:fixed;min-width:920px}
 .songs-table th:nth-child(4),.songs-table td:nth-child(4){width:10%}
 .songs-table th:nth-child(5),.songs-table td:nth-child(5){width:22%}
 .songs-table th:nth-child(6),.songs-table td:nth-child(6){width:24%}
-table.covers-table{table-layout:fixed;min-width:760px}
-.covers-table th:nth-child(1),.covers-table td:nth-child(1){width:36%}
-.covers-table th:nth-child(2),.covers-table td:nth-child(2){width:32%}
-.covers-table th:nth-child(3),.covers-table td:nth-child(3){width:32%}
+table.covers-table{table-layout:fixed;min-width:940px}
+.covers-table th:nth-child(1),.covers-table td:nth-child(1){width:24%}
+.covers-table th:nth-child(2),.covers-table td:nth-child(2){width:18%}
+.covers-table th:nth-child(3),.covers-table td:nth-child(3){width:17%}
+.covers-table th:nth-child(4),.covers-table td:nth-child(4){width:19%}
+.covers-table th:nth-child(5),.covers-table td:nth-child(5){width:22%}
+td.ev-cell{font-size:.84rem}
+td.ev-cell a{text-decoration:none}
+td.ev-cell a:hover{text-decoration:underline}
 .songs-table .badge,.covers-table .badge{font-size:.68rem;padding:2px 7px}
 table.tracklist td:first-child{width:3.5em;color:var(--muted)}
 
