@@ -126,21 +126,9 @@ window.KOTTO_EVENTS = {
      "level": 1,
      "text": "ワンマンライブ解説",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 2,
-     "text": "テキスト：ワンマンライブ解説",
-     "ordered": false,
-     "links": []
-    },
-    {
-     "level": 2,
-     "text": "URL：https://x.com/_RAY_world/status/1411304698494152715?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/1411304698494152715?s=20",
+       "label": "ワンマンライブ解説",
        "url": "https://x.com/_RAY_world/status/1411304698494152715?s=20"
       }
      ]
@@ -1110,23 +1098,11 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 1,
-     "text": "ワンマンライブ解説：",
-     "ordered": false,
-     "links": []
-    },
-    {
-     "level": 2,
-     "text": "テキスト：ワンマンライブ解説：",
-     "ordered": false,
-     "links": []
-    },
-    {
-     "level": 2,
-     "text": "URL：https://x.com/_RAY_world/status/1485230843022897154?s=20",
+     "text": "ワンマンライブ解説",
      "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/1485230843022897154?s=20",
+       "label": "ワンマンライブ解説",
        "url": "https://x.com/_RAY_world/status/1485230843022897154?s=20"
       }
      ]
@@ -1559,21 +1535,9 @@ window.KOTTO_EVENTS = {
      "level": 2,
      "text": "ワンマン特設サイト",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 3,
-     "text": "テキスト：ワンマン特設サイト",
-     "ordered": false,
-     "links": []
-    },
-    {
-     "level": 3,
-     "text": "URL：https://sovaray.wixsite.com/works-interview",
-     "ordered": false,
      "links": [
       {
-       "label": "https://sovaray.wixsite.com/works-interview",
+       "label": "ワンマン特設サイト",
        "url": "https://sovaray.wixsite.com/works-interview"
       }
      ]
@@ -1654,21 +1618,9 @@ window.KOTTO_EVENTS = {
      "level": 2,
      "text": "ワンマンライブ解説",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 3,
-     "text": "テキスト：ワンマンライブ解説",
-     "ordered": false,
-     "links": []
-    },
-    {
-     "level": 3,
-     "text": "URL：https://x.com/_RAY_world/status/1523293070892347394?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/1523293070892347394?s=20",
+       "label": "ワンマンライブ解説",
        "url": "https://x.com/_RAY_world/status/1523293070892347394?s=20"
       }
      ]
