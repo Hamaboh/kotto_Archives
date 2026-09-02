@@ -1,14 +1,14 @@
 /* profile — 琴山しずく アーカイブ データ（このファイルを編集すると各ページに反映されます） */
 window.KOTTO_PROFILE = {
- "name": "琴山しずく",
- "reading": "ことやましずく",
+ "name": "琴山 しずく",
+ "reading": "ことやま しずく",
  "birthday": "1996年8月29日",
  "active": "2021年7月3日～2026年9月23日",
  "lineups": [
   {
    "period": "2021年7月3日～2022年7月23日",
    "duration": "1年0ヶ月21日",
-   "formation": "4人",
+   "formation": "RAY4人体制",
    "members": [
     "内山結愛",
     "甲斐莉乃",
@@ -40,7 +40,7 @@ window.KOTTO_PROFILE = {
   {
    "period": "2025年5月5日～2025年12月29日",
    "duration": "0年7ヶ月25日",
-   "formation": "4人",
+   "formation": "RAY4人体制",
    "members": [
     "内山結愛",
     "琴山しずく",
@@ -51,7 +51,7 @@ window.KOTTO_PROFILE = {
   {
    "period": "2025年12月30日～2026年9月23日",
    "duration": "0年9ヶ月25日",
-   "formation": "5人",
+   "formation": "RAY5人体制",
    "members": [
     "内山結愛",
     "琴山しずく",
