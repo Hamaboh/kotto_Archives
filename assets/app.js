@@ -340,6 +340,16 @@
       }
       items.push({ date: e.date, kind: 'event', title: e.title, sub: e.venue,
                    tags: ['イベント'], href: 'events.html#' + e.id, note: e.note });
+
+      /* トピックからデビュー・卒業を活動状況として抽出 */
+      (e.details || []).forEach(function (d) {
+        var t = d.text || '', name = '';
+        if (/デビュー/.test(t)) name = 'RAYデビュー';
+        else if (/卒業/.test(t)) name = 'RAY卒業';
+        if (!name) return;
+        items.push({ date: e.date, kind: 'status', title: name, sub: t,
+                     tags: ['活動状況'], href: 'events.html#' + e.id });
+      });
     });
     ev.forEach(function (e) {
       if (e.kind === 'status') return;
