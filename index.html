@@ -26,6 +26,11 @@
 </div>
 <main id="main">
   <div class="container">
+    <section class="section" id="profile-sec">
+      <h2>プロフィール</h2>
+      <dl class="meta" id="profile"></dl>
+    </section>
+
     <div class="stats" id="stats"></div>
     <ul class="menu-grid">
       <li><a class="menu-card" href="history.html">
@@ -59,6 +64,17 @@
         <span class="go">見る →</span>
       </a></li>
     </ul>
+    <section class="section" id="lineup-sec">
+      <h2>RAY 体制の変遷<span class="count" id="lineup-count"></span></h2>
+      <p class="desc">琴山しずくさんの在籍中における RAY の体制です。</p>
+      <ul class="lineups" id="lineups"></ul>
+    </section>
+
+    <section class="section" id="account-sec">
+      <h2>アカウント</h2>
+      <ul class="accounts" id="accounts"></ul>
+    </section>
+
     <div class="notice">
       <strong>写真について</strong>：現在は写真を掲載していません。<code>images/</code> フォルダに画像を追加し、<code>data/</code> 内の各データの <code>images</code> 項目にファイル名を書き加えると、該当箇所に写真が表示されます。詳しくはリポジトリの README を参照してください。
     </div>
@@ -69,6 +85,7 @@
   <script src="data/songs.js"></script>
   <script src="data/discography.js"></script>
   <script src="data/media.js"></script>
+  <script src="data/profile.js"></script>
   <script src="assets/app.js"></script>
 </body>
 </html>
