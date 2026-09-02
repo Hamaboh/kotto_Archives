@@ -290,11 +290,16 @@ dl.meta dd{margin:0;color:var(--ink-2)}
 .tl-title a{text-decoration:none}
 .tl-title a:hover{text-decoration:underline}
 .tl-sub{font-size:.8rem;color:var(--muted);overflow-wrap:anywhere}
-.tl-status{margin:8px 0 0;padding:8px 12px;background:var(--red-050);
-  display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px}
-.tl-status-name{font-weight:700;font-size:.9rem;color:var(--red-700)}
-.tl-status-note{font-size:.8rem;color:var(--ink-2)}
-.tl-item.has-status::before{background:var(--red-700);border-color:var(--red-700)}
+.tl-extras{list-style:none;margin:8px 0 0;padding:0}
+.tl-extras .ex{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;
+  padding:6px 12px;margin:0 0 3px;background:var(--paper-2)}
+.tl-extras .ex-name{font-weight:700;font-size:.84rem;white-space:nowrap}
+.tl-extras .ex-note{font-size:.82rem;color:var(--ink-2)}
+.ex-status{background:var(--red-050)}
+.ex-status .ex-name{color:var(--red-700)}
+.ex-song .ex-name{color:var(--gold-600)}
+.ex-release .ex-name{color:var(--ink-2)}
+.tl-item.has-extra::before{background:var(--red-700);border-color:var(--red-700)}
 .tl-tags{margin-top:6px}
 
 /* ---------- photo slots (写真は後日追加) ---------- */

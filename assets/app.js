@@ -350,49 +350,62 @@
     var dc = (window.KOTTO_DISCOGRAPHY || {}).albums || [];
     var md = (window.KOTTO_MEDIA || {}).media || [];
 
-    var items = [];
+    var items = [], byId = {}, byDate = {};
+
     ev.forEach(function (e) {
       if (e.kind === 'status') {
         var detail = (e.details || []).filter(function (d) { return d.level > 1; })
           .map(function (d) { return d.text; }).join(' / ');
         items.push({ date: e.date, kind: 'status', kinds: ['status'], title: e.title,
-                     sub: (detail === e.title ? '' : detail), tags: ['活動状況'] });
+                     sub: (detail === e.title ? '' : detail), tags: ['活動状況'], extras: [] });
         return;
       }
-      /* トピックからデビュー・卒業を抽出し、イベントと同じブロックに統合する */
-      var statuses = [];
-      (e.details || []).forEach(function (d) {
-        var t = d.text || '', name = '';
-        if (!/琴山\s*しずく/.test(t)) return;   /* 他メンバーの卒業などは対象外 */
-        if (/デビュー/.test(t)) name = 'RAYデビュー';
-        else if (/卒業/.test(t)) name = 'RAY卒業';
-        if (name) statuses.push({ name: name, note: t });
-      });
-      items.push({ date: e.date, kind: 'event',
-                   kinds: statuses.length ? ['event', 'status'] : ['event'],
-                   title: e.title, sub: e.venue, statuses: statuses,
-                   tags: statuses.length ? ['イベント', '活動状況'] : ['イベント'],
-                   href: 'events.html#' + e.id, note: e.note });
-    });
-    ev.forEach(function (e) {
-      if (e.kind === 'status') return;
-      (e.details || []).forEach(function (d) {
-        var m = /^(.+?)(?:（(.+?)）)?\s*初披露$/.exec(d.text || '');
-        if (!m) return;
-        if (/[：:]/.test(m[1])) return;   // 「RAY：新曲「◯◯」初披露」など、琴山しずく以外の初披露は除外
-        items.push({ date: e.date, kind: 'song', kinds: ['song'], title: '「' + m[1].trim() + '」初披露',
-                     sub: (m[2] ? m[2] + '／' : '') + e.title, tags: ['楽曲'],
-                     href: 'events.html#' + e.id });
+
+      var item = { date: e.date, kind: 'event', kinds: ['event'], title: e.title, sub: e.venue,
+                   tags: ['イベント'], href: 'events.html#' + e.id, note: e.note, extras: [] };
+      items.push(item);
+      byId[e.id] = item;
+      (byDate[e.date] = byDate[e.date] || []).push(item);
+
+      /* 同じ日の記録は独立させず、このイベントのブロックへまとめる */
+      var ds = e.details || [];
+      ds.forEach(function (d, i) {
+        var t = d.text || '';
+        /* 見出し（下位項目を持つ行）は楽曲名ではないので対象外 */
+        if (ds[i + 1] && ds[i + 1].level > d.level) return;
+
+        if (/琴山\s*しずく/.test(t)) {
+          if (/デビュー/.test(t)) addExtra(item, 'status', 'RAYデビュー', t);
+          else if (/卒業/.test(t)) addExtra(item, 'status', 'RAY卒業', t);
+        }
+        var m = /^(.+?)(?:（(.+?)）)?\s*初披露$/.exec(t);
+        if (m && !/[：:]$/.test(m[1])) {
+          addExtra(item, 'song', '初披露', '「' + m[1].trim() + '」' + (m[2] ? '（' + m[2] + '）' : ''));
+        }
       });
     });
+
+    function addExtra(item, kind, name, note) {
+      item.extras.push({ kind: kind, name: name, note: note });
+      var tag = kind === 'song' ? '楽曲' : kind === 'release' ? 'ディスコグラフィー' : '活動状況';
+      if (item.tags.indexOf(tag) < 0) item.tags.push(tag);
+      if (item.kinds.indexOf(kind) < 0) item.kinds.push(kind);
+    }
+
     dc.forEach(function (a) {
-      if (a.release) {
-        var relEv = (a.relation_label === '発売開始イベント' && a.related && a.related.length) ? a.related[0].event : '';
-        items.push({ date: a.release, kind: 'release', kinds: ['release'], title: '『' + a.title + '』リリース',
-                     sub: relEv,
-                     tags: ['ディスコグラフィー'], href: 'discography.html' });
-      }
+      if (!a.release) return;
+      /* 同じ日のイベントがあればそのブロックに統合、なければ独立した記録として扱う */
+      var host = null;
+      (a.related || []).forEach(function (r) {
+        if (!host && r.date === a.release && byId[r.event_id]) host = byId[r.event_id];
+      });
+      if (!host && byDate[a.release] && byDate[a.release].length) host = byDate[a.release][0];
+      if (host) { addExtra(host, 'release', 'リリース', '『' + a.title + '』'); return; }
+      items.push({ date: a.release, kind: 'release', kinds: ['release'],
+                   title: '『' + a.title + '』リリース', sub: '',
+                   tags: ['ディスコグラフィー'], href: 'discography.html', extras: [] });
     });
+
     md.forEach(function (m) {
       if (!m.items || !m.items.length) return;
       var dated = m.items.map(function (i) { return { iso: isoOf(i.date), title: i.title }; })
@@ -421,17 +434,18 @@
         var y = i.date.slice(0, 4);
         if (y !== cy) { cy = y; html += '<li><h2 class="tl-year anchor-offset" id="y' + y + '">' + y + '年</h2></li>'; }
         html += '<li class="tl-item ' + (i.kind === 'event' ? 'is-event' : i.kind === 'status' ? 'is-status' : '') +
-          ((i.statuses || []).length ? ' has-status' : '') + '">' +
+          ((i.extras || []).length ? ' has-extra' : '') + '">' +
           '<div class="tl-body">' +
             '<div class="tl-meta">' +
               '<span class="tl-date">' + esc(jpDate(i.date)) + '</span>' +
               '<span class="tl-title">' + (i.href ? '<a href="' + esc(i.href) + '">' + esc(i.title) + '</a>' : esc(i.title)) + '</span>' +
             '</div>' +
             (i.sub ? '<div class="tl-sub">' + esc(i.sub) + '</div>' : '') +
-            ((i.statuses || []).length ? '<div class="tl-status">' + i.statuses.map(function (st) {
-                return '<span class="tl-status-name">' + esc(st.name) + '</span>' +
-                       '<span class="tl-status-note">' + esc(st.note) + '</span>';
-              }).join('') + '</div>' : '') +
+            ((i.extras || []).length ? '<ul class="tl-extras">' + i.extras.map(function (x) {
+                return '<li class="ex ex-' + esc(x.kind) + '">' +
+                       '<span class="ex-name">' + esc(x.name) + '</span>' +
+                       '<span class="ex-note">' + esc(x.note) + '</span></li>';
+              }).join('') + '</ul>' : '') +
             (i.note ? '<p class="entry-note">' + esc(i.note) + '</p>' : '') +
             '<div class="tl-tags">' + i.tags.map(function (t) {
               var cls = t === 'イベント' ? 'red' : t === '活動状況' ? 'status' : 'gold';
