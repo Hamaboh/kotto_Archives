@@ -37,11 +37,11 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 2,
-     "text": "新RAYロゴお披露目（https://x.com/_RAY_world/status/1411323162281668616?s=20）",
+     "text": "新RAYロゴお披露目",
      "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/1411323162281668616?s=20",
+       "label": "新RAYロゴお披露目",
        "url": "https://x.com/_RAY_world/status/1411323162281668616?s=20"
       }
      ]
@@ -4258,18 +4258,13 @@ window.KOTTO_EVENTS = {
      "level": 2,
      "text": "INTERVIEW：愛海 × 内山結愛 × 琴山しずく × 紬実詩",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 3,
-     "text": "配信URL：https://www.youtube.com/watch?v=84tPuD7MVmw&t=84s",
-     "ordered": false,
      "links": [
       {
-       "label": "https://www.youtube.com/watch?v=84tPuD7MVmw&t=84s",
+       "label": "INTERVIEW：愛海 × 内山結愛 × 琴山しずく × 紬実詩",
        "url": "https://www.youtube.com/watch?v=84tPuD7MVmw&t=84s"
       }
-     ]
+     ],
+     "linkText": true
     }
    ],
    "kind": "event",
@@ -6855,18 +6850,13 @@ window.KOTTO_EVENTS = {
      "level": 3,
      "text": "涙のいた場所（作曲：ハタユウスケ / cruuyff in the bedroom）",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 4,
-     "text": "https://x.com/_RAY_world/status/1919009954520007133?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/1919009954520007133?s=20",
+       "label": "涙のいた場所（作曲：ハタユウスケ / cruuyff in the bedroom）",
        "url": "https://x.com/_RAY_world/status/1919009954520007133?s=20"
       }
-     ]
+     ],
+     "linkText": true
     },
     {
      "level": 2,
