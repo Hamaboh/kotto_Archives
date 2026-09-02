@@ -25,21 +25,125 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 2,
+     "text": "琴山しずく：RAYで活動開始",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
      "text": "琴山しずくソロ「尊しあなたのすべてを」披露でRAYデビュー",
      "ordered": false,
      "links": []
     },
     {
      "level": 2,
-     "text": "RAY：新曲「moment」初披露",
+     "text": "新RAYロゴお披露目（https://x.com/_RAY_world/status/1411323162281668616?s=20）",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1411323162281668616?s=20",
+       "url": "https://x.com/_RAY_world/status/1411323162281668616?s=20"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "text": "新曲初披露：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "moment（作曲：Couple）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "URL：https://x.com/_RAY_world/status/1411324833359486982?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1411324833359486982?s=20",
+       "url": "https://x.com/_RAY_world/status/1411324833359486982?s=20"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "text": "新衣装初披露：3rd衣装",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "URL：https://x.com/_RAY_world/status/1411322342312058884?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1411322342312058884?s=20",
+       "url": "https://x.com/_RAY_world/status/1411322342312058884?s=20"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "text": "ファン参加型Twitter企画「#私とRAYのmoment」",
      "ordered": false,
      "links": []
     },
     {
      "level": 2,
-     "text": "衣装：2nd衣装⇒3rd衣装",
+     "text": "新ロゴグッズ発売",
      "ordered": false,
      "links": []
+    },
+    {
+     "level": 3,
+     "text": "Tシャツ（黒, 白）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "マフラータオル",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "クージー（黒, ライトイエロー）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "おもいでしゃしん -moment編-",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "ワンマンライブ解説",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "テキスト：ワンマンライブ解説",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "URL：https://x.com/_RAY_world/status/1411304698494152715?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1411304698494152715?s=20",
+       "url": "https://x.com/_RAY_world/status/1411304698494152715?s=20"
+      }
+     ]
     },
     {
      "level": 1,
@@ -56,6 +160,192 @@ window.KOTTO_EVENTS = {
     {
      "level": 3,
      "text": "尊しあなたのすべてを",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト（全体）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "本編",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "RAY3人体制",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "わたし夜に泳ぐの",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "バタフライエフェクト",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "スライド",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "ネモフィラ",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "レジグナチオン",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "サテライト",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "愛はどこいったの？",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "サイン",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "17",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "GENERATION",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "オールニードイズラブ",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "コハルヒ",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "RAY各メンバーソロパート",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "内山結愛",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 5,
+     "text": "世界の終わりは君とふたりで",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "甲斐莉乃",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 5,
+     "text": "Rusty Days",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "月日",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 5,
+     "text": "シルエット",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "琴山しずく",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 5,
+     "text": "尊しあなたのすべてを",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "RAY4人体勢",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "no title",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "星に願いを",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "Fading Lights",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "バタフライエフェクト",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "Encore",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "moment",
      "ordered": true,
      "links": []
     }
@@ -506,6 +796,485 @@ window.KOTTO_EVENTS = {
    "note": ""
   },
   {
+   "date": "2022-01-23",
+   "year": 2022,
+   "title": "RAY 4th one-man live -PRISM-",
+   "venue": "恵比寿 LIQUIDROOM",
+   "links": [],
+   "details": [
+    {
+     "level": 1,
+     "text": "トピック：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "テーマ：音楽！音楽！音楽！",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "コンセプト：生成する音楽、散乱する光(RAY)",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "新曲初披露",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "逆光",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "URL：https://x.com/_RAY_world/status/1485238231914332163?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1485238231914332163?s=20",
+       "url": "https://x.com/_RAY_world/status/1485238231914332163?s=20"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "text": "プリズム",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "URL：https://x.com/_RAY_world/status/1485240285755887618?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1485240285755887618?s=20",
+       "url": "https://x.com/_RAY_world/status/1485240285755887618?s=20"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "text": "TEST",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "URL：https://x.com/_RAY_world/status/1485238870652252160?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1485238870652252160?s=20",
+       "url": "https://x.com/_RAY_world/status/1485238870652252160?s=20"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "text": "ナイトバード",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "URL：https://x.com/_RAY_world/status/1485239287821963265?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1485239287821963265?s=20",
+       "url": "https://x.com/_RAY_world/status/1485239287821963265?s=20"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "text": "Message",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "URL：https://x.com/_RAY_world/status/1485239761430216707?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1485239761430216707?s=20",
+       "url": "https://x.com/_RAY_world/status/1485239761430216707?s=20"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "text": "Rusty Message",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "URL：https://x.com/_RAY_world/status/1485240033036550144?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1485240033036550144?s=20",
+       "url": "https://x.com/_RAY_world/status/1485240033036550144?s=20"
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "text": "URL：https://x.com/_RAY_world/status/1485240856760098816?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1485240856760098816?s=20",
+       "url": "https://x.com/_RAY_world/status/1485240856760098816?s=20"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "text": "当日限定パフォーマンス",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Can You Feel The Change Of Seasons?",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "原曲アーティスト：・・・・・・・・・",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "プリズム",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "歌詞：多数のRAY楽曲から抽出",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "From Summer to Anywhere, It’s so Blue",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "アレンジ元：Can You  Feel The Change Of Seasons?",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "URL：https://x.com/_RAY_world/status/1485240856760098816?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1485240856760098816?s=20",
+       "url": "https://x.com/_RAY_world/status/1485240856760098816?s=20"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "text": "アレンジ楽曲：「シルエット」「Rusty Days」「コハルヒ」「わたし夜に泳ぐの」「moment」を除いたすべての楽曲",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "URL：https://x.com/_RAY_world/status/1485240285755887618?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1485240285755887618?s=20",
+       "url": "https://x.com/_RAY_world/status/1485240285755887618?s=20"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "text": "URL：https://x.com/_RAY_world/status/1485240521123459076?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1485240521123459076?s=20",
+       "url": "https://x.com/_RAY_world/status/1485240521123459076?s=20"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "text": "URL：https://x.com/_RAY_world/status/1485240856760098816?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1485240856760098816?s=20",
+       "url": "https://x.com/_RAY_world/status/1485240856760098816?s=20"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "text": "URL：https://x.com/_RAY_world/status/1485241392989290499?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1485241392989290499?s=20",
+       "url": "https://x.com/_RAY_world/status/1485241392989290499?s=20"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "text": "新衣装初披露：4th衣装",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "URL：https://x.com/_RAY_world/status/1485232800152186881?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1485232800152186881?s=20",
+       "url": "https://x.com/_RAY_world/status/1485232800152186881?s=20"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "text": "RAY 4th one-man live -PRISM- GOODS発売",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "PRISMロゴTシャツ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "サイン入りランダムワイドチェキ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "サイン入りB2ポスター（現アー写・新アー写2枚セット）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "当日会場限定CD-R（2曲入り）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ランダムブロマイド（新衣装・2枚セット）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "ワンマンライブ解説：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "テキスト：ワンマンライブ解説：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "URL：https://x.com/_RAY_world/status/1485230843022897154?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1485230843022897154?s=20",
+       "url": "https://x.com/_RAY_world/status/1485230843022897154?s=20"
+      }
+     ]
+    },
+    {
+     "level": 1,
+     "text": "セットリスト（RAY）：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "逆光",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "Fading Lights",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "Can You Feel The Change Of Seasons?",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "シルエット",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "Rusty Days",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "プリズム",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "レジグナチオン",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "コハルヒ",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "no title",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "バタフライエフェクト",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "わたし夜に泳ぐの",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "moment",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "サイン",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "TEST",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "ナイトバード",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "スライド",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "しづかの海",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "スライド（・・・・・・・・・）",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "しづかの海",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "Message",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "Fading Lights（English ver.）",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "From Summer to Anywhere, It’s so Blue",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "Back And To The Left",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "Rusty Messsage",
+     "ordered": true,
+     "links": []
+    }
+   ],
+   "kind": "event",
+   "id": "e20220123-e7d1",
+   "images": [],
+   "note": ""
+  },
+  {
    "date": "2022-02-06",
    "year": 2022,
    "title": "琴山しずく生誕「コット脳ハッピーバースデー」",
@@ -700,6 +1469,496 @@ window.KOTTO_EVENTS = {
    ],
    "kind": "event",
    "id": "e20220423-90ce",
+   "images": [],
+   "note": ""
+  },
+  {
+   "date": "2022-05-08",
+   "year": 2022,
+   "title": "RAY3周年ワンマンライブ「works」",
+   "venue": "白金高輪 SELENE b2",
+   "links": [
+    {
+     "label": "Xのイベント告知投稿",
+     "url": "https://x.com/_RAY_world/status/1510165211650887681?s=20"
+    }
+   ],
+   "details": [
+    {
+     "level": 1,
+     "text": "トピック：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "コンセプト：RAYのライブ・活動を支える人々にフィーチャー。ライブ前にメンバーがスタッフ陣へのインタビューを敢行。ライブでは楽曲制作者・振付師が演出考案。",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "新曲初披露：スカイライン",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "RAY BAND SET出演あり",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Gt：ハタユウスケ（cruyff in the bedroom）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Gt：Yoshiki Niioka（the terminal stage）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Ba：JUN YOKOE（PLASTICZOOMS）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Dr：MORIYASU MAEDA（Republic of Animals, ROCKET K, ex.SHORT）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Manipulator：KAG Jun（LUV REC）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "ワンマン特設サイト",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "テキスト：ワンマン特設サイト",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "URL：https://sovaray.wixsite.com/works-interview",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://sovaray.wixsite.com/works-interview",
+       "url": "https://sovaray.wixsite.com/works-interview"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "text": "プレミアムチケット特典",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ブックレット",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "フルカラー約100ページ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "ワンマンに関連しオンライン公開されるメンバー・運営によるスタッフ陣インタビュー全収録",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "メンバーエッセイ（各メンバ−1,000字程度）収録",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "ワンマンライブ写真を多数収録",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "RAY3周年ワンマンライブ「works」演出者考案グッズ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ハタユウスケさん考案グッズ「尊しあなたのすべてを」スマホリング",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Kei Torikiさん考案グッズ RAYロゴコーチジャケット",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "管梓さん考案グッズ RAYロゴジップパーカー",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ナンシー（kunitake）さん考案グッズ ナンシー（kunitake）× RAYロゴピンバッジ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "3周年ワンマンライブ「works」ライブ本編SDカード",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "ワンマンライブ解説",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "テキスト：ワンマンライブ解説",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "URL：https://x.com/_RAY_world/status/1523293070892347394?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1523293070892347394?s=20",
+       "url": "https://x.com/_RAY_world/status/1523293070892347394?s=20"
+      }
+     ]
+    },
+    {
+     "level": 1,
+     "text": "セットリスト（RAY）：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "Kei Toriki（明日の叙景）パート",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Blue Monday",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "星に願いを",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "17",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "ナンシー（kunitake）パート",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "シルエット",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "逆光",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "コハルヒ",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Rusty Days",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "レジグナチオン",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "管梓（For Tracy Hyde / エイプリルブルー）パート",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ムーンパレス",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "スカイライン",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ナイトバード",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "英語詞パート",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Fading Lights",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Meteor",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Gravity",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Back And To The Left",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "ハタユウスケ（cruyff in the bedroom）パート",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "尊しあなたのすべてを",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "愛はどこいったの？",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "世界の終わりは君とふたりで",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "わたし夜に泳ぐの",
+     "ordered": true,
+     "links": []
+    }
+   ],
+   "kind": "event",
+   "id": "e20220508-8a0d",
+   "images": [],
+   "note": ""
+  },
+  {
+   "date": "2022-07-23",
+   "year": 2022,
+   "title": "RAY現体制ラストワンマンライブ「history」",
+   "venue": "新宿 BLAZE",
+   "links": [
+    {
+     "label": "Xのイベント告知投稿",
+     "url": "https://x.com/_RAY_world/status/1546494826354733056?s=20"
+    }
+   ],
+   "details": [
+    {
+     "level": 1,
+     "text": "トピック：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "この公演をもってRAYは活動休止。甲斐莉乃、月日がRAYを卒業。",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "本編",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "サテライト",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "オールニードイズラブ",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "17",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "コハルヒ",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "サイン",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "シルエット",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Blue Monday",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "世界の終わりは君とふたりで",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "レジグナチオン",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "しづかの海",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "透明人間",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ナイトバード",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "スライド",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Rusty Days",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "no title",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "moment",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "Encore",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "バタフライエフェクト",
+     "ordered": true,
+     "links": []
+    }
+   ],
+   "kind": "event",
+   "id": "e20220723-efb1",
    "images": [],
    "note": ""
   },
@@ -1386,6 +2645,268 @@ window.KOTTO_EVENTS = {
    "note": ""
   },
   {
+   "date": "2023-02-06",
+   "year": 2023,
+   "title": "RAY新体制初ワンマン「#RAY_Bud」",
+   "venue": "渋谷 WWW",
+   "links": [
+    {
+     "label": "Xのイベント告知投稿",
+     "url": "https://x.com/_RAY_world/status/1608025916969713666?s=20"
+    }
+   ],
+   "details": [
+    {
+     "level": 1,
+     "text": "トピック：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "コンセプト：各メンバーのアイドル活動の、その先の人生の目標をパフォーマンスに結晶させる、今後のRAYに向けた決意表明的ワンマン",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Bud 愛海：アイドルとしての今後の目標、自分なりの生き方を見つける",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Bud 内山結愛：「音楽」に関わり続ける人生",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Bud 琴山しずく：ワクワクドキドキし続けるために歌を歌い続けたい",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Bud 月海まお：好きなものを深め、好きなもので自分を表現していく",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Bud 紬実詩：踊り続ける",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "新曲初披露：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ため息をさがして（作曲：ハタユウスケ / cruyff in the bedroom）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "URL：https://x.com/_RAY_world/status/1622602003879968768?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1622602003879968768?s=20",
+       "url": "https://x.com/_RAY_world/status/1622602003879968768?s=20"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "text": "呼吸と面影（作曲：みきれちゃん）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "URL：https://x.com/_RAY_world/status/1622602548975906820?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1622602548975906820?s=20",
+       "url": "https://x.com/_RAY_world/status/1622602548975906820?s=20"
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "text": "作詞：琴山氏ずく",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "特別演出：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "月海まお：M4-M5の曲間のBGM作成",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "紬実詩：M12-M13の曲間のダンスタイム振付",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "RAY新体制初ワンマン「#RAY_Bud」記念グッズ発売",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "「#RAY_Bud」ワンポイント刺繍ロングTシャツ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "琴山しずく・月海まお監修「#RAY_Bud」ピック（2種セット）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "愛海デザイン「#RAY_Bud」ステッカー",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "本編",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "世界の終わりは君とふたりで",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Rusty Days",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "TEST",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "星に願いを",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Blue Monday",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "わたし夜に泳ぐの",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "秘密がいたいよ",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ため息をさがして",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "サテライト",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "フランボワーズ・パルフェのために",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "読書日記",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "呼吸と面影",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Fading Lights",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ATMOSPHERE",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "Encore",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "バタフライエフェクト",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ナイトバード",
+     "ordered": true,
+     "links": []
+    }
+   ],
+   "kind": "event",
+   "id": "e20230206-14d2",
+   "images": [],
+   "note": ""
+  },
+  {
    "date": "2023-02-26",
    "year": 2023,
    "title": "Total Feedback sphere restart",
@@ -1632,6 +3153,237 @@ window.KOTTO_EVENTS = {
    ],
    "kind": "event",
    "id": "e20230430-23f8",
+   "images": [],
+   "note": ""
+  },
+  {
+   "date": "2023-05-03",
+   "year": 2023,
+   "title": "RAY4周年ワンマンライブ「#RAY_Bloom」",
+   "venue": "渋谷 Spotify O-WEST",
+   "links": [
+    {
+     "label": "Xのイベント告知投稿",
+     "url": "https://x.com/_RAY_world/status/1633075033110364160?s=20"
+    }
+   ],
+   "details": [
+    {
+     "level": 1,
+     "text": "トピック：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "新曲初披露：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "フロンティア（作曲：管梓 / エイプリルブルー）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "URL：https://x.com/_RAY_world/status/1653739013218631680?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1653739013218631680?s=20",
+       "url": "https://x.com/_RAY_world/status/1653739013218631680?s=20"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "text": "ディス・イズ・ノット・ア・ラブソング（作曲：ハタユウスケ / cruyff in the bedroom）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "URL：https://x.com/_RAY_world/status/1653739013218631680?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1653739013218631680?s=20",
+       "url": "https://x.com/_RAY_world/status/1653739013218631680?s=20"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "text": "Bloom（作曲：永田涼司 / Couple）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "URL：https://x.com/_RAY_world/status/1653739013218631680?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1653739013218631680?s=20",
+       "url": "https://x.com/_RAY_world/status/1653739013218631680?s=20"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "text": "RAY4周年ワンマン「#RAY_Bloom」記念グッズ発RAYブックカバー",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "読書日記ジャケット風しおり",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "「#RAY_Bloom」ランダムチェキ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "「#RAY_Bloom」ポストカード（全6種セット）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "本編",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ネモフィラ",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Fading Lights",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "秘密がいたいよ",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "フランボワーズ・パルフェのために",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "世界の終わりは君とふたりで",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Meteor",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "読書日記",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "レジグナチオン",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Rusty Days",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "星に願いを",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "バタフライエフェクト",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ナイトバード",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "サイン",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "フロンティア",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ディス・イズ・ノット・ア・ラブソング",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Bloom",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "Encore",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ATMOSPHERE",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ため息をさがして",
+     "ordered": true,
+     "links": []
+    }
+   ],
+   "kind": "event",
+   "id": "e20230503-6fe3",
    "images": [],
    "note": ""
   },
@@ -2324,6 +4076,228 @@ window.KOTTO_EVENTS = {
   {
    "date": "2023-09-24",
    "year": 2023,
+   "title": "RAY新体制1周年ワンマン「#NOISE_DANCE_FRENZY」",
+   "venue": "渋谷 WWW",
+   "links": [
+    {
+     "label": "Xのイベント告知投稿",
+     "url": "https://x.com/_RAY_world/status/1667788803711582208?s=20"
+    }
+   ],
+   "details": [
+    {
+     "level": 1,
+     "text": "トピック：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "新曲初披露：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "火曜日の雨（作曲：青木ロビン / downy, zezeco）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "新衣装初披露：6th衣装",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "RAY新体制1周年ワンマン「#NOISE_DANCE_FRENZY」販売開始グッズ発売",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "SHOEGAZE Tシャツ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "RAYマフラータオル",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "集合ワイドチェキ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ランダムチェキ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "本編",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Overture",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "サテライト",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "レジグナチオン",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "世界の終わりは君とふたりで",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "秘密がいたいよ",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "マテリエ",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ネモフィラ",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "サイン",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "読書日記",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Bloom",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "17",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Fading Lights",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "moment",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Show Me the Season",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "バタフライエフェクト Remix",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "翼より Re:Remix",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Lightwave",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "フロンティア",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ディス・イズ・ノット・ア・ラブソング",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "Encore",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "バタフライエフェクト",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ATMOSPHERE",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "火曜日の雨",
+     "ordered": true,
+     "links": []
+    }
+   ],
+   "kind": "event",
+   "id": "e20230924-c334",
+   "images": [],
+   "note": ""
+  },
+  {
+   "date": "2023-09-24",
+   "year": 2023,
    "title": "Total Feedback - MoritaSaki in the pool 2nd EP “Ice box” Release Tour",
    "venue": "YouTube - OnlyFeedbackTV",
    "links": [
@@ -2909,6 +4883,309 @@ window.KOTTO_EVENTS = {
    ],
    "kind": "event",
    "id": "e20240428-8b5c",
+   "images": [],
+   "note": ""
+  },
+  {
+   "date": "2024-05-03",
+   "year": 2024,
+   "title": "RAY5周年ワンマンライブ「The Most Cutting Edge Alternative Idol」",
+   "venue": "渋谷 WWW",
+   "links": [
+    {
+     "label": "Xのイベント告知投稿",
+     "url": "https://x.com/_RAY_world/status/1755199752722161874?s=20"
+    }
+   ],
+   "details": [
+    {
+     "level": 1,
+     "text": "トピック：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "新キャッチフレーズ「極北を目指すオルタナティヴアイドル」を発表。",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "新曲初披露：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "春なんてずっと来なけりゃいいのに（作曲：ハタユウスケ / cruyff in the bedroom）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "URL：https://x.com/_RAY_world/status/1786359801355903124?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1786359801355903124?s=20",
+       "url": "https://x.com/_RAY_world/status/1786359801355903124?s=20"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "text": "星座の夜空（作曲：藤田勇 / MO’SOME TONEBENDER）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "URL：https://x.com/_RAY_world/status/1786361668513263801?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1786361668513263801?s=20",
+       "url": "https://x.com/_RAY_world/status/1786361668513263801?s=20"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "text": "See ya!（作曲：みきれちゃん）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "URL：https://x.com/_RAY_world/status/1786366720816660930?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1786366720816660930?s=20",
+       "url": "https://x.com/_RAY_world/status/1786366720816660930?s=20"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "text": "RAY5周年ワンマンライブ「The Most Cutting Edge Alternative Idol」販売開始グッズ発売",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "「DISTORTED RECORDS」Tシャツ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ステッカー",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "A：ロゴ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "B：Camellia, vaseジャケット",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "C：SHOEGAZE",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "D：DISTORTED RECORDS",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "「The Most Cutting Edge Alternative Idol」ポスター",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "過去衣装ランダムチェキ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "過去衣装アクリルスタンドセット（内山結愛）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "過去衣装アクリルスタンドセット（琴山氏ずく）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "本編",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Overture",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "尊しあなたのすべてを",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "世界の終わりは君とふたりで",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "レジグナチオン",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "サテライト",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "オールニードイズラブ",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ナイトバード",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ネモフィラ",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "わたし夜に泳ぐの",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "moment",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "バタフライエフェクト",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ディス・イズ・ノット・ア・ラブソング",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "春なんてずっと来なけりゃいいのに",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "秘密がいたいよ",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ATMOSPHERE",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "フロンティア",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Bloom",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "読書日記",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "火曜日の雨",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "津軽よされ節",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "Encore",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "星座の夜空",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "See ya!",
+     "ordered": true,
+     "links": []
+    }
+   ],
+   "kind": "event",
+   "id": "e20240503-941d",
    "images": [],
    "note": ""
   },
@@ -3551,6 +5828,214 @@ window.KOTTO_EVENTS = {
    "note": ""
   },
   {
+   "date": "2024-09-21",
+   "year": 2024,
+   "title": "RAY現体制2周年記念ワンマンライブ「Perennial」",
+   "venue": "渋谷 Veats SHIBUYA",
+   "links": [
+    {
+     "label": "Xのイベント告知投稿",
+     "url": "https://x.com/_RAY_world/status/1821502318308950185?s=20"
+    }
+   ],
+   "details": [
+    {
+     "level": 1,
+     "text": "トピック：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "Sチケット特典",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "メンバー手染めタイダイ染SHOEGAZE Tシャツ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "新曲初披露：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "夜来香迴旋（作曲：ハタユウスケ / cruyff in the bedroom）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "URL：https://x.com/_RAY_world/status/1837488979538858324?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1837488979538858324?s=20",
+       "url": "https://x.com/_RAY_world/status/1837488979538858324?s=20"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "text": "おとぎ（作曲：山北せな / ひとひら, その感激と記録）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "URL：https://x.com/_RAY_world/status/1837490418852024497?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1837490418852024497?s=20",
+       "url": "https://x.com/_RAY_world/status/1837490418852024497?s=20"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "text": "新衣装初披露：7th衣装",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "RAY現体制2周年記念ワンマンライブ「Perennial」新グッズ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "SHOEGAZE Tシャツ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "百合モチーフしおり",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "新衣装ランダムチェキ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "新衣装集合ワイドチェキ（サインなし）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "夜来香迴旋",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "ディス・イズ・ノット・ア・ラブソング",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "オールニードイズラブ",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "Fading Lights",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "世界の終わりは君とふたりで",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "See ya!",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "フロンティア",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "星座の夜空",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "春なんてずっと来なけりゃいいのに",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "ATMOSPHERE",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "星に願いを",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "わたし夜に泳ぐの",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "火曜日の雨",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "Bloom",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "おとぎ",
+     "ordered": true,
+     "links": []
+    }
+   ],
+   "kind": "event",
+   "id": "e20240921-cc9f",
+   "images": [],
+   "note": ""
+  },
+  {
    "date": "2024-09-29",
    "year": 2024,
    "title": "RAY presents「ダンス＆パーティ＆ショー」",
@@ -3991,6 +6476,192 @@ window.KOTTO_EVENTS = {
    "note": ""
   },
   {
+   "date": "2024-12-30",
+   "year": 2024,
+   "title": "RAY ONE-MAN SHOW「全部、 花　花と唄い、死ぬ」",
+   "venue": "渋谷 WWW",
+   "links": [],
+   "details": [
+    {
+     "level": 1,
+     "text": "トピック：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "コンセプト：VJ × Percussion × Flowers",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "特殊セット：RAY Percussion Set",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Percussion：Ryuichi Sakamoto",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Manipulator：Yoshiki Niioka",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "VJ：chlumi",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Flowers：ten",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "新曲披露：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "starburst（作曲：管梓 / エイプリルブルー）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "URL：https://x.com/_RAY_world/status/1873702759293431947?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1873702759293431947?s=20",
+       "url": "https://x.com/_RAY_world/status/1873702759293431947?s=20"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "text": "RAY ONE-MAN SHOW「全部、花　花と唄い、死ぬ」記念グッズ発売",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ユリTシャツ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ユリアクリルキーホルダー",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "サイン",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "ディス・イズ・ノット・ア・ラブソング",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "尊しあなたのすべてを",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "TEST",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "17",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "星座の夜空",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "starburst",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "逆光",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "ネモフィラ",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "夜来香迴旋",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "Bloom",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "フロンティア",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "See ya!",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "しづかの海",
+     "ordered": true,
+     "links": []
+    }
+   ],
+   "kind": "event",
+   "id": "e20241230-0e51",
+   "images": [],
+   "note": ""
+  },
+  {
    "date": "2025-01-17",
    "year": 2025,
    "title": "正直者のディナーショー",
@@ -4226,6 +6897,233 @@ window.KOTTO_EVENTS = {
    "note": ""
   },
   {
+   "date": "2025-05-04",
+   "year": 2025,
+   "title": "TOUR NO MY WAY FINAL RAY ONE-MAN SHOE「Preserved Flowers」",
+   "venue": "渋谷 CLUB QUATTRO",
+   "links": [
+    {
+     "label": "Xのイベント告知投稿",
+     "url": "https://x.com/_RAY_world/status/1896032751658451257?s=20"
+    }
+   ],
+   "details": [
+    {
+     "level": 1,
+     "text": "トピック：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "愛海：RAYを卒業",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "琴山しずく：活動休止中によりワンマンライブ欠席",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "テーマ：RAY×BELLRING少女ハート SPLIT TOUR NO MY WAY TOUR FINAL",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "新曲初披露：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "涙のいた場所（作曲：ハタユウスケ / cruuyff in the bedroom）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "https://x.com/_RAY_world/status/1919009954520007133?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1919009954520007133?s=20",
+       "url": "https://x.com/_RAY_world/status/1919009954520007133?s=20"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "text": "RAY ONE-MAN SHOW「Preserved Flowers」New Goods発売",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "「SHOEGAZE」ラグランTシャツ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ぷちRAYちゃんずチェキホルダー（クリア）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ぷちRAYちゃんずアクリルキーホルダー",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "Overture",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "ディス・イズ・ノット・ア・ラブソング",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "逆光",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "おとぎ",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "尊しあなたのすべてを",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "シルエット",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "春なんてずっと来なけりゃいいのに",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "See ya!",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "NO WAY! LIFE GOES ON!",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "17",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "サテライト",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "バタフライエフェクト",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "秘密がいたいよ",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "世界の終わりは君とふたりで",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "オールニードイズラブ",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "Fading Lights",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "moment",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "アップサイドダウン",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "涙のいた場所",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "わたし夜に泳ぐの",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "ATMOSPHERE",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "フロンティア",
+     "ordered": true,
+     "links": []
+    }
+   ],
+   "kind": "event",
+   "id": "e20250504-24f7",
+   "images": [],
+   "note": ""
+  },
+  {
    "date": "2025-06-14",
    "year": 2025,
    "title": "活動復帰",
@@ -4347,6 +7245,275 @@ window.KOTTO_EVENTS = {
    ],
    "kind": "event",
    "id": "e20250918-2a35",
+   "images": [],
+   "note": ""
+  },
+  {
+   "date": "2025-09-21",
+   "year": 2025,
+   "title": "RAY ONE-MAN SHOW「GROOVE! GROOVE! GROOVE!」",
+   "venue": "恵比寿 LIQUIDROOM",
+   "links": [],
+   "details": [
+    {
+     "level": 1,
+     "text": "トピック：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "RAY GROOVE SET：初実装",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Dr：Yuta Hoshi（WOZNIAK）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Dr：Itta Nakamura（the cabs）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Dr：Mineho Osawa（ame_no_parade）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "Sチケット特典",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "限定「GROOVE!」Tシャツ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "新曲初披露：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "plasma（作曲：星優太 / WOZNIAK）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "Dr：RAY GROOVE SET",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "Guitar & Arrangement：キダ モティフォ（tricot）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "Guitar：藤谷真吾（fumi, 1inamillion, SLEEPLESS）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "URL：https://x.com/_RAY_world/status/1969744526760899034?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1969744526760899034?s=20",
+       "url": "https://x.com/_RAY_world/status/1969744526760899034?s=20"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "text": "天体（作曲：京英一 / 雪国）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "URL：https://x.com/_RAY_world/status/1969744832227946830?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/1969744832227946830?s=20",
+       "url": "https://x.com/_RAY_world/status/1969744832227946830?s=20"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "text": "新衣装初披露：8th衣装",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "ONE-MAN SHOW「GROOVE! GROOVE! GROOVE!」Goods発売",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "RAYロゴTシャツ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "GROOVE!GROOVE!GROOVE!ドラムスティック",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "GROOVE!GROOVE!GROOVE!ピック",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "「おとぎ」キャンパストートバッグ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "A4クリアファイル",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "おとぎ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "天体",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "Bittersweet",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "秘密がいたいよ",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "アップサイドダウン",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "17",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "ディス・イズ・ノット・ア・ラブソング",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "TEST",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "逆光",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "読書日記",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "Blue Monday",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "Lightwave",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "バタフライエフェクト",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "フロンティア",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "See ya!",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "しづかの海",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "plasma",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "天体",
+     "ordered": true,
+     "links": []
+    }
+   ],
+   "kind": "event",
+   "id": "e20250921-9ed4",
    "images": [],
    "note": ""
   },
@@ -4533,6 +7700,232 @@ window.KOTTO_EVENTS = {
    ],
    "kind": "event",
    "id": "e20251204-880e",
+   "images": [],
+   "note": ""
+  },
+  {
+   "date": "2025-12-30",
+   "year": 2025,
+   "title": "RAY NEW ORDER 90 min ONE-MAN「#MOD_0」",
+   "venue": "",
+   "links": [
+    {
+     "label": "Xのイベント告知投稿",
+     "url": "https://x.com/_RAY_world/status/1983881587600322953?s=20"
+    }
+   ],
+   "details": [
+    {
+     "level": 1,
+     "text": "トピック：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "春音友希：RAYに新加入",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "新曲初披露：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Bittersweet（作曲：Mark Gardener / RIDE）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "URL：https://x.com/_RAY_world/status/2005980875666907322?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/2005980875666907322?s=20",
+       "url": "https://x.com/_RAY_world/status/2005980875666907322?s=20"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "text": "sagittarius（作曲：清水正太郎 / kurayamisaka）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "URL：https://x.com/_RAY_world/status/2005980879290843313?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/2005980879290843313?s=20",
+       "url": "https://x.com/_RAY_world/status/2005980879290843313?s=20"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "text": "Sチケット特典：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "新体制ver.「ムーンパレス」CD-R",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "RAY NEW ORDER 90 min ONE-MAN「#MOD_0」Goods発売",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "「#MOD_0」ロングTシャツ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "RAYキャップ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "RAYキーホルダー",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ロゴステッカーセット",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ミニRAYちゃんずアクリルスタンド",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ミニRAYちゃんずステッカーセット",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "Overture",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "plasma",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "Bittersweet",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "sagittarius",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "世界の終わりは君とふたりで",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "おとぎ",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "See ya!",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "星に願いを",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "シルエット",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "読書日記",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "ムーンパレス",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "アップサイドダウン",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "フロンティア",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "星座の夜空",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "バタフラエフェクト",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "天体",
+     "ordered": true,
+     "links": []
+    }
+   ],
+   "kind": "event",
+   "id": "e20251230-73ae",
    "images": [],
    "note": ""
   },
@@ -4795,6 +8188,261 @@ window.KOTTO_EVENTS = {
    ],
    "kind": "event",
    "id": "e20260429-8f4e",
+   "images": [],
+   "note": ""
+  },
+  {
+   "date": "2026-05-02",
+   "year": 2026,
+   "title": "RAY ONE-MAN SHOW「#MOD_GROOVE」-SOUND VISUALIZATION-",
+   "venue": "渋谷 Spotify O-EAST",
+   "links": [
+    {
+     "label": "Xのイベント告知投稿",
+     "url": "https://x.com/_RAY_world/status/2029482061644562632?s=20"
+    }
+   ],
+   "details": [
+    {
+     "level": 1,
+     "text": "トピック：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "特殊セット：RAY GROOVE SET",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Dr：星優太（WOZNIAK）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "Percussion：フミキモ（SONOSUKIMAKARA）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "新曲初披露：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "MOD-1（作曲：星優太 / WOZNIAK）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "URL：https://x.com/_RAY_world/status/2050543996771151998?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/2050543996771151998?s=20",
+       "url": "https://x.com/_RAY_world/status/2050543996771151998?s=20"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "text": "MOD+1（作曲：星優太 / WOZNIAK）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "URL：https://x.com/_RAY_world/status/2050543996771151998?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/2050543996771151998?s=20",
+       "url": "https://x.com/_RAY_world/status/2050543996771151998?s=20"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "text": "夢の中へ（作曲：みきれちゃん）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 4,
+     "text": "URL：https://x.com/_RAY_world/status/2050543759281291719?s=20",
+     "ordered": false,
+     "links": [
+      {
+       "label": "https://x.com/_RAY_world/status/2050543759281291719?s=20",
+       "url": "https://x.com/_RAY_world/status/2050543759281291719?s=20"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "text": "Sチケット特典",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "「#MOD_」ステッカー6種セット",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "#MOD_GROOVE NEW GOODS発売",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "GROOVE Tシャツ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "RAYキャップ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "「sagittarius」ポーチ",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "「sagittarius」アクリルキーホルダー",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 1,
+     "text": "セットリスト：",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "MOD-1",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "MOD",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "MOD+1",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "plasma",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "逆光",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "しづかの海",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "Bittersweet",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "NO WAY! LIFE GOES ON!",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "星座の夜空",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "バタフライエフェクト",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "ディス・イズ・ノット・ア・ラブソング",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "See ya!",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "天体",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "sagittarius",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "アップサイドダウン",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "starburst",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "フロンティア",
+     "ordered": true,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "夢の中へ",
+     "ordered": true,
+     "links": []
+    }
+   ],
+   "kind": "event",
+   "id": "e20260502-3021",
    "images": [],
    "note": ""
   },
@@ -5393,6 +9041,12 @@ window.KOTTO_EVENTS = {
      "links": []
     },
     {
+     "level": 2,
+     "text": "ビンゴ大会を開催",
+     "ordered": false,
+     "links": []
+    },
+    {
      "level": 1,
      "text": "セットリスト：",
      "ordered": false,
@@ -5431,7 +9085,7 @@ window.KOTTO_EVENTS = {
   {
    "date": "2026-09-23",
    "year": 2026,
-   "title": "RAYワンマンライブ",
+   "title": "RAY ONE-MAN LIVE「#MOD_moment」",
    "venue": "渋谷 Veats SHIBUYA",
    "links": [
     {
@@ -5448,13 +9102,13 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 2,
-     "text": "RAY琴山しずくさんがRAYを卒業",
+     "text": "琴山しずく：RAYを卒業",
      "ordered": false,
      "links": []
     }
    ],
    "kind": "event",
-   "id": "e20260923-5579",
+   "id": "e20260923-2b4c",
    "images": [],
    "note": ""
   }
