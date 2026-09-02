@@ -334,22 +334,23 @@
       if (e.kind === 'status') {
         var detail = (e.details || []).filter(function (d) { return d.level > 1; })
           .map(function (d) { return d.text; }).join(' / ');
-        items.push({ date: e.date, kind: 'status', title: e.title,
+        items.push({ date: e.date, kind: 'status', kinds: ['status'], title: e.title,
                      sub: (detail === e.title ? '' : detail), tags: ['活動状況'] });
         return;
       }
-      items.push({ date: e.date, kind: 'event', title: e.title, sub: e.venue,
-                   tags: ['イベント'], href: 'events.html#' + e.id, note: e.note });
-
-      /* トピックからデビュー・卒業を活動状況として抽出 */
+      /* トピックからデビュー・卒業を抽出し、イベントと同じブロックに統合する */
+      var statuses = [];
       (e.details || []).forEach(function (d) {
         var t = d.text || '', name = '';
         if (/デビュー/.test(t)) name = 'RAYデビュー';
         else if (/卒業/.test(t)) name = 'RAY卒業';
-        if (!name) return;
-        items.push({ date: e.date, kind: 'status', title: name, sub: t,
-                     tags: ['活動状況'], href: 'events.html#' + e.id });
+        if (name) statuses.push({ name: name, note: t });
       });
+      items.push({ date: e.date, kind: 'event',
+                   kinds: statuses.length ? ['event', 'status'] : ['event'],
+                   title: e.title, sub: e.venue, statuses: statuses,
+                   tags: statuses.length ? ['イベント', '活動状況'] : ['イベント'],
+                   href: 'events.html#' + e.id, note: e.note });
     });
     ev.forEach(function (e) {
       if (e.kind === 'status') return;
@@ -357,7 +358,7 @@
         var m = /^(.+?)(?:（(.+?)）)?\s*初披露$/.exec(d.text || '');
         if (!m) return;
         if (/[：:]/.test(m[1])) return;   // 「RAY：新曲「◯◯」初披露」など、琴山しずく以外の初披露は除外
-        items.push({ date: e.date, kind: 'song', title: '「' + m[1].trim() + '」初披露',
+        items.push({ date: e.date, kind: 'song', kinds: ['song'], title: '「' + m[1].trim() + '」初披露',
                      sub: (m[2] ? m[2] + '／' : '') + e.title, tags: ['楽曲'],
                      href: 'events.html#' + e.id });
       });
@@ -365,7 +366,7 @@
     dc.forEach(function (a) {
       if (a.release) {
         var relEv = (a.relation_label === '発売開始イベント' && a.related && a.related.length) ? a.related[0].event : '';
-        items.push({ date: a.release, kind: 'release', title: '『' + a.title + '』リリース',
+        items.push({ date: a.release, kind: 'release', kinds: ['release'], title: '『' + a.title + '』リリース',
                      sub: relEv,
                      tags: ['ディスコグラフィー'], href: 'discography.html' });
       }
@@ -377,10 +378,10 @@
         .sort(function (a, b) { return a.iso < b.iso ? -1 : a.iso > b.iso ? 1 : 0; });
       if (!dated.length) return;
       var first = dated[0], last = dated[dated.length - 1];
-      items.push({ date: first.iso, kind: 'media', title: m.title + ' 開始',
+      items.push({ date: first.iso, kind: 'media', kinds: ['media'], title: m.title + ' 開始',
                    sub: first.title, tags: ['メディア'], href: 'media.html' });
       if (last.iso !== first.iso) {
-        items.push({ date: last.iso, kind: 'media', title: m.title + ' 最終',
+        items.push({ date: last.iso, kind: 'media', kinds: ['media'], title: m.title + ' 最終',
                      sub: last.title, tags: ['メディア'], href: 'media.html' });
       }
     });
@@ -389,19 +390,26 @@
 
     var state = { kind: 'all' };
     function draw() {
-      var list = items.filter(function (i) { return state.kind === 'all' || i.kind === state.kind; });
+      var list = items.filter(function (i) {
+        return state.kind === 'all' || (i.kinds || [i.kind]).indexOf(state.kind) >= 0;
+      });
       setHtml('count', list.length + ' 件を表示');
       var html = '<ul class="timeline">', cy = null;
       list.forEach(function (i) {
         var y = i.date.slice(0, 4);
         if (y !== cy) { cy = y; html += '<li><h2 class="tl-year anchor-offset" id="y' + y + '">' + y + '年</h2></li>'; }
-        html += '<li class="tl-item ' + (i.kind === 'event' ? 'is-event' : i.kind === 'status' ? 'is-status' : '') + '">' +
+        html += '<li class="tl-item ' + (i.kind === 'event' ? 'is-event' : i.kind === 'status' ? 'is-status' : '') +
+          ((i.statuses || []).length ? ' has-status' : '') + '">' +
           '<div class="tl-body">' +
             '<div class="tl-meta">' +
               '<span class="tl-date">' + esc(jpDate(i.date)) + '</span>' +
               '<span class="tl-title">' + (i.href ? '<a href="' + esc(i.href) + '">' + esc(i.title) + '</a>' : esc(i.title)) + '</span>' +
             '</div>' +
             (i.sub ? '<div class="tl-sub">' + esc(i.sub) + '</div>' : '') +
+            ((i.statuses || []).length ? '<div class="tl-status">' + i.statuses.map(function (st) {
+                return '<span class="tl-status-name">' + esc(st.name) + '</span>' +
+                       '<span class="tl-status-note">' + esc(st.note) + '</span>';
+              }).join('') + '</div>' : '') +
             (i.note ? '<p class="entry-note">' + esc(i.note) + '</p>' : '') +
             '<div class="tl-tags">' + i.tags.map(function (t) {
               var cls = t === 'イベント' ? 'red' : t === '活動状況' ? 'status' : 'gold';
