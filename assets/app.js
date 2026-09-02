@@ -62,6 +62,13 @@
         '<a class="to-top" href="#top">▲ ページ上部へ</a>' +
       '</div>';
 
+    function setHeaderHeight() {
+      var h = header.getBoundingClientRect().height;
+      document.documentElement.style.setProperty('--header-h', Math.round(h) + 'px');
+    }
+    window.addEventListener('resize', function () { setHeaderHeight(); schedule(); });
+    setTimeout(setHeaderHeight, 0);
+
     var mount = q('site-header-mount');
     if (mount) mount.parentNode.replaceChild(header, mount); else document.body.insertBefore(header, document.body.firstChild);
     var fmount = q('site-footer-mount');
@@ -174,13 +181,19 @@
     });
     sync();
   }
+  function headerOffset() {
+    var h = document.querySelector('.site-header');
+    return h ? Math.round(h.getBoundingClientRect().height) : 0;
+  }
   function sync() {
+    var off = headerOffset();
     stickyUnits.forEach(function (u) {
       var tr = u.table.getBoundingClientRect();
       var hh = u.thead.getBoundingClientRect().height;
-      if (!(tr.top < 0 && tr.bottom > hh + 4)) { u.clone.style.display = 'none'; return; }
+      if (!(tr.top < off && tr.bottom > off + hh + 4)) { u.clone.style.display = 'none'; return; }
       var wr = u.wrap.getBoundingClientRect();
       u.clone.style.display = 'block';
+      u.clone.style.top = off + 'px';
       u.clone.style.left = wr.left + 'px';
       u.clone.style.width = wr.width + 'px';
       u.ct.style.width = u.table.offsetWidth + 'px';
