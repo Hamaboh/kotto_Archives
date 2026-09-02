@@ -6,9 +6,17 @@ window.KOTTO_DISCOGRAPHY = {
    "tracks": [
     "ホットココアの憂鬱",
     "ミルフィーユ",
-    "いいかげん",
-    "AppleMusic：",
-    "Spotify："
+    "いいかげん"
+   ],
+   "subs": [
+    {
+     "label": "AppleMusic",
+     "url": "https://music.apple.com/jp/album/kotto-hikigatari-1-single/1848077658"
+    },
+    {
+     "label": "Spotify",
+     "url": "https://open.spotify.com/intl-ja/album/7i41uaLt1UJOiGiHqANUQf"
+    }
    ],
    "release": "2023-09-09",
    "relation_label": "発売開始イベント",
@@ -23,9 +31,17 @@ window.KOTTO_DISCOGRAPHY = {
   {
    "title": "ホットココアの憂鬱（Remix）",
    "tracks": [
-    "ホットココアの憂鬱（Remix）",
-    "AppleMusic：",
-    "Spotify："
+    "ホットココアの憂鬱（Remix）"
+   ],
+   "subs": [
+    {
+     "label": "AppleMusic",
+     "url": "https://music.apple.com/jp/album/melancholy-of-hot-chocolate-remix-single/1759710074"
+    },
+    {
+     "label": "Spotify",
+     "url": "https://open.spotify.com/intl-ja/album/0DSpW3WPapVsYlC0j72aUK"
+    }
    ],
    "release": "2024-07-31",
    "relation_label": "パフォーマンスしたイベント",
@@ -45,9 +61,17 @@ window.KOTTO_DISCOGRAPHY = {
   {
    "title": "ミルフィーユ（Remix）",
    "tracks": [
-    "ミルフィーユ（Remix）",
-    "AppleMusic：",
-    "Spotify："
+    "ミルフィーユ（Remix）"
+   ],
+   "subs": [
+    {
+     "label": "AppleMusic",
+     "url": "https://music.apple.com/jp/album/mille-feuille-remix-single/1763022860"
+    },
+    {
+     "label": "Spotify",
+     "url": "https://open.spotify.com/intl-ja/album/7ynKsTOJgP0cMbI5KTI5Uj"
+    }
    ],
    "release": "2024-08-22",
    "relation_label": "パフォーマンスしたイベント",
@@ -67,9 +91,17 @@ window.KOTTO_DISCOGRAPHY = {
   {
    "title": "いいかげん（Remix）",
    "tracks": [
-    "いいかげん（Remix）",
-    "AppleMusic：",
-    "Spotify："
+    "いいかげん（Remix）"
+   ],
+   "subs": [
+    {
+     "label": "AppleMusic",
+     "url": "https://music.apple.com/jp/album/iikagen-remix-single/1766881646"
+    },
+    {
+     "label": "Spotify",
+     "url": "https://open.spotify.com/intl-ja/album/3qahFRiIdLEd6vaQUIZhkQ"
+    }
    ],
    "release": "2024-09-12",
    "relation_label": "パフォーマンスしたイベント",
@@ -89,9 +121,17 @@ window.KOTTO_DISCOGRAPHY = {
   {
    "title": "おかえし（Remix）",
    "tracks": [
-    "おかえし（Remix）",
-    "AppleMusic：",
-    "Spotify："
+    "おかえし（Remix）"
+   ],
+   "subs": [
+    {
+     "label": "AppleMusic",
+     "url": "https://music.apple.com/jp/album/return-gift-remix-single/1774192374"
+    },
+    {
+     "label": "Spotify",
+     "url": "https://open.spotify.com/intl-ja/album/7KfbfJySpQI6SfwwkwP6C6"
+    }
    ],
    "release": "2024-09-15",
    "relation_label": "パフォーマンスしたイベント",
@@ -113,9 +153,17 @@ window.KOTTO_DISCOGRAPHY = {
    "tracks": [
     "おかえし",
     "ピラピラ",
-    "脱皮計画",
-    "AppleMusic：",
-    "Spotify："
+    "脱皮計画"
+   ],
+   "subs": [
+    {
+     "label": "AppleMusic",
+     "url": "https://music.apple.com/jp/album/kotto-hikigatari-2-single/1848078068"
+    },
+    {
+     "label": "Spotify",
+     "url": "https://open.spotify.com/intl-ja/album/6SzHDxcVA3fL5jejR2terB"
+    }
    ],
    "release": "2024-11-13",
    "relation_label": "発売開始イベント",
@@ -133,9 +181,17 @@ window.KOTTO_DISCOGRAPHY = {
     "Wall of Death",
     "dream",
     "TOMATO",
-    "パーティー（hypermoshkotto ver.）",
-    "AppleMusic：",
-    "Spotify："
+    "パーティー（hypermoshkotto ver.）"
+   ],
+   "subs": [
+    {
+     "label": "AppleMusic",
+     "url": "https://music.apple.com/jp/album/hypermoshkotto-ep/1857888348"
+    },
+    {
+     "label": "Spotify",
+     "url": "https://open.spotify.com/intl-ja/album/1gdIkWR5mfhcfVIxpDChq6"
+    }
    ],
    "release": "2025-11-22",
    "relation_label": "発売開始イベント",

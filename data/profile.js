@@ -66,49 +66,49 @@ window.KOTTO_PROFILE = {
    "label": "Twitter/X",
    "group": "",
    "text": "琴山しずく（@kotoyamashizuku）",
-   "url": ""
+   "url": "https://x.com/kotoyamashizuku"
   },
   {
    "label": "Instagram",
    "group": "",
    "text": "琴山しずく（kotoyama_shizuku）",
-   "url": ""
+   "url": "https://www.instagram.com/kotoyama_shizuku"
   },
   {
    "label": "Instagram（作品用）",
    "group": "",
    "text": "KOTTO（_kotto__）",
-   "url": ""
+   "url": "https://www.instagram.com/_kotto__"
   },
   {
    "label": "TikTok",
    "group": "",
    "text": "琴山 しずく（@kotoyamashizuku）",
-   "url": ""
+   "url": "https://www.tiktok.com/@kotoyamashizuku"
   },
   {
    "label": "note",
    "group": "",
    "text": "琴山しずく",
-   "url": ""
+   "url": "https://note.com/kotoyama_shizuku"
   },
   {
    "label": "AppleMusic",
    "group": "サブスクリプション",
    "text": "AppleMusic - 琴山しずく",
-   "url": ""
+   "url": "https://music.apple.com/jp/artist/%E7%90%B4%E5%B1%B1%E3%81%97%E3%81%9A%E3%81%8F/1759687703"
   },
   {
    "label": "Spotify",
    "group": "サブスクリプション",
    "text": "Spotify - 琴山しずく",
-   "url": ""
+   "url": "https://open.spotify.com/intl-ja/artist/1eKN5hWz2oaEZ5bcNiolnP"
   },
   {
    "label": "SUZURI（個人オリジナルグッズ）",
    "group": "",
    "text": "KOTTO（kotoyamashizuku）",
-   "url": ""
+   "url": "https://suzuri.jp/kotoyamashizuku"
   }
  ]
 };
