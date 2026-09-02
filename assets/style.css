@@ -24,9 +24,10 @@
   --radius:0px;
   --shadow:0 1px 2px rgba(34,31,30,.07), 0 3px 10px rgba(34,31,30,.06);
   --shadow-hover:0 2px 4px rgba(34,31,30,.09), 0 8px 20px rgba(34,31,30,.10);
-  /* 欧文は Futura、和文は Meiryo UI。見出しは Futura を優先する */
-  --serif:Futura,"Futura PT","Century Gothic","Meiryo UI",Meiryo,"Hiragino Kaku Gothic ProN",sans-serif;
-  --sans:"Meiryo UI",Meiryo,Futura,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+  /* 本文・見出しともに Meiryo UI。ロゴ（KOTTO ARCHIVES）のみ Futura 系を使う */
+  --serif:"Meiryo UI",Meiryo,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+  --sans:"Meiryo UI",Meiryo,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+  --logo:Futura,"Futura PT","Century Gothic","Meiryo UI",Meiryo,sans-serif;
   --header-h:64px;
 }
 
@@ -59,7 +60,7 @@ a:hover{color:var(--red-600)}
 }
 .brand{display:flex;align-items:baseline;gap:10px;min-width:0}
 .brand .logo{
-  font-family:var(--serif);font-size:1.25rem;font-weight:700;letter-spacing:.08em;white-space:nowrap;
+  font-family:var(--logo);font-size:1.25rem;font-weight:700;letter-spacing:.08em;white-space:nowrap;
 }
 .brand .sub{font-size:.75rem;color:var(--gold-100);letter-spacing:.14em;white-space:nowrap}
 .gnav ul{list-style:none;display:flex;flex-wrap:wrap;gap:2px;margin:0;padding:0}
