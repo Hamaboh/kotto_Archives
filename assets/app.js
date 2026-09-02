@@ -342,6 +342,7 @@
       var statuses = [];
       (e.details || []).forEach(function (d) {
         var t = d.text || '', name = '';
+        if (!/琴山\s*しずく/.test(t)) return;   /* 他メンバーの卒業などは対象外 */
         if (/デビュー/.test(t)) name = 'RAYデビュー';
         else if (/卒業/.test(t)) name = 'RAY卒業';
         if (name) statuses.push({ name: name, note: t });
