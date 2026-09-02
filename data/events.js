@@ -56,35 +56,25 @@ window.KOTTO_EVENTS = {
      "level": 3,
      "text": "moment（作曲：Couple）",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 4,
-     "text": "URL：https://x.com/_RAY_world/status/1411324833359486982?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/1411324833359486982?s=20",
+       "label": "moment（作曲：Couple）",
        "url": "https://x.com/_RAY_world/status/1411324833359486982?s=20"
       }
-     ]
+     ],
+     "linkText": true
     },
     {
      "level": 2,
      "text": "新衣装初披露：3rd衣装",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 3,
-     "text": "URL：https://x.com/_RAY_world/status/1411322342312058884?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/1411322342312058884?s=20",
+       "label": "新衣装初披露：3rd衣装",
        "url": "https://x.com/_RAY_world/status/1411322342312058884?s=20"
       }
-     ]
+     ],
+     "linkText": true
     },
     {
      "level": 2,
@@ -831,111 +821,74 @@ window.KOTTO_EVENTS = {
      "level": 3,
      "text": "逆光",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 4,
-     "text": "URL：https://x.com/_RAY_world/status/1485238231914332163?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/1485238231914332163?s=20",
+       "label": "逆光",
        "url": "https://x.com/_RAY_world/status/1485238231914332163?s=20"
       }
-     ]
+     ],
+     "linkText": true
     },
     {
      "level": 3,
      "text": "プリズム",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 4,
-     "text": "URL：https://x.com/_RAY_world/status/1485240285755887618?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/1485240285755887618?s=20",
+       "label": "プリズム",
        "url": "https://x.com/_RAY_world/status/1485240285755887618?s=20"
       }
-     ]
+     ],
+     "linkText": true
     },
     {
      "level": 3,
      "text": "TEST",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 4,
-     "text": "URL：https://x.com/_RAY_world/status/1485238870652252160?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/1485238870652252160?s=20",
+       "label": "TEST",
        "url": "https://x.com/_RAY_world/status/1485238870652252160?s=20"
       }
-     ]
+     ],
+     "linkText": true
     },
     {
      "level": 3,
      "text": "ナイトバード",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 4,
-     "text": "URL：https://x.com/_RAY_world/status/1485239287821963265?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/1485239287821963265?s=20",
+       "label": "ナイトバード",
        "url": "https://x.com/_RAY_world/status/1485239287821963265?s=20"
       }
-     ]
+     ],
+     "linkText": true
     },
     {
      "level": 3,
      "text": "Message",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 4,
-     "text": "URL：https://x.com/_RAY_world/status/1485239761430216707?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/1485239761430216707?s=20",
+       "label": "Message",
        "url": "https://x.com/_RAY_world/status/1485239761430216707?s=20"
       }
-     ]
+     ],
+     "linkText": true
     },
     {
      "level": 3,
      "text": "Rusty Message",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 4,
-     "text": "URL：https://x.com/_RAY_world/status/1485240033036550144?s=20",
-     "ordered": false,
-     "links": [
+     "links": [],
+     "menu": [
       {
-       "label": "https://x.com/_RAY_world/status/1485240033036550144?s=20",
+       "label": "楽曲解説投稿を開く",
        "url": "https://x.com/_RAY_world/status/1485240033036550144?s=20"
-      }
-     ]
-    },
-    {
-     "level": 4,
-     "text": "URL：https://x.com/_RAY_world/status/1485240856760098816?s=20",
-     "ordered": false,
-     "links": [
+      },
       {
-       "label": "https://x.com/_RAY_world/status/1485240856760098816?s=20",
+       "label": "アレンジ楽曲紹介投稿を開く",
        "url": "https://x.com/_RAY_world/status/1485240856760098816?s=20"
       }
      ]
@@ -974,7 +927,13 @@ window.KOTTO_EVENTS = {
      "level": 3,
      "text": "From Summer to Anywhere, It’s so Blue",
      "ordered": false,
-     "links": []
+     "links": [
+      {
+       "label": "From Summer to Anywhere, It’s so Blue",
+       "url": "https://x.com/_RAY_world/status/1485240856760098816?s=20"
+      }
+     ],
+     "linkText": true
     },
     {
      "level": 4,
@@ -983,62 +942,25 @@ window.KOTTO_EVENTS = {
      "links": []
     },
     {
-     "level": 4,
-     "text": "URL：https://x.com/_RAY_world/status/1485240856760098816?s=20",
-     "ordered": false,
-     "links": [
-      {
-       "label": "https://x.com/_RAY_world/status/1485240856760098816?s=20",
-       "url": "https://x.com/_RAY_world/status/1485240856760098816?s=20"
-      }
-     ]
-    },
-    {
      "level": 2,
      "text": "アレンジ楽曲：「シルエット」「Rusty Days」「コハルヒ」「わたし夜に泳ぐの」「moment」を除いたすべての楽曲",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 3,
-     "text": "URL：https://x.com/_RAY_world/status/1485240285755887618?s=20",
-     "ordered": false,
-     "links": [
+     "links": [],
+     "menu": [
       {
-       "label": "https://x.com/_RAY_world/status/1485240285755887618?s=20",
+       "label": "アレンジ楽曲紹介投稿を開く①",
        "url": "https://x.com/_RAY_world/status/1485240285755887618?s=20"
-      }
-     ]
-    },
-    {
-     "level": 3,
-     "text": "URL：https://x.com/_RAY_world/status/1485240521123459076?s=20",
-     "ordered": false,
-     "links": [
+      },
       {
-       "label": "https://x.com/_RAY_world/status/1485240521123459076?s=20",
+       "label": "アレンジ楽曲紹介投稿を開く②",
        "url": "https://x.com/_RAY_world/status/1485240521123459076?s=20"
-      }
-     ]
-    },
-    {
-     "level": 3,
-     "text": "URL：https://x.com/_RAY_world/status/1485240856760098816?s=20",
-     "ordered": false,
-     "links": [
+      },
       {
-       "label": "https://x.com/_RAY_world/status/1485240856760098816?s=20",
+       "label": "アレンジ楽曲紹介投稿を開く③",
        "url": "https://x.com/_RAY_world/status/1485240856760098816?s=20"
-      }
-     ]
-    },
-    {
-     "level": 3,
-     "text": "URL：https://x.com/_RAY_world/status/1485241392989290499?s=20",
-     "ordered": false,
-     "links": [
+      },
       {
-       "label": "https://x.com/_RAY_world/status/1485241392989290499?s=20",
+       "label": "カバー楽曲紹介投稿を開く",
        "url": "https://x.com/_RAY_world/status/1485241392989290499?s=20"
       }
      ]
@@ -1047,18 +969,13 @@ window.KOTTO_EVENTS = {
      "level": 2,
      "text": "新衣装初披露：4th衣装",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 3,
-     "text": "URL：https://x.com/_RAY_world/status/1485232800152186881?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/1485232800152186881?s=20",
+       "label": "新衣装初披露：4th衣装",
        "url": "https://x.com/_RAY_world/status/1485232800152186881?s=20"
       }
-     ]
+     ],
+     "linkText": true
     },
     {
      "level": 2,
@@ -2693,39 +2610,29 @@ window.KOTTO_EVENTS = {
      "level": 3,
      "text": "ため息をさがして（作曲：ハタユウスケ / cruyff in the bedroom）",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 4,
-     "text": "URL：https://x.com/_RAY_world/status/1622602003879968768?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/1622602003879968768?s=20",
+       "label": "ため息をさがして（作曲：ハタユウスケ / cruyff in the bedroom）",
        "url": "https://x.com/_RAY_world/status/1622602003879968768?s=20"
       }
-     ]
+     ],
+     "linkText": true
     },
     {
      "level": 3,
      "text": "呼吸と面影（作曲：みきれちゃん）",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 4,
-     "text": "URL：https://x.com/_RAY_world/status/1622602548975906820?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/1622602548975906820?s=20",
+       "label": "呼吸と面影（作曲：みきれちゃん）",
        "url": "https://x.com/_RAY_world/status/1622602548975906820?s=20"
       }
-     ]
+     ],
+     "linkText": true
     },
     {
      "level": 4,
-     "text": "作詞：琴山氏ずく",
+     "text": "作詞：琴山しずく",
      "ordered": false,
      "links": []
     },
@@ -3176,52 +3083,37 @@ window.KOTTO_EVENTS = {
      "level": 3,
      "text": "フロンティア（作曲：管梓 / エイプリルブルー）",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 4,
-     "text": "URL：https://x.com/_RAY_world/status/1653739013218631680?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/1653739013218631680?s=20",
+       "label": "フロンティア（作曲：管梓 / エイプリルブルー）",
        "url": "https://x.com/_RAY_world/status/1653739013218631680?s=20"
       }
-     ]
+     ],
+     "linkText": true
     },
     {
      "level": 3,
      "text": "ディス・イズ・ノット・ア・ラブソング（作曲：ハタユウスケ / cruyff in the bedroom）",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 4,
-     "text": "URL：https://x.com/_RAY_world/status/1653739013218631680?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/1653739013218631680?s=20",
+       "label": "ディス・イズ・ノット・ア・ラブソング（作曲：ハタユウスケ / cruyff in the bedroom）",
        "url": "https://x.com/_RAY_world/status/1653739013218631680?s=20"
       }
-     ]
+     ],
+     "linkText": true
     },
     {
      "level": 3,
      "text": "Bloom（作曲：永田涼司 / Couple）",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 4,
-     "text": "URL：https://x.com/_RAY_world/status/1653739013218631680?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/1653739013218631680?s=20",
+       "label": "Bloom（作曲：永田涼司 / Couple）",
        "url": "https://x.com/_RAY_world/status/1653739013218631680?s=20"
       }
-     ]
+     ],
+     "linkText": true
     },
     {
      "level": 2,
@@ -4944,52 +4836,37 @@ window.KOTTO_EVENTS = {
      "level": 3,
      "text": "春なんてずっと来なけりゃいいのに（作曲：ハタユウスケ / cruyff in the bedroom）",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 4,
-     "text": "URL：https://x.com/_RAY_world/status/1786359801355903124?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/1786359801355903124?s=20",
+       "label": "春なんてずっと来なけりゃいいのに（作曲：ハタユウスケ / cruyff in the bedroom）",
        "url": "https://x.com/_RAY_world/status/1786359801355903124?s=20"
       }
-     ]
+     ],
+     "linkText": true
     },
     {
      "level": 3,
      "text": "星座の夜空（作曲：藤田勇 / MO’SOME TONEBENDER）",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 4,
-     "text": "URL：https://x.com/_RAY_world/status/1786361668513263801?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/1786361668513263801?s=20",
+       "label": "星座の夜空（作曲：藤田勇 / MO’SOME TONEBENDER）",
        "url": "https://x.com/_RAY_world/status/1786361668513263801?s=20"
       }
-     ]
+     ],
+     "linkText": true
     },
     {
      "level": 3,
      "text": "See ya!（作曲：みきれちゃん）",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 4,
-     "text": "URL：https://x.com/_RAY_world/status/1786366720816660930?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/1786366720816660930?s=20",
+       "label": "See ya!（作曲：みきれちゃん）",
        "url": "https://x.com/_RAY_world/status/1786366720816660930?s=20"
       }
-     ]
+     ],
+     "linkText": true
     },
     {
      "level": 2,
@@ -5904,35 +5781,25 @@ window.KOTTO_EVENTS = {
      "level": 3,
      "text": "夜来香迴旋（作曲：ハタユウスケ / cruyff in the bedroom）",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 4,
-     "text": "URL：https://x.com/_RAY_world/status/1837488979538858324?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/1837488979538858324?s=20",
+       "label": "夜来香迴旋（作曲：ハタユウスケ / cruyff in the bedroom）",
        "url": "https://x.com/_RAY_world/status/1837488979538858324?s=20"
       }
-     ]
+     ],
+     "linkText": true
     },
     {
      "level": 3,
      "text": "おとぎ（作曲：山北せな / ひとひら, その感激と記録）",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 4,
-     "text": "URL：https://x.com/_RAY_world/status/1837490418852024497?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/1837490418852024497?s=20",
+       "label": "おとぎ（作曲：山北せな / ひとひら, その感激と記録）",
        "url": "https://x.com/_RAY_world/status/1837490418852024497?s=20"
       }
-     ]
+     ],
+     "linkText": true
     },
     {
      "level": 2,
@@ -6580,18 +6447,13 @@ window.KOTTO_EVENTS = {
      "level": 3,
      "text": "starburst（作曲：管梓 / エイプリルブルー）",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 4,
-     "text": "URL：https://x.com/_RAY_world/status/1873702759293431947?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/1873702759293431947?s=20",
+       "label": "starburst（作曲：管梓 / エイプリルブルー）",
        "url": "https://x.com/_RAY_world/status/1873702759293431947?s=20"
       }
-     ]
+     ],
+     "linkText": true
     },
     {
      "level": 2,
@@ -7362,7 +7224,13 @@ window.KOTTO_EVENTS = {
      "level": 3,
      "text": "plasma（作曲：星優太 / WOZNIAK）",
      "ordered": false,
-     "links": []
+     "links": [
+      {
+       "label": "plasma（作曲：星優太 / WOZNIAK）",
+       "url": "https://x.com/_RAY_world/status/1969744526760899034?s=20"
+      }
+     ],
+     "linkText": true
     },
     {
      "level": 4,
@@ -7383,32 +7251,16 @@ window.KOTTO_EVENTS = {
      "links": []
     },
     {
-     "level": 4,
-     "text": "URL：https://x.com/_RAY_world/status/1969744526760899034?s=20",
-     "ordered": false,
-     "links": [
-      {
-       "label": "https://x.com/_RAY_world/status/1969744526760899034?s=20",
-       "url": "https://x.com/_RAY_world/status/1969744526760899034?s=20"
-      }
-     ]
-    },
-    {
      "level": 3,
      "text": "天体（作曲：京英一 / 雪国）",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 4,
-     "text": "URL：https://x.com/_RAY_world/status/1969744832227946830?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/1969744832227946830?s=20",
+       "label": "天体（作曲：京英一 / 雪国）",
        "url": "https://x.com/_RAY_world/status/1969744832227946830?s=20"
       }
-     ]
+     ],
+     "linkText": true
     },
     {
      "level": 2,
@@ -7795,35 +7647,25 @@ window.KOTTO_EVENTS = {
      "level": 3,
      "text": "Bittersweet（作曲：Mark Gardener / RIDE）",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 4,
-     "text": "URL：https://x.com/_RAY_world/status/2005980875666907322?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/2005980875666907322?s=20",
+       "label": "Bittersweet（作曲：Mark Gardener / RIDE）",
        "url": "https://x.com/_RAY_world/status/2005980875666907322?s=20"
       }
-     ]
+     ],
+     "linkText": true
     },
     {
      "level": 3,
      "text": "sagittarius（作曲：清水正太郎 / kurayamisaka）",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 4,
-     "text": "URL：https://x.com/_RAY_world/status/2005980879290843313?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/2005980879290843313?s=20",
+       "label": "sagittarius（作曲：清水正太郎 / kurayamisaka）",
        "url": "https://x.com/_RAY_world/status/2005980879290843313?s=20"
       }
-     ]
+     ],
+     "linkText": true
     },
     {
      "level": 2,
@@ -8300,52 +8142,37 @@ window.KOTTO_EVENTS = {
      "level": 3,
      "text": "MOD-1（作曲：星優太 / WOZNIAK）",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 4,
-     "text": "URL：https://x.com/_RAY_world/status/2050543996771151998?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/2050543996771151998?s=20",
+       "label": "MOD-1（作曲：星優太 / WOZNIAK）",
        "url": "https://x.com/_RAY_world/status/2050543996771151998?s=20"
       }
-     ]
+     ],
+     "linkText": true
     },
     {
      "level": 3,
      "text": "MOD+1（作曲：星優太 / WOZNIAK）",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 4,
-     "text": "URL：https://x.com/_RAY_world/status/2050543996771151998?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/2050543996771151998?s=20",
+       "label": "MOD+1（作曲：星優太 / WOZNIAK）",
        "url": "https://x.com/_RAY_world/status/2050543996771151998?s=20"
       }
-     ]
+     ],
+     "linkText": true
     },
     {
      "level": 3,
      "text": "夢の中へ（作曲：みきれちゃん）",
      "ordered": false,
-     "links": []
-    },
-    {
-     "level": 4,
-     "text": "URL：https://x.com/_RAY_world/status/2050543759281291719?s=20",
-     "ordered": false,
      "links": [
       {
-       "label": "https://x.com/_RAY_world/status/2050543759281291719?s=20",
+       "label": "夢の中へ（作曲：みきれちゃん）",
        "url": "https://x.com/_RAY_world/status/2050543759281291719?s=20"
       }
-     ]
+     ],
+     "linkText": true
     },
     {
      "level": 2,
