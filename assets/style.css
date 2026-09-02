@@ -287,6 +287,43 @@ dl.meta dd{margin:0;color:var(--ink-2)}
 .photos img{border-radius:6px;border:1px solid var(--line)}
 .photos figcaption{font-size:.74rem;color:var(--muted);margin-top:4px}
 
+
+/* ---------- トップページ：プロフィール / 体制 / アカウント ---------- */
+#profile-sec dl.meta{margin:14px 0 0;background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+  padding:6px 18px;box-shadow:var(--shadow)}
+#profile-sec dl.meta .meta-row:last-child{border-bottom:0}
+#profile-sec dt{flex:0 0 6em}
+.reading{color:var(--muted);font-size:.85em}
+
+.lineups{list-style:none;margin:16px 0 0;padding:0 0 0 26px;border-left:2px solid var(--line)}
+.lineup{position:relative;background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+  padding:14px 18px;margin:0 0 12px;box-shadow:var(--shadow)}
+.lineup::before{content:"";position:absolute;left:-33px;top:1.15em;width:10px;height:10px;border-radius:50%;
+  background:#fff;border:2px solid var(--red-600)}
+.lineup-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 12px}
+.lineup-period{font-family:var(--serif);font-size:.98rem;font-weight:700;color:var(--red-700)}
+.lineup-dur{font-size:.76rem;color:var(--muted)}
+.lineup-form{font-size:.88rem;color:var(--ink);margin-top:4px}
+.lineup-members{margin-top:8px;display:flex;flex-wrap:wrap;gap:6px}
+.member{font-size:.78rem;padding:2px 10px;border-radius:999px;border:1px solid var(--line);
+  background:var(--paper-2);color:var(--ink-2)}
+.member.is-self{border-color:var(--red-600);background:var(--red-050);color:var(--red-700);font-weight:700}
+
+.accounts{list-style:none;margin:16px 0 0;padding:0;background:#fff;border:1px solid var(--line);
+  border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+.account{display:flex;flex-wrap:wrap;gap:6px 16px;padding:10px 18px;border-top:1px solid var(--line-2);font-size:.9rem}
+.accounts > .account:first-child{border-top:0}
+.account-label{flex:0 0 12em;color:var(--muted);font-size:.84rem}
+.account-text{flex:1 1 auto;min-width:0}
+.account-group{padding:8px 18px;background:var(--paper-2);border-top:1px solid var(--line);
+  font-size:.76rem;letter-spacing:.08em;color:var(--gold-600);font-weight:700}
+
+@media (max-width:720px){
+  .account-label{flex-basis:100%}
+  .lineups{padding-left:20px}
+  .lineup::before{left:-26px}
+}
+
 /* ---------- footer ---------- */
 .site-footer{background:var(--red-900);color:#e8d9d7;padding:28px 0;font-size:.8rem;border-top:3px solid var(--gold-500)}
 .site-footer a{color:var(--gold-100)}

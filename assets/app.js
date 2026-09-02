@@ -192,24 +192,94 @@
   /* ---------- 各ページの描画 ---------- */
   var pages = {};
 
+  /* 「2021年7月3日～2026年9月23日」→「2021/07/03 - 2026/09/23」
+     トップ画面の活動期間はこの表記で統一する */
+  function slashRange(text) {
+    if (!text) return '';
+    var d = String(text).match(/(\d{4})年(\d{1,2})月(\d{1,2})日/g);
+    if (!d || d.length < 2) return text;
+    var f = function (x) {
+      var m = /(\d{4})年(\d{1,2})月(\d{1,2})日/.exec(x);
+      return m[1] + '/' + ('0' + m[2]).slice(-2) + '/' + ('0' + m[3]).slice(-2);
+    };
+    return f(d[0]) + ' - ' + f(d[d.length - 1]);
+  }
+
   pages.home = function () {
     var ev = (window.KOTTO_EVENTS || {}).events || [];
     var sg = window.KOTTO_SONGS || {};
     var dc = (window.KOTTO_DISCOGRAPHY || {}).albums || [];
     var md = (window.KOTTO_MEDIA || {}).media || [];
+    var pf = window.KOTTO_PROFILE || {};
     var mediaCount = md.reduce(function (a, m) { return a + (m.items ? m.items.length : 0); }, 0);
-    var period = (window.KOTTO_EVENTS || {}).period || {};
-    var slash = function (iso) { return (iso || '').replace(/-/g, '/'); };
-    var first = slash(period.from || (ev.length ? ev[0].date : ''));
-    var last = slash(period.to || (ev.length ? ev[ev.length - 1].date : ''));
+
     setHtml('stats',
       stat(ev.length, '件', 'イベント / 配信 記録') +
       stat((sg.originals || []).length, '曲', 'オリジナル楽曲') +
       stat((sg.covers || []).length, '曲', 'カバー・披露楽曲') +
       stat(dc.length, '作品', '音源リリース') +
       stat(mediaCount, '本', 'メディア発信記録'));
-    setHtml('period-label', first && last ? first + ' - ' + last : '');
+
+    /* 活動期間はプロフィールの記載を優先し、無ければイベント記録の最初と最後から算出 */
+    var period = (window.KOTTO_EVENTS || {}).period || {};
+    var slash = function (iso) { return (iso || '').replace(/-/g, '/'); };
+    var label = pf.active ? slashRange(pf.active)
+              : ((period.from && period.to) ? slash(period.from) + ' - ' + slash(period.to) : '');
+    setHtml('period-label', label);
+
+    /* プロフィール */
+    var rows = [];
+    if (pf.name) rows.push(['名前', esc(pf.name) + (pf.reading ? ' <span class="reading">（' + esc(pf.reading) + '）</span>' : '')]);
+    if (pf.birthday) rows.push(['生年月日', esc(pf.birthday)]);
+    if (pf.active) rows.push(['活動期間', esc(slashRange(pf.active))]);
+    if (rows.length) {
+      setHtml('profile', rows.map(function (r) {
+        return '<div class="meta-row"><dt>' + r[0] + '</dt><dd>' + r[1] + '</dd></div>';
+      }).join(''));
+    } else { hide('profile-sec'); }
+
+    /* RAY 体制の変遷 */
+    var lu = pf.lineups || [];
+    if (lu.length) {
+      setHtml('lineup-count', '全 ' + lu.length + ' 期');
+      setHtml('lineups', lu.map(function (l) {
+        return '<li class="lineup">' +
+          '<div class="lineup-head">' +
+            '<span class="lineup-period">' + esc(l.period) + '</span>' +
+            (l.duration ? '<span class="lineup-dur">' + esc(l.duration) + '</span>' : '') +
+          '</div>' +
+          (l.formation ? '<div class="lineup-form">' + esc(l.formation) + '</div>' : '') +
+          (l.members && l.members.length ?
+            '<div class="lineup-members">' + l.members.map(function (m) {
+              return '<span class="member' + (m === pf.name ? ' is-self' : '') + '">' + esc(m) + '</span>';
+            }).join('') + '</div>' : '') +
+        '</li>';
+      }).join(''));
+    } else { hide('lineup-sec'); }
+
+    /* アカウント（Notion側でリンクが未入力のものはテキスト表示） */
+    var ac = pf.accounts || [];
+    if (ac.length) {
+      var groups = [], byGroup = {};
+      ac.forEach(function (a) {
+        var g = a.group || '';
+        if (!byGroup[g]) { byGroup[g] = []; groups.push(g); }
+        byGroup[g].push(a);
+      });
+      setHtml('accounts', groups.map(function (g) {
+        return (g ? '<li class="account-group">' + esc(g) + '</li>' : '') +
+          byGroup[g].map(function (a) {
+            var body = a.url
+              ? '<a href="' + esc(a.url) + '" target="_blank" rel="noopener noreferrer">' + esc(a.text || a.label) + ' \u2197</a>'
+              : esc(a.text || '—');
+            return '<li class="account"><span class="account-label">' + esc(a.label) + '</span>' +
+                   '<span class="account-text">' + body + '</span></li>';
+          }).join('');
+      }).join(''));
+    } else { hide('account-sec'); }
   };
+  function hide(id) { var n = q(id); if (n) n.hidden = true; }
+
   function stat(num, unit, label) {
     return '<div class="stat"><div class="num">' + num + '<small>' + esc(unit) + '</small></div><div class="lbl">' + esc(label) + '</div></div>';
   }
