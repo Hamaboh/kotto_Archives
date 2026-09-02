@@ -8620,7 +8620,7 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 2,
-     "text": "共演：百瀬円香（airattic）, 花丘くれは（ponderosa may bloom）, 小泉日菜莉（airattic）, 今宵めみ",
+     "text": "共演：百瀬円香（airattic）, 花丘くれは（ponderosa may bloom）, 小泉日菜莉（airattic）, 今宵めみ（Drawry.）",
      "ordered": false,
      "links": []
     },
