@@ -59,7 +59,7 @@
         '<ul class="fnav">' + nav + '</ul>' +
         '<p>' + esc(SITE.footerNote) + '</p>' +
         '<p>&copy; ' + new Date().getFullYear() + ' ' + esc(SITE.title) + '</p>' +
-        '<a class="to-top" href="#top">ページ上部へ</a>' +
+        '<a class="to-top" href="#top">▲ ページ上部へ</a>' +
       '</div>';
 
     var mount = q('site-header-mount');
