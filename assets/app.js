@@ -400,6 +400,12 @@
           if (/デビュー/.test(t)) addExtra(item, 'status', 'RAYデビュー', t, t);
           else if (/卒業/.test(t)) addExtra(item, 'status', 'RAY卒業', t, t);
         }
+        if (d.premiere) {
+          /* 「新曲初披露」など、見出しの配下にある楽曲を初披露として扱う */
+          addExtra(item, 'song', '初披露',
+                   '「' + d.premiere.song + '」' + (d.premiere.credit ? '（' + d.premiere.credit + '）' : ''), t);
+          return;
+        }
         var m = /^(.+?)(?:（(.+?)）)?\s*初披露$/.exec(t);
         if (m && !/[：:]$/.test(m[1])) {
           addExtra(item, 'song', '初披露', '「' + m[1].trim() + '」' + (m[2] ? '（' + m[2] + '）' : ''), t);
