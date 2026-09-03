@@ -376,7 +376,15 @@
       }
 
       var item = { date: e.date, kind: 'event', kinds: ['event'], title: e.title, sub: e.venue,
-                   tags: ['イベント'], href: 'events.html#' + e.id, note: e.note, extras: [] };
+                   tags: ['イベント'], href: 'events.html#' + e.id, note: e.note, extras: [], topics: [] };
+
+      /* 「トピック」の直下（1階層下）の項目だけを沿革に載せる */
+      var tl = null;
+      (e.details || []).forEach(function (d) {
+        if (tl !== null && d.level <= tl) tl = null;
+        if (tl === null && /^トピック/.test(d.text || '')) { tl = d.level; return; }
+        if (tl !== null && d.level === tl + 1) item.topics.push(d.text);
+      });
       items.push(item);
       byId[e.id] = item;
       (byDate[e.date] = byDate[e.date] || []).push(item);
@@ -389,18 +397,21 @@
         if (ds[i + 1] && ds[i + 1].level > d.level) return;
 
         if (/琴山\s*しずく/.test(t)) {
-          if (/デビュー/.test(t)) addExtra(item, 'status', 'RAYデビュー', t);
-          else if (/卒業/.test(t)) addExtra(item, 'status', 'RAY卒業', t);
+          if (/デビュー/.test(t)) addExtra(item, 'status', 'RAYデビュー', t, t);
+          else if (/卒業/.test(t)) addExtra(item, 'status', 'RAY卒業', t, t);
         }
         var m = /^(.+?)(?:（(.+?)）)?\s*初披露$/.exec(t);
         if (m && !/[：:]$/.test(m[1])) {
-          addExtra(item, 'song', '初披露', '「' + m[1].trim() + '」' + (m[2] ? '（' + m[2] + '）' : ''));
+          addExtra(item, 'song', '初披露', '「' + m[1].trim() + '」' + (m[2] ? '（' + m[2] + '）' : ''), t);
         }
       });
     });
 
-    function addExtra(item, kind, name, note) {
+    function addExtra(item, kind, name, note, source) {
       item.extras.push({ kind: kind, name: name, note: note });
+      if (source && item.topics) {
+        item.topics = item.topics.filter(function (t) { return t !== source; });
+      }
       var tag = kind === 'song' ? '楽曲' : kind === 'release' ? 'ディスコグラフィー' : '活動状況';
       if (item.tags.indexOf(tag) < 0) item.tags.push(tag);
       if (item.kinds.indexOf(kind) < 0) item.kinds.push(kind);
@@ -455,6 +466,8 @@
               '<span class="tl-title">' + (i.href ? '<a href="' + esc(i.href) + '">' + esc(i.title) + '</a>' : esc(i.title)) + '</span>' +
             '</div>' +
             (i.sub ? '<div class="tl-sub">' + esc(i.sub) + '</div>' : '') +
+            ((i.topics || []).length ? '<ul class="tl-topics">' +
+              i.topics.map(function (t) { return '<li>' + esc(t) + '</li>'; }).join('') + '</ul>' : '') +
             ((i.extras || []).length ? '<ul class="tl-extras">' + i.extras.map(function (x) {
                 return '<li class="ex ex-' + esc(x.kind) + '">' +
                        '<span class="ex-name">' + esc(x.name) + '</span>' +
@@ -575,6 +588,8 @@
     setHtml('list', md.map(function (m, i) {
       var items = m.items || [];
       var goName = m.title.replace(/（.*$/, '').replace(/^#/, '').trim();
+      /* 一覧の2列目の見出し。企画によって呼び方を変える */
+      var titleLabel = /エヴリデイコットマト/.test(m.title) ? 'トマト' : 'タイトル';
       var meta = (m.meta || []).map(function (x) {
         var val = x.value || (x.children && x.children.length ? x.children.join('／') : '');
         var body;
@@ -597,9 +612,9 @@
           }).join('　/　') + '</p>' : '') +
         (m.list_note ? '<p class="desc">発信一覧：' + esc(m.list_note) + '</p>' : '') +
         (items.length ?
-          '<div class="table-wrap"><table><thead><tr><th>タイトル</th><th>日付</th><th>リンク</th></tr></thead><tbody>' +
+          '<div class="table-wrap"><table><thead><tr><th>日付</th><th>' + esc(titleLabel) + '</th><th>リンク</th></tr></thead><tbody>' +
           items.map(function (it) {
-            return '<tr><td class="song">' + esc(it.title) + '</td><td>' + esc(it.date || '—') + '</td>' +
+            return '<tr><td>' + esc(it.date || '—') + '</td><td class="song">' + esc(it.title) + '</td>' +
               '<td>' + ((it.urls || []).map(function (u) {
                 var lbl = /note\.com/.test(u) ? 'note' : /tiktok\.com/.test(u) ? 'TikTok' :
                           /x\.com|twitter\.com/.test(u) ? 'X' : /youtube|youtu\.be/.test(u) ? 'YouTube' : 'リンク';
