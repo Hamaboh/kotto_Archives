@@ -5697,31 +5697,51 @@ window.KOTTO_EVENTS = {
      "level": 3,
      "text": "ミルフィーユ（Remix）（編曲：Yoshiki Niioka）",
      "ordered": false,
-     "links": []
+     "links": [],
+     "premiere": {
+      "song": "ミルフィーユ（Remix）",
+      "credit": "編曲：Yoshiki Niioka"
+     }
     },
     {
      "level": 3,
      "text": "おかえし（Remix）（編曲：Yoshiki Niioka）",
      "ordered": false,
-     "links": []
+     "links": [],
+     "premiere": {
+      "song": "おかえし（Remix）",
+      "credit": "編曲：Yoshiki Niioka"
+     }
     },
     {
      "level": 3,
      "text": "ピラピラ（Remix）（編曲：Yoshiki Niioka）",
      "ordered": false,
-     "links": []
+     "links": [],
+     "premiere": {
+      "song": "ピラピラ（Remix）",
+      "credit": "編曲：Yoshiki Niioka"
+     }
     },
     {
      "level": 3,
      "text": "ホットココアの憂鬱（Remix）（編曲：Yoshiki Niioka）",
      "ordered": false,
-     "links": []
+     "links": [],
+     "premiere": {
+      "song": "ホットココアの憂鬱（Remix）",
+      "credit": "編曲：Yoshiki Niioka"
+     }
     },
     {
      "level": 3,
      "text": "いいかげん（Remix）（編曲：Yoshiki Niioka）",
      "ordered": false,
-     "links": []
+     "links": [],
+     "premiere": {
+      "song": "いいかげん（Remix）",
+      "credit": "編曲：Yoshiki Niioka"
+     }
     },
     {
      "level": 1,
