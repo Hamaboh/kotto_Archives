@@ -7545,7 +7545,43 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 2,
-     "text": "hypermoshkotto初実装（全曲初披露）",
+     "text": "新曲「dream」（作曲：琴山しずく）初披露",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "新曲「TOMATO」（作曲：琴山しずく）初披露",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "新曲「パーティー（hypermoshkotto ver.）」（作曲：琴山しずく）初披露",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "新曲「体操」（作曲：琴山しずく）初披露",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "新曲「Wall of Death」（作曲：琴山しずく）初披露",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "新曲「Wall of Death Beat Up」（作曲：琴山しずく）初披露",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "新曲「Wall of Death Beat Up & Up」（作曲：琴山しずく）初披露",
      "ordered": false,
      "links": []
     },
