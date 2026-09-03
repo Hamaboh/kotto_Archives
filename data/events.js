@@ -287,7 +287,7 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 3,
-     "text": "RAY4人体勢",
+     "text": "RAY4人体制",
      "ordered": true,
      "links": []
     },
@@ -4006,7 +4006,13 @@ window.KOTTO_EVENTS = {
      "level": 2,
      "text": "新衣装初披露：6th衣装",
      "ordered": false,
-     "links": []
+     "links": [
+      {
+       "label": "新衣装初披露：6th衣装",
+       "url": "https://x.com/_RAY_world/status/1705893563127751127?s=20"
+      }
+     ],
+     "linkText": true
     },
     {
      "level": 2,
@@ -5683,7 +5689,37 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 2,
-     "text": "テクノセット全披露曲（編曲：Yoshiki Niioka）初披露",
+     "text": "新曲初披露",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ミルフィーユ（Remix）（編曲：Yoshiki Niioka）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "おかえし（Remix）（編曲：Yoshiki Niioka）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ピラピラ（Remix）（編曲：Yoshiki Niioka）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "ホットココアの憂鬱（Remix）（編曲：Yoshiki Niioka）",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "いいかげん（Remix）（編曲：Yoshiki Niioka）",
      "ordered": false,
      "links": []
     },
@@ -5799,6 +5835,54 @@ window.KOTTO_EVENTS = {
     {
      "level": 2,
      "text": "新衣装初披露：7th衣装",
+     "ordered": false,
+     "links": [
+      {
+       "label": "新衣装初披露：7th衣装",
+       "url": "https://x.com/_RAY_world/status/1837450599341711650?s=20"
+      }
+     ],
+     "linkText": true
+    },
+    {
+     "level": 2,
+     "text": "新テーマ：花言葉",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "RAY：純潔",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "愛海：崇高美",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "内山結愛：変わらぬ愛",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "琴山しずく：情熱",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "月海まお：純粋な愛情",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 3,
+     "text": "紬実詩：幸福をふりまく",
      "ordered": false,
      "links": []
     },
@@ -8438,7 +8522,7 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 2,
-     "text": "Wall of Death（編曲：琴山しずく）初披露",
+     "text": "Wall of Death（Remix）（編曲：琴山しずく）初披露",
      "ordered": false,
      "links": []
     },

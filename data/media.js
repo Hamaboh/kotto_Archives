@@ -506,6 +506,14 @@ window.KOTTO_MEDIA = {
      ]
     },
     {
+     "title": "コットクラブ vol.55",
+     "date": "2023年10月31日",
+     "urls": [
+      "https://x.com/kotoyamashizuku/status/1719352786750754870?s=20",
+      "https://note.com/kotoyama_shizuku/n/n61c190620f6b"
+     ]
+    },
+    {
      "title": "コットクラブ vol.56",
      "date": "2023年12月10日",
      "urls": [
@@ -1393,24 +1401,6 @@ window.KOTTO_MEDIA = {
      "event_id": "e20241113-f5c7"
     }
    ]
-  },
-  {
-   "title": "SUZURI（琴山しずく個人グッズ販売）",
-   "meta": [
-    {
-     "label": "URL",
-     "value": "https://suzuri.jp/kotoyamashizuku",
-     "links": [
-      {
-       "label": "https://suzuri.jp/kotoyamashizuku",
-       "url": "https://suzuri.jp/kotoyamashizuku"
-      }
-     ],
-     "children": []
-    }
-   ],
-   "items": [],
-   "related": []
   }
  ]
 };
