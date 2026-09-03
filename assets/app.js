@@ -406,9 +406,17 @@
                    '「' + d.premiere.song + '」' + (d.premiere.credit ? '（' + d.premiere.credit + '）' : ''), t);
           return;
         }
-        var m = /^(.+?)(?:（(.+?)）)?\s*初披露$/.exec(t);
-        if (m && !/[：:]$/.test(m[1])) {
-          addExtra(item, 'song', '初披露', '「' + m[1].trim() + '」' + (m[2] ? '（' + m[2] + '）' : ''), t);
+        /* 「新曲「XXX」（作曲：…）初披露」の表記は楽曲名を鉤括弧から取り出す */
+        var name = null, credit = '';
+        var mq = /^新曲\s*「(.+)」(?:（(.+)）)?\s*初披露$/.exec(t);
+        if (mq) {
+          name = mq[1].trim(); credit = mq[2] || '';
+        } else {
+          var m = /^(.+?)(?:（(.+?)）)?\s*初披露$/.exec(t);
+          if (m && !/[：:]$/.test(m[1])) { name = m[1].trim(); credit = m[2] || ''; }
+        }
+        if (name) {
+          addExtra(item, 'song', '初披露', '「' + name + '」' + (credit ? '（' + credit + '）' : ''), t);
         }
       });
     });
