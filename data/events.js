@@ -813,73 +813,67 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 2,
-     "text": "新曲初披露",
-     "ordered": false,
-     "links": []
-    },
-    {
-     "level": 3,
-     "text": "逆光",
+     "text": "新曲「逆光」（作曲：みきれちゃん）初披露",
      "ordered": false,
      "links": [
       {
-       "label": "逆光",
+       "label": "新曲「逆光」（作曲：みきれちゃん）初披露",
        "url": "https://x.com/_RAY_world/status/1485238231914332163?s=20"
       }
      ],
      "linkText": true
     },
     {
-     "level": 3,
-     "text": "プリズム",
+     "level": 2,
+     "text": "新曲「プリズム」初披露",
      "ordered": false,
      "links": [
       {
-       "label": "プリズム",
+       "label": "新曲「プリズム」初披露",
        "url": "https://x.com/_RAY_world/status/1485240285755887618?s=20"
       }
      ],
      "linkText": true
     },
     {
-     "level": 3,
-     "text": "TEST",
+     "level": 2,
+     "text": "新曲「TEST」（作曲：吉田一郎不可触世界）初披露",
      "ordered": false,
      "links": [
       {
-       "label": "TEST",
+       "label": "新曲「TEST」（作曲：吉田一郎不可触世界）初披露",
        "url": "https://x.com/_RAY_world/status/1485238870652252160?s=20"
       }
      ],
      "linkText": true
     },
     {
-     "level": 3,
-     "text": "ナイトバード",
+     "level": 2,
+     "text": "新曲「ナイトバード」（作曲：管梓 / エイプリルブルー）初披露",
      "ordered": false,
      "links": [
       {
-       "label": "ナイトバード",
+       "label": "新曲「ナイトバード」（作曲：管梓 / エイプリルブルー）初披露",
        "url": "https://x.com/_RAY_world/status/1485239287821963265?s=20"
       }
      ],
      "linkText": true
     },
     {
-     "level": 3,
-     "text": "Message",
+     "level": 2,
+     "text": "新曲「Message」（作曲：みきれちゃん）初披露",
      "ordered": false,
      "links": [
       {
-       "label": "Message",
+       "label": "新曲「Message」（作曲：みきれちゃん）初披露",
        "url": "https://x.com/_RAY_world/status/1485239761430216707?s=20"
       }
      ],
      "linkText": true
     },
     {
-     "level": 3,
-     "text": "Rusty Message",
+     "level": 2,
+     "text": "新曲「Rusty Message」（作曲：みきれちゃん）",
      "ordered": false,
      "links": [],
      "menu": [
@@ -895,48 +889,36 @@ window.KOTTO_EVENTS = {
     },
     {
      "level": 2,
-     "text": "当日限定パフォーマンス",
+     "text": "当日限定パフォーマンス「Can You Feel The Change Of Seasons?」（原曲アーティスト：・・・・・・・・・）披露",
+     "ordered": false,
+     "links": []
+    },
+    {
+     "level": 2,
+     "text": "当日限定パフォーマンス「プリズム」披露",
      "ordered": false,
      "links": []
     },
     {
      "level": 3,
-     "text": "Can You Feel The Change Of Seasons?",
-     "ordered": false,
-     "links": []
-    },
-    {
-     "level": 4,
-     "text": "原曲アーティスト：・・・・・・・・・",
-     "ordered": false,
-     "links": []
-    },
-    {
-     "level": 3,
-     "text": "プリズム",
-     "ordered": false,
-     "links": []
-    },
-    {
-     "level": 4,
      "text": "歌詞：多数のRAY楽曲から抽出",
      "ordered": false,
      "links": []
     },
     {
-     "level": 3,
-     "text": "From Summer to Anywhere, It’s so Blue",
+     "level": 2,
+     "text": "当日限定パフォーマンス「From Summer to Anywhere, It’s so Blue」（編曲：みきれちゃん）披露",
      "ordered": false,
      "links": [
       {
-       "label": "From Summer to Anywhere, It’s so Blue",
+       "label": "当日限定パフォーマンス「From Summer to Anywhere, It’s so Blue」（編曲：みきれちゃん）披露",
        "url": "https://x.com/_RAY_world/status/1485240856760098816?s=20"
       }
      ],
      "linkText": true
     },
     {
-     "level": 4,
+     "level": 3,
      "text": "アレンジ元：Can You  Feel The Change Of Seasons?",
      "ordered": false,
      "links": []
