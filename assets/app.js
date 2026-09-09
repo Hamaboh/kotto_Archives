@@ -452,9 +452,12 @@
         .sort(function (a, b) { return a.iso < b.iso ? -1 : a.iso > b.iso ? 1 : 0; });
       if (!dated.length) return;
       var first = dated[0], last = dated[dated.length - 1];
+      /* 期間が「〜」で終わる（＝継続中）企画は最終回として扱わない */
+      var period = (m.meta || []).filter(function (x) { return /期間/.test(x.label); })[0];
+      var ongoing = period ? /[〜～]\s*$/.test(period.value || '') : false;
       items.push({ date: first.iso, kind: 'media', kinds: ['media'], title: m.title + ' 開始',
                    sub: first.title, tags: ['メディア'], href: 'media.html' });
-      if (last.iso !== first.iso) {
+      if (!ongoing && last.iso !== first.iso) {
         items.push({ date: last.iso, kind: 'media', kinds: ['media'], title: m.title + ' 最終',
                      sub: last.title, tags: ['メディア'], href: 'media.html' });
       }
@@ -596,6 +599,37 @@
     initStickyHeads();
   };
 
+  /* 発信一覧の表。件数が多い企画は年ごとに折りたたむ */
+  var MEDIA_GROUP_MIN = 120;
+  function mediaRow(it) {
+    return '<tr><td>' + esc(it.date || '—') + '</td><td class="song">' +
+      esc(it.title).replace(/\n/g, '<br>') + '</td>' +
+      '<td>' + ((it.urls || []).map(function (u) {
+        var lbl = /note\.com/.test(u) ? 'note' : /tiktok\.com/.test(u) ? 'TikTok' :
+                  /x\.com|twitter\.com/.test(u) ? 'X' : /youtube|youtu\.be/.test(u) ? 'YouTube' : 'リンク';
+        return '<a class="badge red" href="' + esc(u) + '" target="_blank" rel="noopener noreferrer">' + lbl + '</a>';
+      }).join(' ') || '<span class="chk-off">—</span>') + '</td></tr>';
+  }
+  function mediaTable(items, titleLabel) {
+    function tbl(list) {
+      return '<div class="table-wrap"><table><thead><tr><th>日付</th><th>' + esc(titleLabel) +
+        '</th><th>リンク</th></tr></thead><tbody>' + list.map(mediaRow).join('') + '</tbody></table></div>';
+    }
+    if (items.length < MEDIA_GROUP_MIN) return tbl(items);
+    var years = [], byYear = {};
+    items.forEach(function (it) {
+      var y = (/(\d{4})年/.exec(it.date || '') || [])[1] || 'その他';
+      if (!byYear[y]) { byYear[y] = []; years.push(y); }
+      byYear[y].push(it);
+    });
+    return years.map(function (y, i) {
+      return '<details class="year-group"' + (i === years.length - 1 ? ' open' : '') + '>' +
+        '<summary>' + esc(y === 'その他' ? y : y + '年') +
+        '<span class="count">' + byYear[y].length + ' 本</span></summary>' +
+        tbl(byYear[y]) + '</details>';
+    }).join('');
+  }
+
   pages.media = function () {
     var md = (window.KOTTO_MEDIA || {}).media || [];
     setHtml('count', '全 ' + md.length + ' 企画');
@@ -625,17 +659,7 @@
             return '<a href="events.html#' + esc(r.event_id) + '">' + esc(jpDate(r.date)) + '｜' + esc(r.event) + '</a>';
           }).join('　/　') + '</p>' : '') +
         (m.list_note ? '<p class="desc">発信一覧：' + esc(m.list_note) + '</p>' : '') +
-        (items.length ?
-          '<div class="table-wrap"><table><thead><tr><th>日付</th><th>' + esc(titleLabel) + '</th><th>リンク</th></tr></thead><tbody>' +
-          items.map(function (it) {
-            return '<tr><td>' + esc(it.date || '—') + '</td><td class="song">' + esc(it.title) + '</td>' +
-              '<td>' + ((it.urls || []).map(function (u) {
-                var lbl = /note\.com/.test(u) ? 'note' : /tiktok\.com/.test(u) ? 'TikTok' :
-                          /x\.com|twitter\.com/.test(u) ? 'X' : /youtube|youtu\.be/.test(u) ? 'YouTube' : 'リンク';
-                return '<a class="badge red" href="' + esc(u) + '" target="_blank" rel="noopener noreferrer">' + lbl + '</a>';
-              }).join(' ') || '<span class="chk-off">—</span>') + '</td></tr>';
-          }).join('') + '</tbody></table></div>'
-          : '<p class="empty">個別の記録は未整理です。</p>') +
+        (items.length ? mediaTable(items, titleLabel) : '<p class="empty">個別の記録は未整理です。</p>') +
       '</section>';
     }).join(''));
   };
