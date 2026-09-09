@@ -612,7 +612,7 @@
   }
   function mediaTable(items, titleLabel) {
     function tbl(list) {
-      return '<div class="table-wrap"><table><thead><tr><th>日付</th><th>' + esc(titleLabel) +
+      return '<div class="table-wrap"><table class="media-table"><thead><tr><th>日付</th><th>' + esc(titleLabel) +
         '</th><th>リンク</th></tr></thead><tbody>' + list.map(mediaRow).join('') + '</tbody></table></div>';
     }
     if (items.length < MEDIA_GROUP_MIN) return tbl(items);

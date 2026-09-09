@@ -427,3 +427,7 @@ dl.meta dd{margin:0;color:var(--ink-2)}
 }
 .year-group > summary:hover{background:var(--red-050)}
 .year-group .table-wrap{margin-top:0;border-top:0}
+
+/* 発信一覧：日付列は折り返さず、内容ぴったりの幅にする */
+table.media-table th:nth-child(1),
+table.media-table td:nth-child(1){white-space:nowrap;width:1%}
