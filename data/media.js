@@ -2004,13 +2004,6 @@ window.KOTTO_MEDIA = {
      ]
     },
     {
-     "title": "今年も最高に楽しかったイェーイ！！！",
-     "date": "2023年12月31日",
-     "urls": [
-      "https://x.com/kotoyamashizuku/status/1741256906524758138?s=20"
-     ]
-    },
-    {
      "title": "おはよう🍅\n2023年も終わるということで、みんながお気に入りの #ライヴコット をリツイートや引用リツイートで教えてほしいな〜〜❕",
      "date": "2023年12月31日",
      "urls": [
@@ -2074,13 +2067,6 @@ window.KOTTO_MEDIA = {
      ]
     },
     {
-     "title": "#ライヴコット 関連のTikTokを投稿してみた❕🍅\nコットの音声付きだよ〜！！\n声付きだと印象変わるかもだから見てみてね！笑\n[https://vt.tiktok.com/ZSNc52fBX/](https://vt.tiktok.com/ZSNc52fBX/)",
-     "date": "2024年1月8日",
-     "urls": [
-      "https://x.com/kotoyamashizuku/status/1744182254933586400?s=20"
-     ]
-    },
-    {
      "title": "先生！！校庭に犬散歩してるおじいさんいます！！！！",
      "date": "2024年1月9日",
      "urls": [
@@ -2127,13 +2113,6 @@ window.KOTTO_MEDIA = {
      "date": "2024年1月15日",
      "urls": [
       "https://x.com/kotoyamashizuku/status/1746665277453124052?s=20"
-     ]
-    },
-    {
-     "title": "10/7から10/13までの #ライヴコット の音声付きバージョン、TikTokに投稿したよ〜❕🍅\n見てみてね👀\n[https://vt.tiktok.com/ZSNwwhmMV/](https://vt.tiktok.com/ZSNwwhmMV/)",
-     "date": "2024年1月15日",
-     "urls": [
-      "https://x.com/kotoyamashizuku/status/1746835461044363283?s=20"
      ]
     },
     {
@@ -2200,13 +2179,6 @@ window.KOTTO_MEDIA = {
      ]
     },
     {
-     "title": "10/14から10/20までの #ライヴコット の音声付きバージョン、TikTokに投稿したよ〜❕🍅\n見てみてね👀\n[https://vt.tiktok.com/ZSF1GwbPL/](https://vt.tiktok.com/ZSF1GwbPL/)",
-     "date": "2024年1月24日",
-     "urls": [
-      "https://x.com/kotoyamashizuku/status/1750107307445461126?s=20"
-     ]
-    },
-    {
      "title": "カルピス、原液で飲んでもたーーー",
      "date": "2024年1月25日",
      "urls": [
@@ -2267,13 +2239,6 @@ window.KOTTO_MEDIA = {
      "date": "2024年2月2日",
      "urls": [
       "https://x.com/kotoyamashizuku/status/1753199852694249860?s=20"
-     ]
-    },
-    {
-     "title": "10/21から10/27までの #ライヴコット の音声付きバージョン、TikTokに投稿したよ〜❕🍅\n見てみてね👀\n[https://vt.tiktok.com/ZSF81PC4Q/](https://vt.tiktok.com/ZSF81PC4Q/)",
-     "date": "2024年2月2日",
-     "urls": [
-      "https://x.com/kotoyamashizuku/status/1753364639617044963?s=20"
      ]
     },
     {
@@ -2389,13 +2354,6 @@ window.KOTTO_MEDIA = {
      ]
     },
     {
-     "title": "10/28から11/03までの #ライヴコット の音声付きバージョン、TikTokに投稿したよ〜❕🍅\n見てみてね👀\n[https://vt.tiktok.com/ZSF65eokY/](https://vt.tiktok.com/ZSF65eokY/)",
-     "date": "2024年2月18日",
-     "urls": [
-      "https://x.com/kotoyamashizuku/status/1759179129604440213?s=20"
-     ]
-    },
-    {
      "title": "何も...見てないヨ...！！！",
      "date": "2024年2月19日",
      "urls": [
@@ -2442,13 +2400,6 @@ window.KOTTO_MEDIA = {
      "date": "2024年2月25日",
      "urls": [
       "https://x.com/kotoyamashizuku/status/1761568044395192352?s=20"
-     ]
-    },
-    {
-     "title": "11/4から11/10までの #ライヴコット の音声付きバージョン、TikTokに投稿したよ〜❕🍅\n見てみてね👀\n[https://vt.tiktok.com/ZSFkLbxB5/](https://vt.tiktok.com/ZSFkLbxB5/)",
-     "date": "2024年2月25日",
-     "urls": [
-      "https://x.com/kotoyamashizuku/status/1761723160536424726?s=20"
      ]
     },
     {
@@ -2750,13 +2701,6 @@ window.KOTTO_MEDIA = {
      "date": "2024年4月8日",
      "urls": [
       "https://x.com/kotoyamashizuku/status/1777141720477778398?s=20"
-     ]
-    },
-    {
-     "title": "11/11から11/17までの #ライヴコット の音声付きバージョン、TikTokに投稿したよ〜❕🍅\n見てみてね👀\n[https://vt.tiktok.com/ZSFgAWgbT/](https://vt.tiktok.com/ZSFgAWgbT/)",
-     "date": "2024年4月8日",
-     "urls": [
-      "https://x.com/kotoyamashizuku/status/1777185166093582673?s=20"
      ]
     },
     {
@@ -3313,13 +3257,6 @@ window.KOTTO_MEDIA = {
      ]
     },
     {
-     "title": "11/18から11/24までの #ライヴコット の音声付きバージョン、TikTokに投稿したよ〜❕🍅\n見てみてね👀\n[https://vt.tiktok.com/ZSYmojEQ9/](https://vt.tiktok.com/ZSYmojEQ9/)",
-     "date": "2024年6月26日",
-     "urls": [
-      "https://x.com/kotoyamashizuku/status/1805916105611026860?s=20"
-     ]
-    },
-    {
      "title": "おい〜照れんなって〜",
      "date": "2024年6月27日",
      "urls": [
@@ -3558,13 +3495,6 @@ window.KOTTO_MEDIA = {
      ]
     },
     {
-     "title": "SS🎫→ \n[http://tiget.net/events/335900](http://tiget.net/events/335900)\n・優先入場\n・コット日めくりカレンダー(表紙にあなただけに書く直筆イラスト入り)\n↑こちらは毎朝投稿している #ライヴコット の日めくりカレンダーだよ（絶対ゲットして欲しい‼️‼️）\n・『TECHNO GIRL』OFF VOCAL CD-R(5曲入り)\nS 🎫→",
-     "date": "2024年7月30日",
-     "urls": [
-      "https://x.com/kotoyamashizuku/status/1818222978334920758?s=20"
-     ]
-    },
-    {
      "title": "攻撃や守備にも関係ない、ザリガニ釣りに行くぜのサイン",
      "date": "2024年7月31日",
      "urls": [
@@ -3597,13 +3527,6 @@ window.KOTTO_MEDIA = {
      "date": "2024年8月4日",
      "urls": [
       "https://x.com/kotoyamashizuku/status/1819877286474317933?s=20"
-     ]
-    },
-    {
-     "title": "#コットのテクノガール計画 3ヶ月連続配信、第一弾の「ホットココアの憂鬱(Remix)」は聴いてくれたかな〜？？\n🎧\n[http://linkco.re/xgcxhT6Z](http://linkco.re/xgcxhT6Z)\nこの計画の集大成となる生誕ライヴのSSチケットの抽選受付は8/7まで❕\nSSチケットには、\n🍅優先入場\n🍅",
-     "date": "2024年8月4日",
-     "urls": [
-      "https://x.com/kotoyamashizuku/status/1820079658421063994?s=20"
      ]
     },
     {
@@ -3929,7 +3852,7 @@ window.KOTTO_MEDIA = {
      ]
     },
     {
-     "title": "ターゲットの玖関のオブジェとして潜入捜査5日目！\nまだバレてないよね...",
+     "title": "ターゲットの玄関のオブジェとして潜入捜査5日目！\nまだバレてないよね...",
      "date": "2024年9月20日",
      "urls": [
       "https://x.com/kotoyamashizuku/status/1836938381634453904?s=20"
@@ -4003,20 +3926,6 @@ window.KOTTO_MEDIA = {
      "date": "2024年9月30日",
      "urls": [
       "https://x.com/kotoyamashizuku/status/1840557314765623542?s=20"
-     ]
-    },
-    {
-     "title": "🍅🍅コットマニュース🍅🍅\n#ライヴコット 始めてから1年経ったヨ❕\n記念にみんなのお気に入りライヴコットをそのポストを引用して教えてね〜💫",
-     "date": "2024年9月30日",
-     "urls": [
-      "https://x.com/kotoyamashizuku/status/1840689620964753414?s=20"
-     ]
-    },
-    {
-     "title": "みんなのお気に入り知れて楽しい🐰🐰\n教えてくれてありがとう❕\n#ライヴコット はみんなが撮ってくれる写真のおかげで毎日ポストできてるよ！！ありがとう！！明日以降もみんなからの「おはよう」を楽しみにしてるね〜！！",
-     "date": "2024年9月30日",
-     "urls": [
-      "https://x.com/kotoyamashizuku/status/1840750542810747079?s=20"
      ]
     },
     {
@@ -6134,13 +6043,6 @@ window.KOTTO_MEDIA = {
      ]
     },
     {
-     "title": "11/22(土・夜)コット生誕「hypermoshkotto」、S🎫の抽選受付締切まで\n🍅🍅🍅あと2日🍅🍅🍅\n🎫\n[http://t.livepocket.jp/e/shizuku2025](http://t.livepocket.jp/e/shizuku2025)\nSチケ特典の直筆サイン入り 「#ライヴコット ウルトラレアトレカ」は、コット必死に制作中！カードゲームみたいなデザインにしてるよ〜！早くみんなに見てもらいたい！！",
-     "date": "2025年10月20日",
-     "urls": [
-      "https://x.com/kotoyamashizuku/status/1980207867958551024?s=20"
-     ]
-    },
-    {
      "title": "あっあの人の前世、絶対アルファベットのKだ",
      "date": "2025年10月21日",
      "urls": [
@@ -6152,13 +6054,6 @@ window.KOTTO_MEDIA = {
      "date": "2025年10月22日",
      "urls": [
       "https://x.com/kotoyamashizuku/status/1980775406769946975?s=20"
-     ]
-    },
-    {
-     "title": "11/22(土・夜)コット生誕「hypermoshkotto」、S🎫の抽選受付締切まで\n🍅🍅🍅今日まで🍅🍅🍅\nSチケ特典の直筆サイン入り 「#ライヴコット ウルトラレアトレカ」公開しちゃうよ〜❕コットデザインのキラキラカード、是非ゲットして欲しいな✨\n🎫\n[http://t.livepocket.jp/e/shizuku2025](http://t.livepocket.jp/e/shizuku2025)",
-     "date": "2025年10月22日",
-     "urls": [
-      "https://x.com/kotoyamashizuku/status/1980980672132215132?s=20"
      ]
     },
     {
@@ -6453,13 +6348,6 @@ window.KOTTO_MEDIA = {
      "date": "2025年12月3日",
      "urls": [
       "https://x.com/kotoyamashizuku/status/1996005929767370881?s=20"
-     ]
-    },
-    {
-     "title": "明日はグッズを販売するよ〜❕\n⭐︎NEW⭐︎\n「#ライヴコット」トレカ第二弾！！（No.13-21）\n過去グッズもあるよ！残りわずか商品は特にチェックしてね💫",
-     "date": "2025年12月3日",
-     "urls": [
-      "https://x.com/kotoyamashizuku/status/1996130422737281201?s=20"
      ]
     },
     {

@@ -332,7 +332,8 @@ window.KOTTO_EVENTS = {
    "oneman": true,
    "id": "e20210703-0c8c",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": true
   },
   {
    "date": "2021-07-13",
@@ -363,7 +364,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20210713-61e2",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2021-07-16",
@@ -400,7 +402,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20210716-55ca",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2021-07-23",
@@ -435,7 +438,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20210723-4e30",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2021-08-15",
@@ -484,7 +488,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20210815-3da3",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2021-08-19",
@@ -525,7 +530,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20210819-6c12",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2021-08-29",
@@ -560,7 +566,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20210829-8e58",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2021-09-02",
@@ -595,7 +602,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20210902-30b5",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2021-09-11",
@@ -626,7 +634,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20210911-0b9e",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2021-10-14",
@@ -661,7 +670,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20211014-ff9d",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2021-11-08",
@@ -698,7 +708,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20211108-ae32",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2021-11-15",
@@ -735,7 +746,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20211115-ae32",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2021-12-05",
@@ -784,7 +796,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20211205-3e11",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2022-01-23",
@@ -1161,7 +1174,8 @@ window.KOTTO_EVENTS = {
    "oneman": true,
    "id": "e20220123-e7d1",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": true
   },
   {
    "date": "2022-02-06",
@@ -1258,7 +1272,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20220206-0b9e",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2022-03-19",
@@ -1307,7 +1322,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20220319-b018",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2022-04-23",
@@ -1362,7 +1378,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20220423-90ce",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2022-05-08",
@@ -1679,7 +1696,8 @@ window.KOTTO_EVENTS = {
    "oneman": true,
    "id": "e20220508-8a0d",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": true
   },
   {
    "date": "2022-07-23",
@@ -1830,7 +1848,8 @@ window.KOTTO_EVENTS = {
    "oneman": true,
    "id": "e20220723-efb1",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2022-08-07",
@@ -1865,7 +1884,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20220807-97af",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2022-08-10",
@@ -1900,7 +1920,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20220810-969a",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2022-08-13",
@@ -1935,7 +1956,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20220813-adce",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2022-08-20",
@@ -1970,7 +1992,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20220820-d3dc",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2022-08-28",
@@ -2055,7 +2078,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20220828-5033",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2022-09-08",
@@ -2114,7 +2138,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20220908-d8a5",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2022-09-14",
@@ -2145,7 +2170,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20220914-bd79",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2022-09-25",
@@ -2180,7 +2206,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20220925-4433",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2022-09-30",
@@ -2241,7 +2268,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20220930-97f2",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2022-10-22",
@@ -2368,7 +2396,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20221022-095c",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2022-11-27",
@@ -2403,7 +2432,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20221127-853d",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2022-12-25",
@@ -2438,7 +2468,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20221225-b99c",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-01-06",
@@ -2491,7 +2522,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20230106-0c39",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-01-29",
@@ -2526,7 +2558,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20230129-d4ea",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-02-06",
@@ -2779,7 +2812,8 @@ window.KOTTO_EVENTS = {
    "oneman": true,
    "id": "e20230206-14d2",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-02-26",
@@ -2814,7 +2848,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20230226-361e",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-03-17",
@@ -2851,7 +2886,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20230317-54aa",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-03-18",
@@ -2882,7 +2918,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20230318-d2ef",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-03-26",
@@ -2917,7 +2954,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20230326-2eb1",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-03-31",
@@ -3000,7 +3038,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20230331-0c39",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-04-30",
@@ -3035,7 +3074,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20230430-23f8",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-05-03",
@@ -3252,7 +3292,8 @@ window.KOTTO_EVENTS = {
    "oneman": true,
    "id": "e20230503-6fe3",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-05-21",
@@ -3307,7 +3348,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20230521-96a9",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-05-26",
@@ -3344,7 +3386,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20230526-19cf",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-05-28",
@@ -3379,7 +3422,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20230528-9bd4",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-06-10",
@@ -3414,7 +3458,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20230610-e0d9",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-06-20",
@@ -3445,7 +3490,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20230620-7f8b",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-06-25",
@@ -3480,7 +3526,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20230625-b51f",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-06-28",
@@ -3511,7 +3558,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20230628-0afe",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-07-15",
@@ -3588,7 +3636,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20230715-631c",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-07-19",
@@ -3629,7 +3678,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20230719-c182",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-07-22",
@@ -3690,7 +3740,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20230722-18fe",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-07-30",
@@ -3725,7 +3776,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20230730-e543",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-08-27",
@@ -3760,7 +3812,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20230827-7919",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-09-09",
@@ -3911,7 +3964,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20230909-3363",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-09-12",
@@ -3952,7 +4006,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20230912-f6b8",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-09-24",
@@ -4181,7 +4236,8 @@ window.KOTTO_EVENTS = {
    "oneman": true,
    "id": "e20230924-c334",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": true
   },
   {
    "date": "2023-09-24",
@@ -4216,7 +4272,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20230924-91cb",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": true
   },
   {
    "date": "2023-10-29",
@@ -4259,7 +4316,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20231029-4fbd",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-11-26",
@@ -4294,7 +4352,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20231126-6b56",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-12-24",
@@ -4329,7 +4388,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20231224-8b5c",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2023-12-28",
@@ -4366,7 +4426,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20231228-4b61",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-01-25",
@@ -4397,7 +4458,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20240125-4b61",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-01-28",
@@ -4432,7 +4494,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20240128-5549",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-02-03",
@@ -4463,7 +4526,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20240203-8e46",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-02-12",
@@ -4500,7 +4564,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20240212-bfa9",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-02-25",
@@ -4535,7 +4600,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20240225-8b5c",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-03-10",
@@ -4566,7 +4632,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20240310-c363",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-03-10",
@@ -4597,7 +4664,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20240310-5f9e",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-03-27",
@@ -4682,7 +4750,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20240327-d95e",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-03-31",
@@ -4717,7 +4786,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20240331-8b5c",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-04-10",
@@ -4748,7 +4818,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20240410-2d58",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-04-28",
@@ -4783,7 +4854,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20240428-8b5c",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-05-03",
@@ -5072,7 +5144,8 @@ window.KOTTO_EVENTS = {
    "oneman": true,
    "id": "e20240503-941d",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": true
   },
   {
    "date": "2024-05-24",
@@ -5103,7 +5176,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20240524-5729",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-05-25",
@@ -5138,7 +5212,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20240525-737d",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-05-27",
@@ -5217,7 +5292,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20240527-b38e",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-06-15",
@@ -5282,7 +5358,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20240615-e92c",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-06-30",
@@ -5317,7 +5394,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20240630-8b5c",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-07-10",
@@ -5348,7 +5426,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20240710-d634",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-07-20",
@@ -5421,7 +5500,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20240720-9559",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-07-28",
@@ -5456,7 +5536,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20240728-a6f6",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-08-09",
@@ -5535,7 +5616,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20240809-8a20",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-08-25",
@@ -5570,7 +5652,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20240825-961c",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-09-07",
@@ -5607,7 +5690,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20240907-6aba",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-09-15",
@@ -5772,7 +5856,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20240915-017a",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-09-21",
@@ -6019,7 +6104,8 @@ window.KOTTO_EVENTS = {
    "oneman": true,
    "id": "e20240921-cc9f",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": true
   },
   {
    "date": "2024-09-29",
@@ -6056,7 +6142,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20240929-b75e",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-09-29",
@@ -6091,7 +6178,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20240929-8b5c",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-10-31",
@@ -6156,7 +6244,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20241031-6721",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-11-13",
@@ -6223,7 +6312,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20241113-f5c7",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-11-19",
@@ -6284,7 +6374,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20241119-f1f0",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-11-19",
@@ -6345,7 +6436,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20241119-38b8",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-12-06",
@@ -6406,7 +6498,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20241206-e559",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-12-10",
@@ -6467,7 +6560,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20241210-c108",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2024-12-30",
@@ -6649,7 +6743,8 @@ window.KOTTO_EVENTS = {
    "oneman": true,
    "id": "e20241230-0e51",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": true
   },
   {
    "date": "2025-01-17",
@@ -6728,7 +6823,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20250117-0c91",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2025-02-26",
@@ -6801,7 +6897,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20250226-0143",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2025-03-01",
@@ -6862,7 +6959,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20250301-b4ad",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2025-03-27",
@@ -6888,7 +6986,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20250327-42eb",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2025-05-04",
@@ -7111,7 +7210,8 @@ window.KOTTO_EVENTS = {
    "oneman": true,
    "id": "e20250504-24f7",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": true
   },
   {
    "date": "2025-06-14",
@@ -7137,7 +7237,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20250614-8f93",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2025-09-07",
@@ -7210,7 +7311,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20250907-40f2",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2025-09-18",
@@ -7239,7 +7341,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20250918-2a35",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2025-09-21",
@@ -7499,7 +7602,8 @@ window.KOTTO_EVENTS = {
    "oneman": true,
    "id": "e20250921-9ed4",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": true
   },
   {
    "date": "2025-11-22",
@@ -7626,7 +7730,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20251122-62fb",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2025-12-04",
@@ -7723,7 +7828,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20251204-880e",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2025-12-30",
@@ -7940,7 +8046,8 @@ window.KOTTO_EVENTS = {
    "oneman": true,
    "id": "e20251230-73ae",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": true
   },
   {
    "date": "2026-02-18",
@@ -8031,7 +8138,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20260218-d29b",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2026-02-28",
@@ -8092,7 +8200,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20260228-a54e",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2026-04-13",
@@ -8177,7 +8286,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20260413-35e5",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2026-04-29",
@@ -8206,7 +8316,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20260429-8f4e",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2026-05-02",
@@ -8447,7 +8558,8 @@ window.KOTTO_EVENTS = {
    "oneman": true,
    "id": "e20260502-3021",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": true
   },
   {
    "date": "2026-05-25",
@@ -8538,7 +8650,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20260525-a8de",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2026-06-11",
@@ -8635,7 +8748,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20260611-232b",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2026-06-23",
@@ -8720,7 +8834,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20260623-c83d",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2026-06-29",
@@ -8793,7 +8908,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20260629-8767",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2026-07-13",
@@ -8824,7 +8940,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20260713-d641",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2026-07-29",
@@ -8927,7 +9044,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20260729-73f9",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2026-08-05",
@@ -9024,7 +9142,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20260805-5e14",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2026-08-27",
@@ -9091,7 +9210,8 @@ window.KOTTO_EVENTS = {
    "oneman": false,
    "id": "e20260827-496b",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   },
   {
    "date": "2026-09-23",
@@ -9122,7 +9242,8 @@ window.KOTTO_EVENTS = {
    "oneman": true,
    "id": "e20260923-2b4c",
    "images": [],
-   "note": ""
+   "note": "",
+   "ray_only": false
   }
  ]
 };
