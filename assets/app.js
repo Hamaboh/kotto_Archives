@@ -391,6 +391,8 @@
 
       /* 同じ日の記録は独立させず、このイベントのブロックへまとめる */
       var ds = e.details || [];
+      /* RAY 名義のパフォーマンス（ワンマン等）は楽曲の記録として扱わず、イベントの記録のみ残す */
+      var rayOnly = !!e.ray_only;
       ds.forEach(function (d, i) {
         var t = d.text || '';
         /* 見出し（下位項目を持つ行）は楽曲名ではないので対象外 */
@@ -400,6 +402,7 @@
           if (/デビュー/.test(t)) addExtra(item, 'status', 'RAYデビュー', t, t);
           else if (/卒業/.test(t)) addExtra(item, 'status', 'RAY卒業', t, t);
         }
+        if (rayOnly) return;
         if (d.premiere) {
           /* 「新曲初披露」など、見出しの配下にある楽曲を初披露として扱う */
           addExtra(item, 'song', '初披露',
